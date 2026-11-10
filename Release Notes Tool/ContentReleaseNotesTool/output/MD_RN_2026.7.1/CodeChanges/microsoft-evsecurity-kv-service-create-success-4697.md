@@ -1,0 +1,9 @@
+# Code Changes for microsoft-evsecurity-kv-service-create-success-4697 (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| changed_parsed_fields | N/A | ['account_domain', 'account_name', 'channel', 'dest_host', 'domain', 'event_code', 'event_name', 'host', 'login_id', 'process_command_line', 'process_dir', 'process_name', 'process_path', 'result', 'service_command_line', 'service_name', 'service_start_type', 'service_type', 'time', 'user', 'user_sid'] | ['channel', 'dest_domain', 'dest_host', 'dest_user', 'domain', 'event_code', 'event_name', 'host', 'login_id', 'process_command_line', 'process_dir', 'process_name', 'process_path', 'result', 'service_command_line', 'service_name', 'service_start_type', 'service_type', 'time', 'user', 'user_sid'] |
+| removed_regex_field | account_domain | ['Service Account:(\\[nrt]|\s)*(({account_domain}[^\\"\s]+?)\\+)?(?!(\\*[nrt]\\+[nrt]))({account_name}[^"\s\\]+)(\\[nrt]|\s)*"', 'Service Account:\s*(({account_domain}[^\\"\s]+)\\)?((?-i)\\+[rnt])*({account_name}[^"\s]+)'] | [] |
+| removed_regex_field | account_name | ['Service Account:(\\[nrt]|\s)*(({account_domain}[^\\"\s]+?)\\+)?(?!(\\*[nrt]\\+[nrt]))({account_name}[^"\s\\]+)(\\[nrt]|\s)*"', 'Service Account:\s*(({account_domain}[^\\"\s]+)\\)?((?-i)\\+[rnt])*({account_name}[^"\s]+)'] | [] |
+| added_regex_field | dest_domain | [] | ['Service Account:(\\[nrt]|\s)*(({dest_domain}[^\\"\s]+?)\\+)?(?!(\\*[nrt]\\+[nrt]))({dest_user}[^"\s\\]+)(\\[nrt]|\s)*"', 'Service Account:\s*(({dest_domain}[^\\"\s]+)\\)?((?-i)\\+[rnt])*({dest_user}[^"\s]+)'] |
+| added_regex_field | dest_user | [] | ['Service Account:(\\[nrt]|\s)*(({dest_domain}[^\\"\s]+?)\\+)?(?!(\\*[nrt]\\+[nrt]))({dest_user}[^"\s\\]+)(\\[nrt]|\s)*"', 'Service Account:\s*(({dest_domain}[^\\"\s]+)\\)?((?-i)\\+[rnt])*({dest_user}[^"\s]+)'] |

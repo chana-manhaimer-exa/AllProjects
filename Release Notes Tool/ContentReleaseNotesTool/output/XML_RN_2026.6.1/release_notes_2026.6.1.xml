@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+<title>Content Package 2026.6.1</title>
+<section><title>Content Package 2026.6.1</title>
+<para>These release notes contain information about content package 2026.6.1, released on 16 Jun 2026.</para>
+<para><emphasis role='bold'>Enhancements</emphasis></para>
+<itemizedlist>
+<listitem><para>Updated parser condition for fortinet-fortiweb-kv-alert-trigger-success-attack and fortinet-fortigate-kv-network-traffic-logid parser.</para></listitem>
+<listitem><para>Added new parser unix-unix-kv-dns-request-fail-docker</para></listitem>
+<listitem><para>New parsers added for OpenAI Audit API Collector logs: openai-oai-json-account-create-delete-success-service, openai-oai-json-app-logout-success-logoutsucceeded, openai-oai-json-certificate-success-certificate, openai-oai-json-invite-success-invite, openai-oai-json-project-success-project, openai-oai-json-user-delete-success-userdeleted, openai-oai-json-role-assign-delete-success</para></listitem>
+<listitem><para>Updated email_address regex to support consecutive special characters.</para></listitem>
+<listitem><para>Added new parser google-workspace-cef-email-sendmaileventtype</para></listitem>
+<listitem><para>Added new parsers for CrowdStrike Falcon FDR: crowdstrike-falcon-json-file-upload-success-local_application, crowdstrike-falcon-json-peripheral_device-activity-success-usb, crowdstrike-falcon-json-file-upload-success-web, crowdstrike-falcon-json-printer-activity-success-printer.</para></listitem>
+<listitem><para>Added new parser microsoft-evntlm-xml-endpoint-authentication-success-8005 and microsoft-evntlm-xml-endpoint-authentication-success-8006 to support Microsoft-Windows-NTLM logs.</para></listitem>
+<listitem><para>Added new parser microsoft-365defender-json-message-send-success-messageevents to support Microsoft Defender logs.</para></listitem>
+<listitem><para>Updated CIM field description for email_recipients,share_type , count ,site_name,object_type,session_id,folder_name,src_email_folder,dest_email_folder,group_info and rule fields.</para></listitem>
+<listitem><para>Added new parsers for Epic Siem XML and JSON format logs - epic-siem-xml-app-login-fail-failedlogin, epic-siem-xml-app-login-fail-wpsecloginfail, epic-siem-xml-app-login-success-hkulogin, epic-siem-xml-app-login-success-login, epic-siem-xml-app-login-success-roverlogin, epic-siem-xml-app-login-success-wpsecloginsuccess, epic-siem-xml-endpoint-login-success-authentication, epic-siem-json-app-login-success-login and epic-siem-json-endpoint-login-success-authentication.</para></listitem>
+<listitem><para>Updated activity_type for skysea-cv-csv-peripheral-storage-activity-success-usbactivity parser.</para></listitem>
+<listitem><para>Added new parser crowdstrike-falcon-json-alert-trigger-success-iom for Crowdstrike IOM logs</para></listitem>
+<listitem><para>Added new parser and event builders for Ordr AI Protect logs: ordr-aiprotect-json-alert-trigger-success-warning</para></listitem>
+<listitem><para>Added new parser for Okta Workforce Identity Cloud logs: okta-wic-json-app-activity-securitycontext.</para></listitem>
+<listitem><para>Removed redundant Microsoft host enrichers (microsoft-src_host-1 and microsoft-dest_host-1) and updated direction enrichers (all-direction-1 and all-direction-2) to override parser-level values as per research guidance.</para></listitem>
+<listitem><para>Added field extractions for blocked, message_id &amp; conversation_id in parsers microsoft-copilot-json-ai-agent-request-success-interaction &amp; microsoft-copilot-json-ai-agent-request-success-interaction-2</para></listitem>
+<listitem><para>Added new parser crowdstrike-falcon-json-alert-trigger-containerswithoutrunasnonroot</para></listitem>
+<listitem><para>Added new parser amazon-s3-str-http-session-success-accesslog for S3 access logs</para></listitem>
+<listitem><para>Added new parser microsoft-evsecurity-kv-certificate-create-success-4887 to support Microsoft 4887 Logs.</para></listitem>
+<listitem><para>Added new parser for ABA logs: exabeam-aba-json-ai-agent-activity.</para></listitem>
+<listitem><para>Added new parser - microsoft-defenderep-json-alert-trigger-success-dlppolicymatch to parse Microsoft Defender logs.</para></listitem>
+<listitem><para>Added new parser delinea-dp-kv-app-activty-success-delineasyslog</para></listitem>
+<listitem><para>Enhanced O365 parsing and templates with new field extractions including target, target_domain, mailbox_name, and email_recipients, along with app_id mapping improvements.</para></listitem>
+<listitem><para>New parsers created for OpenAI Audit logs openai-oai-json-api-key-create-success, openai-oai-json-api-key-delete-success, openai-oai-json-api-key-modify-success, openai-oai-json-group-create-success, openai-oai-json-group-delete-success, openai-oai-json-group-modify-success, openai-oai-json-project-create-success, openai-oai-json-role-assign-success, openai-oai-json-role-create-success, openai-oai-json-role-delete-success,openai-oai-json-role-modify-success</para></listitem>
+<listitem><para>New CIM field extractions added across all M365 parsers, field names include site_name, src_site_name, owner, throttled, count, app_id, file_id, email_recipients.</para></listitem>
+<listitem><para>Updated tenant_id field extraction for the Microsoft parsers.</para></listitem>
+<listitem><para>Developed an enricher: all-icmp-src_dest_port to nullify the src_port/dest_port values if 0 or if protocol is ICMP.</para></listitem>
+</itemizedlist>
+<para><emphasis role='bold'>Addressed Issues</emphasis></para>
+<itemizedlist>
+<listitem><para>Added added_permissions field extraction for parser google-cloudplatform-json-policy-modify-success-googleapissetiampolicy</para></listitem>
+<listitem><para>Updated EB condition for parser google-cloudplatform-json-network-traffic-success-payload and google-cloudplatform-sk4-network-traffic-success-payload</para></listitem>
+<listitem><para>Updated account_id field for amazon-awscloudtrail-json-role-assume-success-assumerole parser.</para></listitem>
+<listitem><para>Updated web_domain field for netskope-webtx-csv-network-traffic-httptransaction parser.</para></listitem>
+<listitem><para>Updated additional_info and event_name field extractions and also added new activity-types - user-password-reset, user-modify and app-activity for parser - onelogin-o-json-app-login-success-applogin.</para></listitem>
+<listitem><para>Updated dest_email_address extraction for parser microsoft-m365auditlogs-json-app-activity-operationname</para></listitem>
+<listitem><para>Updated Platform value for parser microsoft-windows-sk4-app-login-fail-signin. Fixed OS field parsing for parser microsoft-windows-sk4-app-login-fail-signin.</para></listitem>
+<listitem><para>Updated host field extraction for parser: cisco-mma-kv-http-session-fail-url.</para></listitem>
+<listitem><para>Updated parser conditions of Zscaler Internet Access parsers: zscaler-ia-kv-network-traffic-success-tunnel, zscaler-ia-json-network-traffic-success-tunnel also updated the time, src_port, email_address, email_domain field extractions.</para></listitem>
+<listitem><para>Added new parsers/event builders for Azure Monitor logs.</para></listitem>
+<listitem><para>New parsers added for OpenAI Audit log collector.</para></listitem>
+<listitem><para>Added new parsers/event builders for Checkpoint Harmony Email &amp; Collaboration logs.</para></listitem>
+<listitem><para>Updated mapping of dest_ip field in parser - crowdstrike-falcon-json-process-create-success-processrollup.</para></listitem>
+<listitem><para>Updated parser condition for parser microsoft-evsecurity-json-endpoint-login-fail-4771</para></listitem>
+<listitem><para>Updated activity_type for cisco-fp-str-network-traffic-fail-106015 parser.</para></listitem>
+<listitem><para>Added new parser for Microsoft 365 logs: microsoft-o365-json-email-send-receive-subject-1.</para></listitem>
+<listitem><para>Updated parser conditions of Menlo parser - menlo-ms-json-http-session-security.</para></listitem>
+<listitem><para>Updated user_sid field extraction for parser - microsoft-evsecurity-xml-endpoint-time-modify-4616.</para></listitem>
+<listitem><para>Updated reason field regex for parser cyberark-pam-mix-user-switch-success-retrievepassword</para></listitem>
+<listitem><para>Updated member, group_name fields extraction also added a new event group-member-add:success support for parser: okta-amfa-mix-app-login-success-securitycontext</para></listitem>
+<listitem><para>Removed parser axway-gateway-str-endpoint-login-success-edge.</para></listitem>
+<listitem><para>Added New parser/Event builders for Netskope Security Cloud logs.</para></listitem>
+<listitem><para>Updated src_ip/dest_ip fields for pan-ngfw-csv-http-session-9999 parser.</para></listitem>
+<listitem><para>Updated the web_domain, uri_path field extractions for parser: netskope-sc-cef-http-session-success-cloudapp.</para></listitem>
+<listitem><para>Updated dest_email_address field for azure-azuread-json-app-activity-useractivitydisplayname parser.</para></listitem>
+<listitem><para>Updated severity, threat_id field extraction and event type mapping to endpoint-scan for parser: qualys-q-json-app-activity-success-scan.</para></listitem>
+<listitem><para>Added user_sid, dest_user_sid, dest_host, user field extractions for parser microsoft-defenderep-json-user-password-modify-success-passwordchanged.</para></listitem>
+<listitem><para>Added mapping for direction, src_mac, dest_mac for parser microsoft-defenderep-cef-network-session-devicenetworkevents</para></listitem>
+<listitem><para>Removed wrongly parsed dest_host fields from crowdstrike-falcon-mix-alert-trigger-success-detection parser.</para></listitem>
+<listitem><para>Updated src_host field extraction for parsers: microsoft-evsecurity-xml-endpoint-login-success-4624-1,  microsoft-evsecurity-xml-endpoint-login-success-4624.</para></listitem>
+<listitem><para>Added new parser for Microsoft Azure Monitor: microsoft-azuremon-json-database-activity-postgresqllogs.</para></listitem>
+<listitem><para>Updated UserId field regex for parser microsoft-o365-sk4-app-file-operationworkload</para></listitem>
+<listitem><para>Updated user field extraction regex for parser microsoft-o365-sk4-app-file-operationworkload</para></listitem>
+<listitem><para>Added new parser for Google Cloud Platform logs: google-cloudplatform-json-app-activity-success-googleapismethodnamecustomresourcedefinitionsupdate</para></listitem>
+<listitem><para>Updated host, dest_host field extractions for PostgreSQL logs.</para></listitem>
+<listitem><para>Updated parser condition for parser menlo-ms-json-http-session-security. Added file_url, session_id field extraction for parser menlo-ms-json-http-session-security</para></listitem>
+<listitem><para>Updated dest_email_address field for azure-azuread-json-app-activity-useractivitydisplayname parser.</para></listitem>
+<listitem><para>Updated regex to parse Node value into object field instead of dest_host for F5 Access Policy Manager logs. Updated domain, dest_host field extractions for Delinea logs. Updated dest_host, dest_ip, additional_info field extractions for parser: unix-unixdhcpd-str-dhcp-session-success-dhcpd Updated src_port field extractions for parser: unix-unix-str-endpoint-logout-sshdconnectionclosed Updated dest_ip, src_interface field extractions for parser: infoblox-bddi-str-dhcp-traffic-dhcprelease</para></listitem>
+<listitem><para>Updated regex for parser google-cloudplatform-json-policy-modify-success-googleapissetiampolicy</para></listitem>
+<listitem><para>Updated src_file_name and browser field extraction regex for parser symantec-cloudsoc-cef-file-activity-symanteccloudsoc. Updated hosts field extraction regex for parser symantec-cloudsoc-sk4-alert-trigger-success-fromdetect</para></listitem>
+<listitem><para>Added Microsoft Domain Validation Enricher: Drop domain fields for Microsoft events when the domain is an IP or matches the source or destination host.</para></listitem>
+<listitem><para>Updated ChatName , ItemName fields for microsoft-o365-sk4-app-file-workload parser.</para></listitem>
+<listitem><para>Updated the field extraction attack_info,attack_conf,attack,alert_source,alert_status for parser abnormalsecurity-as-json-alert-trigger-success-attacktype-1</para></listitem>
+<listitem><para>Added email_subject_list field extraction for parser microsoft-o365-sk4-app-file-operationworkload , microsoft-o365-json-mail-access-mailitemsaccessed</para></listitem>
+<listitem><para>Updated the email extraction regex for parsers cisco-fp-str-network-traffic-success-teardown-duration cisco-fp-str-network-traffic-success-teardown-connection</para></listitem>
+<listitem><para>Updated the parser microsoft-windows-cef-endpoint-login-device</para></listitem>
+<listitem><para>Updated time regex and corresponding time formats for parsers - beyondtrust-b-json-process-create-success-ecs, wiz-w-json-app-activity-success-fail-wiz, microsoft-evsystem-xml-endpoint-stop-1074, microsoft-evapp-xml-endpoint-stop-1074, microsoft-evsystem-xml-endpoint-notification-success-catchall, wiz-w-json-app-login-success-fail-login, microsoft-azuremon-sk4-app-notification-performancelog, and microsoft-evsystem-xml-log-clear-success-104-1.</para></listitem>
+<listitem><para>Updated condition of enrichment of all-src_network_type , all-dest_network_type, all-direction-1 &amp; all-direction-2</para></listitem>
+<listitem><para>Updated the parser sentinelone-singularityp-json-endpoint-login-success-logins and EB</para></listitem>
+<listitem><para>Updated the detectionReason for rule: Prof-SA-AN-U-AN.</para></listitem>
+<listitem><para>Updated time regex and respective TimeFormat in these default parsers - snowflake-s-json-database-activity-success-querytext and snowflake-s-sk4-database-login-success-login-1.</para></listitem>
+</itemizedlist>
+<para>Click the following link for the complete package release notes: <link xlink:href="https://github.com/ExabeamLabs/Content-Library-CIM2/blob/2026.6.1/Release%20Notes/MD_RN_2026.6.1/release_notes_2026.6.1.md">2026.6.1 Content Package Release Notes</link></para>
+</section>
+</article>

@@ -1,0 +1,5 @@
+# Code Changes for User to User SID or User ID (Event Enricher)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| removed_enricher | definition | {"Name": "all-user_sid-user_id-user", "DisplayName": "User to User SID or User ID", "Description": "Enrich User SID or User ID from User field", "Condition": "exists(user) && contains(replaceAll(toLower(user), '^(?:s-\\d-\\d+(?:-\\d+){1,14}|[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})$', 'found!'), 'found!')", "Map": [{"Field": "user_sid", "Value": "if(contains(replaceAll(toLower(user), '^(?:s-\\d-\\d+(?:-\\d+){1,14})$', 'found!'), 'found!'), user, '')"}, {"Field": "user_id", "Value": "if(contains(replaceAll(toLower(user), '^(?:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})$', 'found!'), 'found!'), user, '')"}, {"Field": "user", "Value": "''"}]} | N/A |

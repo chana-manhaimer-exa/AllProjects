@@ -1,0 +1,6 @@
+# Code Changes for okta-amfa-cef-app-login-success-userauthverify (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| changed_parsed_fields | N/A | ['app', 'app_id', 'auth_method', 'browser', 'domain', 'email_address', 'email_domain', 'event_name', 'failure_reason', 'fingerprint', 'first_name', 'full_name', 'last_name', 'location_city', 'location_country', 'location_state', 'mfa_country', 'more_info', 'operation', 'operation_details', 'os', 'result', 'result_reason', 'severity', 'src_ip', 'src_port', 'time', 'user', 'user_agent'] | ['app', 'app_id', 'auth_method', 'browser', 'domain', 'email_address', 'email_domain', 'event_name', 'failure_reason', 'fingerprint', 'first_name', 'full_name', 'last_name', 'location_city', 'location_country', 'location_state', 'mfa_country', 'more_info', 'operation', 'operation_details', 'os', 'result', 'result_reason', 'severity', 'src_ip', 'src_port', 'time', 'transaction_id', 'user', 'user_agent'] |
+| added_regex_field | transaction_id | [] | ['"suspiciousActivityEventTransactionId"\s*:\s*"({transaction_id}[^"]+)'] |

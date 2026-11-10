@@ -1,0 +1,5 @@
+# Code Changes for symantec-esc-json-email-inboundoutbound (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| added_parser | N/A | N/A | {"Name": "symantec-esc-json-email-inboundoutbound", "ExtractionType": "json", "Vendor": "Symantec", "Product": "Symantec Email Security", "TimeFormat": "epoch_sec", "Conditions": ["\"senderAddress\":\"", "\"mailProcessingStartTime\":", "\"subject\":", "\"recipientAddress\":", "\"direction\":"], "Fields": ["exa_json_path=$.mailProcessingStartTime,exa_field_name=time", "exa_json_path=$.senderAddress,exa_regex=({email_address}[A-Za-z0-9!#$%&'+\/=?^_`~.-]+@({email_domain}[^\]\s\"\\,;\|]+\.[^\]\s\"\\,;\|]+))", "exa_json_path=$.recipientAddress,exa_regex=^({email_recipients}({dest_email_address}[A-Za-z0-9!#$%&'+\/=?^_`~.-]+@({dest_email_domain}[^\]\s\"\\,;\|]+\.[^\]\s\"\\,;\|]+))[^\\"]*)$", "exa_json_path=$.subject,exa_field_name=email_subject", "exa_json_path=$.messageId,exa_field_name=message_id", "exa_json_path=$.direction,exa_field_name=direction"], "ParserVersion": "v1.0.0"} |

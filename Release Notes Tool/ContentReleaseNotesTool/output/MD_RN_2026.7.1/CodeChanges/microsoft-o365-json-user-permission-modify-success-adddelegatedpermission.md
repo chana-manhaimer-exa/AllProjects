@@ -1,0 +1,6 @@
+# Code Changes for microsoft-o365-json-user-permission-modify-success-adddelegatedpermission (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| edit_regex_field | new_value | ['ModifiedProperties":.+?"DelegatedPermissionGrant.Scope","NewValue":\s*"\s*({new_value}({added_permissions}[^"]+))","OldValue":\s*"(|({old_value}[^"]+))"', 'ModifiedProperties":.+?"OldValue":\s*"(|({old_value}[^"]+))","NewValue":\s*"\s*({new_value}({added_permissions}[^"]+))","Name":"DelegatedPermissionGrant.Scope'] | ['ModifiedProperties":.+?"DelegatedPermissionGrant.Scope","NewValue":\s*"\s*({new_value}({added_permissions}[^"]+))","OldValue":\s*"(|({old_value}[^"]+))"', 'ModifiedProperties":.+?"OldValue":\s*"(|({old_value}[^"]+))","NewValue":\s*"\s*({new_value}({added_permissions}[^"]+))","Name":"DelegatedPermissionGrant.Scope', 'exa_json_path=$.ModifiedProperties[?(@.Name == \'DelegatedPermissionGrant.Scope\')].NewValue,exa_regex=^\s*({new_value}[^"]+)'] |
+| added_attribute | ExtractionType | N/A | json |

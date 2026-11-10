@@ -1,0 +1,5 @@
+# Code Changes for dl-fortinet-fortigate-network-notification-success-1 (Event Builder)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| edit_conditions | expression | InList(type, 'fortinet-fortigate-kv-network-app-fortigate') && (!exists(event_name) || !InList(toLower(event_name), 'local traffic timeout', 'forward traffic timeout', 'forward traffic server-rst', 'forward traffic client-rst', 'local traffic server-rst', 'local traffic client-rst', 'ha event', 'local traffic close', 'forward traffic close', 'forward traffic start')) | InList(type, 'fortinet-fortigate-kv-network-app-fortigate') && (!exists(event_name) || !InList(toLower(event_name), 'local traffic timeout', 'forward traffic timeout', 'forward traffic server-rst', 'forward traffic client-rst', 'local traffic server-rst', 'local traffic client-rst', 'ha event', 'local traffic close', 'forward traffic close', 'forward traffic start', 'dns utm')) |

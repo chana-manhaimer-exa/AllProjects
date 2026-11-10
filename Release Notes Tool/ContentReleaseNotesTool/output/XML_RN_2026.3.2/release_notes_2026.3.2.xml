@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+<title>Content Package 2026.3.2</title>
+<section><title>Content Package 2026.3.2</title>
+<para>These release notes contain information about content package 2026.3.2, released on 18 Mar 2026.</para>
+<para><emphasis role='bold'>Enhancements</emphasis></para>
+<itemizedlist>
+<listitem><para>Revised and updated IP2HOST condition of default expression and restricted to limited vendors.</para></listitem>
+<listitem><para>Updated microsoft-copilot-json-ai-agent-powerplatform-catchall parser conditions to restrict parsing only AI Bot specific logs. Also updated EB for ai_agent-modify with restricted operation names.</para></listitem>
+</itemizedlist>
+<para>Click the following link for the complete package release notes: <link xlink:href="https://github.com/ExabeamLabs/Content-Library-CIM2/blob/2026.3.2/Release%20Notes/MD_RN_2026.3.2/release_notes_2026.3.2.md">2026.3.2 Content Package Release Notes</link></para>
+</section>
+</article>

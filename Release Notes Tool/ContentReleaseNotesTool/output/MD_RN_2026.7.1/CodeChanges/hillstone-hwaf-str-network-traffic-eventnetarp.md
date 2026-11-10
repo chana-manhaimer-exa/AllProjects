@@ -1,0 +1,5 @@
+# Code Changes for hillstone-hwaf-str-network-traffic-eventnetarp (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| added_parser | N/A | N/A | {"Name": "hillstone-hwaf-str-network-traffic-eventnetarp", "Vendor": "Hillstone Networks", "Product": "Hillstone Web Application Firewall", "TimeFormat": "MMM dd HH:mm:ss", "ParserVersion": "v1.0.0", "Conditions": ["Event@NET:", "ARP entry"], "Fields": ["<\d+>({time}\w+\s+\d+\s+\d+:\d+:\d+)", "Event@NET:\s*({event_category}[^,:\.]+),?\s+", "ARP entry\s+({src_ip}((([0-9a-fA-F.]{0,4}):{1,2}){1,7}([0-9a-fA-F]){1,4})|(((25[0-5]|(2[0-4]|1\d|[0-9]|)\d)\.?\b){4}))(:({src_port}\d+))?\s+({src_mac}[\da-fA-F\.]+)\s+is deleted for timeout", "ARP entry is created,\s+({src_ip}((([0-9a-fA-F.]{0,4}):{1,2}){1,7}([0-9a-fA-F]){1,4})|(((25[0-5]|(2[0-4]|1\d|[0-9]|)\d)\.?\b){4}))(:({src_port}\d+))?,\s+({src_mac}[\da-fA-F\.]+),\s+({interface}[^,\n]+)"]} |

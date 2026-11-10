@@ -1,0 +1,26 @@
+| Old Parser Name                    | New-Scale Parser Name                                   |
+| ---------------------------------- | ------------------------------------------------------- |
+| tanium-cloud-app-login             | tanium-cpp-json-app-login-success-createobject          |
+| tanium-cloud-app-logout            | tanium-cpp-json-app-logout-success-deleteobject         |
+| tanium-file-write                  | tanium-im-kv-file-write-success-write                   |
+| tanium-inteldb                     | tanium-tr-json-database-activity-inteldb                |
+| tanium-process-alert               | tanium-ep-json-alert-trigger-success-accountenumeration |
+| tanium-task                        | tanium-cp-json-app-activity-success-task                |
+| tenable-security-alert-1           | tenable-t-sk4-alert-trigger-success-dcerpcservice-1     |
+| teradata-database-req8             | teradata-rdbms-str-database-login-success-req8          |
+| tessian-dlp-email-alert-out        | proofpoint-tappod-json-email-send-success-outbound      |
+| threatblockr-dns-response          | threatblockr-t-kv-dns-response-success-dnsresplog       |
+| threatblockr-network-connection    | threatblockr-t-kv-network-traffic-packatlog             |
+| thycotic-account-switch            | delinea-secretserver-cef-user-switch-success-checkout   |
+| thycotic-app-activity              | delinea-ss-cef-app-activity-success-thycotic            |
+| thycotic-app-login                 | delinea-ss-cef-app-login-success-userlogin              |
+| thycotic-failed-app-login          | delinea-ss-cef-app-login-fail-userloginfail             |
+| thycotic-system-event-1            | delinea-ss-cef-app-start-systemlog                      |
+| thycotic-system-event-2            | delinea-ss-cef-endpoint-scan-wmifailed                  |
+| thycotic-system-event-3            | delinea-ss-cef-app-notification-systemlog               |
+| thycotic-system-event-4            | delinea-ss-cef-app-activity-synchronize                 |
+| tippingpoint-sms-alert             | trendmicro-tippingpoint-str-alert-trigger-success-tcp   |
+| trendmicro-network-conn-failed     | trendmicro-ds-cef-network-traffic-fail-idsdeny          |
+| trendmicro-network-conn-successful | trendmicro-ds-kv-network-traffic-success-detectonly     |
+| trendmicro-network-connection      | trendmicro-ds-cef-network-traffic-trendmicrodstenant    |
+| tripwire-file-alert-2              | tripwire-t-kv-alert-trigger-success-accessed            |

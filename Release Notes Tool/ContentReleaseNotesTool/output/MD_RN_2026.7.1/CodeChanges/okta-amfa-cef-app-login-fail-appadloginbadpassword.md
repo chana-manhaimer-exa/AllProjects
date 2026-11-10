@@ -1,0 +1,6 @@
+# Code Changes for okta-amfa-cef-app-login-fail-appadloginbadpassword (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| changed_parsed_fields | N/A | ['additional_info', 'app', 'app_id', 'auth_method', 'browser', 'device_type', 'domain', 'email_address', 'email_domain', 'event_name', 'failure_code', 'failure_reason', 'fingerprint', 'first_name', 'full_name', 'hash_sha256', 'last_name', 'location_city', 'location_country', 'location_state', 'mfa_country', 'more_info', 'object', 'operation', 'operation_details', 'operator_name', 'os', 'response_type', 'result', 'result_reason', 'severity', 'src_ip', 'src_port', 'time', 'uri_path', 'user', 'user_agent'] | ['additional_info', 'app', 'app_id', 'auth_method', 'browser', 'device_type', 'domain', 'email_address', 'email_domain', 'event_name', 'failure_code', 'failure_reason', 'fingerprint', 'first_name', 'full_name', 'hash_sha256', 'last_name', 'location_city', 'location_country', 'location_state', 'mfa_country', 'more_info', 'object', 'operation', 'operation_details', 'operator_name', 'os', 'response_type', 'result', 'result_reason', 'severity', 'src_ip', 'src_port', 'time', 'transaction_id', 'uri_path', 'user', 'user_agent'] |
+| added_regex_field | transaction_id | [] | ['"suspiciousActivityEventTransactionId"\s*:\s*"({transaction_id}[^"]+)'] |

@@ -1,0 +1,6 @@
+# Code Changes for exabeam-cr-kv-rule-trigger-success-correlationrule (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| changed_parsed_fields | N/A | ['alert_source', 'dest_device_entity_id', 'dest_host', 'dest_ip', 'dest_port', 'dest_user_entity_id', 'mitre_labels', 'operation', 'rule', 'rule_description', 'rule_id', 'rule_reason', 'rule_severity', 'rule_type', 'rule_usecases', 'source_device_entity_id', 'source_user_entity_id', 'src_host', 'src_ip', 'src_port', 'tags', 'time', 'trigger_time', 'url', 'user'] | ['alert_source', 'dest_device_entity_id', 'dest_host', 'dest_ip', 'dest_port', 'dest_user_entity_id', 'mitre_labels', 'operation', 'rule', 'rule_description', 'rule_id', 'rule_reason', 'rule_severity', 'rule_type', 'rule_usecases', 'site_id', 'source_device_entity_id', 'source_user_entity_id', 'src_host', 'src_ip', 'src_port', 'tags', 'time', 'trigger_time', 'url', 'user'] |
+| added_regex_field | site_id | [] | ['site_id="({site_id}[^"]+)"'] |

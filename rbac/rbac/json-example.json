@@ -1,0 +1,30 @@
+{
+  "permissions": [
+    {
+      "id": "00000001",
+      "name": "team:access",
+      "category": "Cat",
+      "displayName": "User",
+      "application": "Settings",
+      "platform": "Platform",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "93",
+      "description": "View desc",
+      "visibility": "Shown"
+    }
+  ],
+  "roles": [
+    {
+      "id": "010000000000001",
+      "name": "admin",
+      "displayName": "Administrator",
+      "description": "Administrators are responsible.",
+      "permissions": [
+        "team:access",
+        "cloud-archive:access"
+      ]
+    }
+  ]
+}

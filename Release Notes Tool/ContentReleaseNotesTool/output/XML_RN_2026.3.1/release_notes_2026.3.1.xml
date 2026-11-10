@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+<title>Content Package 2026.3.1</title>
+<section><title>Content Package 2026.3.1</title>
+<para>These release notes contain information about content package 2026.3.1, released on 12 Mar 2026.</para>
+<para><emphasis role='bold'>Enhancements</emphasis></para>
+<itemizedlist>
+<listitem><para>Updated field extraction in parsers and event builders condition for Microsoft Tier-3 parsers.</para></listitem>
+<listitem><para>Added new parsers infoblox-bddi-str-dhcp-lease-success-updateon and infoblox-bddi-str-dhcp-release-success-deleteon. Updated parser infoblox-bddi-mix-dns-response-success-opcode_query</para></listitem>
+<listitem><para>Added new parser dg-ep-json-alert-trigger-success-network-operation</para></listitem>
+<listitem><para>Added new parsers for CrowdStrike SSO logs : crowdstrike-falcon-json-app-login-sso parser.</para></listitem>
+<listitem><para>Added new parser for the Prisma Cloud logs</para></listitem>
+<listitem><para>Added new parsers for Cisco Collaboration logs.</para></listitem>
+<listitem><para>Added new parser adobe-aem-json-http-request-success for Adobe CDN logs</para></listitem>
+<listitem><para>Updated the product for parser microsoft-defendercloud-json-alert-trigger-success-assessments to Microsoft Defender for Cloud</para></listitem>
+<listitem><para>Added new parser &amp; event builders for Microsoft Copilot logs.</para></listitem>
+<listitem><para>Updated parent_process_name, parent_process_path, parent_process_dir, parent_process_command_line extraction for parser microsoft-defenderep-cef-process-create-success-processcreated</para></listitem>
+<listitem><para>Updated time field extraction for parser: tenable-t-sk4-alert-trigger-success-dcerpcservice-1 .</para></listitem>
+<listitem><para>Added file_signed, file_signature and file_signature_status field extractions for parsers: sentinelone-singularityp-json-driver-load-success-driverload-2, sentinelone-singularityp-json-driver-load-success-driverload and microsoft-sysmon-xml-dll-load-6.</para></listitem>
+<listitem><para>Added new parser for 1password logs</para></listitem>
+<listitem><para>Added new parser for Zscaler Deception logs - zscaler-deception-json-alert-trigger-success-recondetected.</para></listitem>
+<listitem><para>Updated the parser condition for corelight-corelightids-json-app-activity-success-dce_rpc</para></listitem>
+<listitem><para>Updated symantec-wss-sk4-http-session-proxied conditions to parse broader category of Symantec BlueCoat WSS logs.</para></listitem>
+<listitem><para>Updated the listed PingIdentity parsers, due to change in Json structure, for extracting the fields properly: pingidentity-forgerock-json-http-request-amaccess, pingidentity-forgerock-json-endpoint-authentication-amlogin, pingidentity-forgerock-json-http-amsession, pingidentity-forgerock-json-endpoint-logout-amlogout, pingidentity-forgerock-json-endpoint-activity-success-amidentitychange</para></listitem>
+<listitem><para>Update existing Portnox parser to support the new formatted unparsed logs</para></listitem>
+<listitem><para>Added new parser for Event Viewer - DNSClient logs - microsoft-evsecurity-xml-dns-dnsclient.</para></listitem>
+<listitem><para>Added new parser snowflake-s-kv-database-login-success-login for Snowflake authentication logs.</para></listitem>
+<listitem><para>Added new parser for Tanium Cloud Platform logs: tanium-cpp-kv-app-login-success-createobject</para></listitem>
+<listitem><para>Added new parsers for Obsidian Security (SaaS Security) logs. Parser: bsidiansecurity-saassec-json-alert-trigger-success-obsidianalert</para></listitem>
+<listitem><para>Added new parser for Palo Alto Networks Cortex XSOAR logs. Parser: pan-xsoar-cef-app-authentication-audit</para></listitem>
+<listitem><para>Updated parser corelight-corelightids-json-app-activity-success-dce_rpc condition to parse unparsed logs.</para></listitem>
+<listitem><para>Added new parser for VMware Esxi ssh session logs</para></listitem>
+<listitem><para>Added new parser for Prisma logs pan-ngfw-json-app-authentication-success-auth pan-ngfw-json-app-activity-success-userid-catchall</para></listitem>
+<listitem><para>Added new parsers for Commvault logs: commvault-commvault-kv-app-activity-success-audittrail</para></listitem>
+<listitem><para>Added new RTE parser exabeam-phishingengine-json-rule-trigger-success-phishingengine and exabeam-phishingtool-json-email-receive-success-phish</para></listitem>
+</itemizedlist>
+<para><emphasis role='bold'>Addressed Issues</emphasis></para>
+<itemizedlist>
+<listitem><para>Updated time field extraction for parser: snowflake-s-csv-app-login-loginhistory .</para></listitem>
+<listitem><para>Updated the regex for dest_user field extraction from the Username field in the beyondtrust-bi-json-app-activity-appaudit parser.</para></listitem>
+<listitem><para>Added new activity type - share-access and added regex for share_name field extraction in parser - crowdstrike-falcon-sk4-app-activity-eventsimplename-1.</para></listitem>
+<listitem><para>Updated the regex to extract LOCAL SERVICE as a user field in parsers - microsoft-evsecurity-xml-file-permission-modify-4670 and microsoft-evsecurity-xml-group-member-list-4799-1 .</para></listitem>
+<listitem><para>Updated regex for user field extraction in parser - microsoft-defenderep-json-alert-trigger-success-category.</para></listitem>
+<listitem><para>Updated regex to extract session_id field for parsers: microsoft-o365-cef-app-login-fail-userloginfailed, microsoft-o365-cef-app-login-success-user, microsoft-windows-sk4-app-login-fail-signin.</para></listitem>
+<listitem><para>Updated src_ip field extraction for parser: exabeam-phishingtool-json-email-receive-success-phish</para></listitem>
+<listitem><para>Updated the github-g-json-user-invite-success-org parser condition to prevent misparsing and adjusted event builder blocks to assign activity types correctly. Created a new parser github-g-json-user-invite-success-invitemember, for User Invite GitHub logs.</para></listitem>
+<listitem><para>Updated user, src_user field extractions for parser: pan-ngfw-csv-network-traffic-fail-drop, pan-ngfw-csv-network-traffic-success-end</para></listitem>
+<listitem><para>Updated the activity type from vpn-logout to radius-session and changed the product from Cisco Remote Access Security to Cisco ISE in the cisco-ac-kv-vpn-logout-success-stop parser.</para></listitem>
+<listitem><para>Updated regex for dest_ip field extractions in parser - mcafee-wg-kv-http-session-success-mwgaccess3.</para></listitem>
+<listitem><para>Updated regex for src_port field extractions in parser - unix-unix-kv-endpoint-activity-success-sockaddr.</para></listitem>
+<listitem><para>Updated regex for dest_email_address field extractions in parser - salesforce-sf-json-app-activity-success-type.</para></listitem>
+<listitem><para>Added host field parsing for below parsers: unix-unix-str-endpoint-notification-success-catchall, apache-a-str-http-session-apacheaccess, barracuda-waf-str-dns-response-dnsmasqcached, barracuda-waf-str-dns-request-dnsmasqquery, unix-unix-str-endpoint-notification-success-multipathd, barracuda-waf-str-app-notification-samltokenparsed, unix-unix-str-scheduled-task-start-crond, unix-unix-str-dns-record-create-success-registeringnewaddress, unix-unix-str-dns-record-delete-success-withdrawingaddresrecord, unix-unix-str-endpoint-notification-success-avahidaemon</para></listitem>
+<listitem><para>Updated account, dest_user field extractions for parser: microsoft-evsecurity-xml-user-switch-success-4648</para></listitem>
+<listitem><para>Updated the parser cisco-netflow-str-network-traffic-success-ipaccesslog to properly extract the result, protocol, src_ip, src_port, dest_ip, dest_port and src_interface</para></listitem>
+<listitem><para>Updated email_address field extractions for parser:  google-workspace-cef-email-send and salesforce-sf-json-app-activity-success-type.</para></listitem>
+<listitem><para>Updated parser zscaler-pa-csv-vpn-logout-success-disconnected, zscaler-pa-csv-vpn-logout-success-connection and zscaler-pa-str-vpn-login-success-authenticate</para></listitem>
+<listitem><para>Updated the EB condition for parser proofpoint-pep-kv-email-receive-envrcpt</para></listitem>
+<listitem><para>Updated regex to parse new log sample for parser: snowflake-s-csv-app-login-loginhistory</para></listitem>
+<listitem><para>The SentinelOne parser sentinelone-singularityp-json-alert-trigger-success-ip has been enhanced to accurately map source and destination hostnames by considering the network traffic direction (OUTGOING or INCOMING).</para></listitem>
+<listitem><para>Fixed regex for multiple parser for Microsoft IIS</para></listitem>
+<listitem><para>Updated time field extraction for parser: pan-cortex-json-alert-trigger-success-xdr.</para></listitem>
+<listitem><para>Added field extraction for identities for parser akamai-siem-json-http-session-httpmessage</para></listitem>
+<listitem><para>Added new parser microsoft-evapp-xml-endpoint-notification-3005 to parse Event code: 3005.</para></listitem>
+<listitem><para>Enhanced user, src_user, dest_user field extraction for PaloAlto parsers: pan-ngfw-csv-network-traffic-success-end, pan-ngfw-csv-network-traffic-fail-drop, pan-ngfw-csv-network-traffic-fail-tcp</para></listitem>
+<listitem><para>Updated host field extraction for Microsoft parsers.</para></listitem>
+</itemizedlist>
+<para>Click the following link for the complete package release notes: <link xlink:href="https://github.com/ExabeamLabs/Content-Library-CIM2/blob/2026.3.1/Release%20Notes/MD_RN_2026.3.1/release_notes_2026.3.1.md">2026.3.1 Content Package Release Notes</link></para>
+</section>
+</article>

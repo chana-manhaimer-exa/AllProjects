@@ -1,0 +1,3764 @@
+{
+	"Abnormal Security": {
+		"vendor_code": "abnormalsecurity",
+		"products": [
+			{
+				"product_name": "Abnormal Security",
+				"product_code": "as"
+			}
+		]
+	},
+	"Absolute": {
+		"vendor_code": "absolute",
+		"products": [
+			{
+				"product_name": "Absolute DDS",
+				"product_code": "dds"
+			}
+		]
+	},
+	"Accellion": {
+		"vendor_code": "accellion",
+		"products": [
+			{
+				"product_name": "Kiteworks",
+				"product_code": "kw"
+			}
+		]
+	},
+	"Adaxes": {
+		"vendor_code": "adaxes",
+		"products": [
+			{
+				"product_name": "Adaxes",
+				"product_code": "a"
+			}
+		]
+	},
+	"Admin By Request": {
+		"vendor_code": "adminbyrequest",
+		"products": [
+			{
+				"product_name": "Admin By Request",
+				"product_code": "a"
+			}
+		]
+	},
+	"Adobe": {
+		"vendor_code": "adobe",
+		"products": [
+			{
+				"product_name": "Adobe Experience Manager",
+				"product_code": "aem"
+			}
+		]
+	},
+	"AIM Security": {
+		"vendor_code": "aimsecurity",
+		"products": [
+			{
+				"product_name": "AI Security",
+				"product_code": "aisecurity"
+			}
+		]
+	},
+	"Airlock": {
+		"vendor_code": "airlock",
+		"products": [
+			{
+				"product_name": "Airlock Allowlisting",
+				"product_code": "allowlisting"
+			}
+		]
+	},
+	"Akamai": {
+		"vendor_code": "akamai",
+		"products": [
+			{
+				"product_name": "Cloud Akamai",
+				"product_code": "ca"
+			},
+			{
+				"product_name": "Akamai SIEM",
+				"product_code": "siem"
+			},
+			{
+				"product_name": "Akamai Guardicore",
+				"product_code": "guardicore"
+			}
+		]
+	},
+	"AlgoSec": {
+		"vendor_code": "algosec",
+		"products": [
+			{
+				"product_name": "AlgoSec Firewall Analyzer",
+				"product_code": "fa"
+			}
+		]
+	},
+	"Amazon": {
+		"vendor_code": "amazon",
+		"products": [
+			{
+				"product_name": "AWS Bastion",
+				"product_code": "awsbastion"
+			},
+			{
+				"product_name": "AWS CloudTrail",
+				"product_code": "awscloudtrail"
+			},
+			{
+				"product_name": "AWS CloudWatch",
+				"product_code": "awscloudwatch"
+			},
+			{
+				"product_name": "Amazon EKS",
+				"product_code": "eks"
+			},
+			{
+				"product_name": "AWS GuardDuty",
+				"product_code": "awsguardduty"
+			},
+			{
+				"product_name": "AWS Redshift",
+				"product_code": "awsredshift"
+			},
+			{
+				"product_name": "Amazon RDS",
+				"product_code": "ards"
+			},
+			{
+				"product_name": "AWS SSM",
+				"product_code": "awsssm"
+			},
+			{
+				"product_name": "VPC Flow Logs",
+				"product_code": "awsvpc"
+			},
+			{
+				"product_name": "AWS WAF",
+				"product_code": "awswaf"
+			},
+			{
+				"product_name": "Amazon Route 53",
+				"product_code": "route53"
+			},
+			{
+				"product_name": "AWS Elastic Load Balancer",
+				"product_code": "awselb"
+			},
+			{
+				"product_name": "Amazon Inspector",
+				"product_code": "inspector"
+			},
+			{
+				"product_name": "AWS Network Firewall",
+				"product_code": "awsnwfirewall"
+			},
+			{
+				"product_name": "Amazon Q",
+				"product_code": "amazonq"
+			},
+			{
+				"product_name": "Amazon S3",
+				"product_code": "s3"
+			},
+			{
+				"product_name": "AWS Simple Email Service",
+				"product_code": "awsses"
+			},
+			{
+				"product_name": "AWS Security Hub",
+				"product_code": "awssecurityhub"
+			}	,
+			{
+				"product_name": "AWS Shield",
+				"product_code": "awsshield"
+			}
+		]
+	},
+	"Anthropic": {
+		"vendor_code": "anthropic",
+		"products": [
+			{
+				"product_name": "Claude",
+				"product_code": "claude"
+			}
+		]
+	},	
+	"Anysphere": {
+		"vendor_code": "anysphere",
+		"products": [
+			{
+				"product_name": "Cursor",
+				"product_code": "cursor"
+			}
+		]
+	},
+	"Apache": {
+		"vendor_code": "apache",
+		"products": [
+			{
+				"product_name": "Apache",
+				"product_code": "a"
+			},
+			{
+				"product_name": "Apache Guacamole",
+				"product_code": "guacamole"
+			},
+			{
+				"product_name": "Apache Tomcat",
+				"product_code": "tomcat"
+			},
+			{
+				"product_name": "Cassandra db",
+				"product_code": "cassandradb"
+			},
+			{
+				"product_name": "Apache Subversion",
+				"product_code": "subversion"
+			}
+		]
+	},
+	"APC": {
+		"vendor_code": "apc",
+		"products": [
+			{
+				"product_name": "APC",
+				"product_code": "a"
+			}
+		]
+	},
+	"Apple": {
+		"vendor_code": "apple",
+		"products": [
+			{
+				"product_name": "macOS",
+				"product_code": "macos"
+			}
+		]
+	},
+	"AppSense": {
+		"vendor_code": "appsense",
+		"products": [
+			{
+				"product_name": "AppSense Application Manager",
+				"product_code": "am"
+			}
+		]
+	},
+	"Arbor": {
+		"vendor_code": "arbor",
+		"products": [
+			{
+				"product_name": "Arbor Cloud",
+				"product_code": "ac"
+			}
+		]
+	},
+	"Arctic Wolf": {
+		"vendor_code": "arcticwolf",
+		"products": [
+			{
+				"product_name": "Cylance Protect",
+				"product_code": "protect"
+			}
+		]
+	},
+	"Armis": {
+		"vendor_code": "armis",
+		"products": [
+			{
+				"product_name": "Armis Platform",
+				"product_code": "ap"
+			}
+		]
+	},
+	"Armorblox": {
+		"vendor_code": "armorblox",
+		"products": [
+			{
+				"product_name": "Armorblox",
+				"product_code": "ab"
+			}
+		]
+	},
+	"AssetView": {
+		"vendor_code": "assetview",
+		"products": [
+			{
+				"product_name": "AssetView",
+				"product_code": "av"
+			}
+		]
+	},
+	"Atlassian": {
+		"vendor_code": "atlassian",
+		"products": [
+			{
+				"product_name": "Atlassian BitBucket",
+				"product_code": "bitbucket"
+			},
+			{
+				"product_name": "Atlassian",
+				"product_code": "atlassian"
+			},
+			{
+				"product_name": "Atlassian Guard",
+				"product_code": "guard"
+			}
+		]
+	},
+	"Attivo": {
+		"vendor_code": "attivo",
+		"products": [
+			{
+				"product_name": "BOTsink",
+				"product_code": "botsink"
+			}
+		]
+	},
+	"Auth0": {
+		"vendor_code": "auth0",
+		"products": [
+			{
+				"product_name": "Auth0",
+				"product_code": "a"
+			}
+		]
+	},
+	"Avaya": {
+		"vendor_code": "avaya",
+		"products": [
+			{
+				"product_name": "Avaya Ethernet Routing Switch",
+				"product_code": "ers"
+			}
+		]
+	},
+	"Badge": {
+		"vendor_code": "badge",
+		"products": [
+			{
+				"product_name": "Badge",
+				"product_code": "b"
+			}
+		]
+	},
+	"Island": {
+		"vendor_code": "island",
+		"products": [
+			{
+				"product_name": "Island Enterprise Browser",
+				"product_code": "islandbrowser"
+			}
+		]
+	},
+	"Barracuda": {
+		"vendor_code": "barracuda",
+		"products": [
+			{
+				"product_name": "Barracuda Cloudgen Firewall",
+				"product_code": "firewall"
+			},
+			{
+				"product_name": "Barracuda Email Security Gateway",
+				"product_code": "esg"
+			},
+			{
+				"product_name": "Barracuda WAF",
+				"product_code": "waf"
+			}
+		]
+	},
+	"BeyondTrust": {
+		"vendor_code": "beyondtrust",
+		"products": [
+			{
+				"product_name": "BeyondTrust",
+				"product_code": "b"
+			},
+			{
+				"product_name": "BeyondInsight",
+				"product_code": "bi"
+			},
+			{
+				"product_name": "BeyondTrust Privileged Identity",
+				"product_code": "prividentity"
+			},
+			{
+				"product_name": "BeyondTrust Secure Remote Access",
+				"product_code": "sra"
+			},
+			{
+				"product_name": "BeyondTrust Remote Support",
+				"product_code": "rs"
+			}
+		]
+	},
+	"Bitdefender": {
+		"vendor_code": "bitdefender",
+		"products": [
+			{
+				"product_name": "GravityZone",
+				"product_code": "gz"
+			}
+		]
+	},
+	"Bitglass": {
+		"vendor_code": "bitglass",
+		"products": [
+			{
+				"product_name": "Bitglass CASB",
+				"product_code": "casb"
+			}
+		]
+	},
+	"BlackBerry": {
+		"vendor_code": "blackberry",
+		"products": [
+			{
+				"product_name": "BlackBerry Protect",
+				"product_code": "protect"
+			}
+		]
+	},
+	"BlueCat Networks": {
+		"vendor_code": "bluecatnetworks",
+		"products": [
+			{
+				"product_name": "BlueCat Networks",
+				"product_code": "bnetworks"
+			}
+		]
+	},
+	"Box": {
+		"vendor_code": "box",
+		"products": [
+			{
+				"product_name": "Box Cloud Content Management",
+				"product_code": "ccm"
+			},
+			{
+				"product_name": "Box Shield",
+				"product_code": "s"
+			}
+		]
+	},
+	"CA Technologies": {
+		"vendor_code": "ca",
+		"products": [
+			{
+				"product_name": "CA Privileged Access Manager Server Control",
+				"product_code": "pamsc"
+			}
+		]
+	},
+	"CatoNetworks": {
+		"vendor_code": "catonetworks",
+		"products": [
+			{
+				"product_name": "Cato Cloud",
+				"product_code": "cc"
+			}
+		]
+	},
+	"CDS": {
+		"vendor_code": "cds",
+		"products": [
+			{
+				"product_name": "CDS",
+				"product_code": "cds"
+			}
+		]
+	},
+	"Cimcor": {
+		"vendor_code": "cimcor",
+		"products": [
+			{
+				"product_name": "CimTrak",
+				"product_code": "cimtrak"
+			}
+		]
+	},
+	"Click Studios": {
+		"vendor_code": "clickstudios",
+		"products": [
+			{
+				"product_name": "Passwordstate",
+				"product_code": "pwdstate"
+			}
+		]
+	},
+	"Check Point": {
+		"vendor_code": "checkpoint",
+		"products": [
+			{
+				"product_name": "Check Point Anti-Malware",
+				"product_code": "am"
+			},
+			{
+				"product_name": "Check Point Avanan",
+				"product_code": "avanan"
+			},
+			{
+				"product_name": "Check Point Endpoint Security",
+				"product_code": "es"
+			},
+			{
+				"product_name": "Check Point Identity Awareness",
+				"product_code": "ia"
+			},
+			{
+				"product_name": "Check Point NGFW",
+				"product_code": "ngfw"
+			},
+			{
+				"product_name": "Check Point Security Gateway",
+				"product_code": "sg"
+			},
+			{
+				"product_name": "Check Point Threat Emulation",
+				"product_code": "tm"
+			},
+			{
+				"product_name": "SmartDefense",
+				"product_code": "sd"
+			},
+			{
+				"product_name": "Harmony SaaS",
+				"product_code": "hs"
+			},
+						{
+				"product_name": "Harmony Email & Collaboration",
+				"product_code": "hec"
+			}
+		]
+	},
+	"Cisco": {
+		"vendor_code": "cisco",
+		"products": [
+			{
+				"product_name": "Cisco Adaptive Security Appliance",
+				"product_code": "asa"
+			},
+			{
+				"product_name": "Cisco Cloud Security",
+				"product_code": "cloudsec"
+			},
+			{
+				"product_name": "Cisco Collaboration",
+				"product_code": "cc"
+			},
+			{
+				"product_name": "Cisco Cyber Vision",
+				"product_code": "cv"
+			},
+			{
+				"product_name": "Cisco IOS",
+				"product_code": "ios"
+			},
+			{
+				"product_name": "Cisco Data Center",
+				"product_code": "cdc"
+			},
+			{
+				"product_name": "Duo Access",
+				"product_code": "duo"
+			},
+			{
+				"product_name": "Cisco Email Security",
+				"product_code": "emailsec"
+			},
+			{
+				"product_name": "Cisco Identity and Access Management",
+				"product_code": "iam"
+			},
+			{
+				"product_name": "Cisco Identity Intelligence",
+				"product_code": "cii"
+			},
+			{
+				"product_name": "Cisco ISE",
+				"product_code": "ise"
+			},
+			{
+				"product_name": "Cisco Network Monitoring and Analytics",
+				"product_code": "nma"
+			},
+			{
+				"product_name": "Cisco Network Security",
+				"product_code": "netsec"
+			},
+			{
+				"product_name": "Cisco Network Infrastructure and Management",
+				"product_code": "netinfram"
+			},
+			{
+				"product_name": "Cisco Remote Access Security",
+				"product_code": "remoteaccesssecurity"
+			},
+			{
+				"product_name": "Cisco Secure Endpoint",
+				"product_code": "secureendpoint"
+			},
+			{
+				"product_name": "Cisco Secure Network Analytics",
+				"product_code": "securenwanalytics"
+			},
+			{
+				"product_name": "Cisco Web Security",
+				"product_code": "websec"
+			},
+			{
+				"product_name": "Cisco Wireless Networking",
+				"product_code": "wn"
+			},
+			{
+				"product_name": "Cisco Secure Firewall Management Center",
+				"product_code": "fmc"
+			}
+		]
+	},
+	"Citrix": {
+		"vendor_code": "citrix",
+		"products": [
+			{
+				"product_name": "Citrix Web App Firewall",
+				"product_code": "appfw"
+			},
+			{
+				"product_name": "Citrix Gateway",
+				"product_code": "cgateway"
+			},
+			{
+				"product_name": "Citrix Virtual Apps",
+				"product_code": "cvapps"
+			},
+			{
+				"product_name": "Citrix Security Analytics",
+				"product_code": "csa"
+			},
+			{
+				"product_name": "Citrix Secure Private Access",
+				"product_code": "cspa"
+			},
+			{
+				"product_name": "NetScaler ADC",
+				"product_code": "adc"
+			}			
+		]
+	},
+	"Claroty": {
+		"vendor_code": "claroty",
+		"products": [
+			{
+				"product_name": "Claroty",
+				"product_code": "c"
+			},
+			{
+				"product_name": "CTD",
+				"product_code": "ctd"
+			}
+		]
+	},
+	"Cloudflare": {
+		"vendor_code": "cloudflare",
+		"products": [
+			{
+				"product_name": "Cloudflare Insights",
+				"product_code": "insights"
+			},
+			{
+				"product_name": "Cloudflare WAF",
+				"product_code": "waf"
+			},
+			{
+				"product_name": "Cloudflare Audit",
+				"product_code": "cloudflareaudit"
+			}
+		]
+	},
+	"Cohesity": {
+		"vendor_code": "cohesity",
+		"products": [
+			{
+				"product_name": "Cohesity DataPlatform",
+				"product_code": "dataplatform"
+			}
+		]
+	},
+	"Commvault": {
+		"vendor_code": "commvault",
+		"products": [
+			{
+				"product_name": "Commvault",
+				"product_code": "commvault"
+			},
+			{
+				"product_name": "Commvault ThreatWise",
+				"product_code": "threatwise"
+			}
+		]
+	},
+	"Cribl": {
+		"vendor_code": "cribl",
+		"products": [
+			{
+				"product_name": "Cribl",
+				"product_code": "cribl"
+			}
+		]
+	},
+	"CrowdStrike": {
+		"vendor_code": "crowdstrike",
+		"products": [
+			{
+				"product_name": "Falcon",
+				"product_code": "falcon"
+			},
+			{
+				"product_name": "Identity Threat Detection & Response",
+				"product_code": "itdr"
+			}
+		]
+	},
+	"CrushFTP": {
+		"vendor_code": "crushftp",
+		"products": [
+			{
+				"product_name": "CrushFTP",
+				"product_code": "cf"
+			}
+		]
+	},
+	"CyberArk": {
+		"vendor_code": "cyberark",
+		"products": [
+			{
+				"product_name": "CyberArk Privilege Access Manager",
+				"product_code": "pam"
+			}
+		]
+	},
+	"Cybereason": {
+		"vendor_code": "cybereason",
+		"products": [
+			{
+				"product_name": "Cybereason",
+				"product_code": "cr"
+			}
+		]
+	},
+	"Cyera": {
+		"vendor_code": "cyera",
+		"products": [
+			{
+				"product_name": "Omni DLP",
+				"product_code": "omnidlp"
+			}
+		]
+	},
+	"Cylance": {
+		"vendor_code": "cylance",
+		"products": [
+			{
+				"product_name": "Cylance OPTICS",
+				"product_code": "optics"
+			},
+			{
+				"product_name": "Cylance PROTECT",
+				"product_code": "protect"
+			}
+		]
+	},
+	"Cynet": {
+		"vendor_code": "cynet",
+		"products": [
+			{
+				"product_name": "Cynet EDR",
+				"product_code": "cynetedr"
+			}
+		]
+	},
+	"Darktrace": {
+		"vendor_code": "darktrace",
+		"products": [
+			{
+				"product_name": "Darktrace",
+				"product_code": "darktrace"
+			}
+		]
+	},
+	"DataWatch Systems": {
+		"vendor_code": "datawatchsystems",
+		"products": [
+			{
+				"product_name": "DataWatch",
+				"product_code": "datawatch"
+			}
+		]
+	},
+	"Delinea": {
+		"vendor_code": "delinea",
+		"products": [
+			{
+				"product_name": "Centrify Audit and Monitoring Service",
+				"product_code": "centrifyams"
+			},
+			{
+				"product_name": "Centrify Authentication Service",
+				"product_code": "centrifyas"
+			},
+			{
+				"product_name": "Centrify Infrastructure Services",
+				"product_code": "centrifyis"
+			},
+			{
+				"product_name": "Centrify Zero Trust Privilege Services",
+				"product_code": "centrifyztps"
+			},
+			{
+				"product_name": "Secret Server",
+				"product_code": "ss"
+			},
+			{
+				"product_name": "Delinea Platform",
+				"product_code": "dp"
+			}
+		]
+	},
+	"Dell": {
+		"vendor_code": "dell",
+		"products": [
+			{
+				"product_name": "EMC Isilon",
+				"product_code": "emcisilon"
+			},
+			{
+				"product_name": "Sonicwall",
+				"product_code": "sw"
+			},
+			{
+				"product_name": "PowerProtect",
+				"product_code": "powerprotect"
+			},
+			{
+				"product_name": "PowerMax",
+				"product_code": "powermax"
+			},
+			{
+				"product_name": "PowerStore",
+				"product_code": "powerstore"
+			},
+			{
+				"product_name": "PowerProtect Data Manager",
+				"product_code": "ppdm"
+			}
+		]
+	},
+	"Digital Arts": {
+		"vendor_code": "digitalarts",
+		"products": [
+			{
+				"product_name": "Digital Arts i-FILTER for Business",
+				"product_code": "ifb"
+			}
+		]
+	},
+	"Digital Guardian": {
+		"vendor_code": "dg",
+		"products": [
+			{
+				"product_name": "Digital Guardian Endpoint Protection",
+				"product_code": "ep"
+			},
+			{
+				"product_name": "Digital Guardian Network DLP",
+				"product_code": "ndlp"
+			}
+		]
+	},
+	"Dnsmasq": {
+		"vendor_code": "dnsmasq",
+		"products": [
+			{
+				"product_name": "Dnsmasq",
+				"product_code": "dnsmasq"
+			}
+		]
+	},
+	"Dragos": {
+		"vendor_code": "dragos",
+		"products": [
+			{
+				"product_name": "Dragos Platform",
+				"product_code": "dragosp"
+			}
+		]
+	},
+	"Dropbox": {
+		"vendor_code": "dropbox",
+		"products": [
+			{
+				"product_name": "Dropbox",
+				"product_code": "d"
+			}
+		]
+	},
+	"Dtex Systems": {
+		"vendor_code": "dtexsystems",
+		"products": [
+			{
+				"product_name": "DTEX InTERCEPT",
+				"product_code": "intercept"
+			}
+		]
+	},
+	"Egnyte": {
+		"vendor_code": "egnyte",
+		"products": [
+			{
+				"product_name": "Egnyte",
+				"product_code": "e"
+			}
+		]
+	},
+	"Entrust": {
+		"vendor_code": "entrust",
+		"products": [
+			{
+				"product_name": "Entrust Identity Enterprise",
+				"product_code": "ie"
+			}
+		]
+	},
+	"Epic": {
+		"vendor_code": "epic",
+		"products": [
+			{
+				"product_name": "Epic SIEM",
+				"product_code": "siem"
+			}
+		]
+	},
+	"Ermes": {
+		"vendor_code": "ermes",
+		"products": [
+			{
+				"product_name": "Ermes Browser Security Platform",
+				"product_code": "ebsp"
+			}
+		]
+	},
+	"ESET": {
+		"vendor_code": "eset",
+		"products": [
+			{
+				"product_name": "ESET Endpoint Security",
+				"product_code": "es"
+			}
+		]
+	},
+	"Exabeam": {
+		"vendor_code": "exabeam",
+		"products": [
+			{
+				"product_name": "Observra",
+				"product_code": "observra"
+			},
+			{
+				"product_name": "Advanced Analytics",
+				"product_code": "aa"
+			},
+			{
+				"product_name": "Correlation Rule",
+				"product_code": "cr"
+			},
+			{
+				"product_name": "Audit Log",
+				"product_code": "audit"
+			},
+			{
+				"product_name": "Search",
+				"product_code": "search"
+			},
+			{
+				"product_name": "NG Analytics",
+				"product_code": "nganalytics"
+			},
+			{
+				"product_name": "Phishing Detection",
+				"product_code": "phishingdetection"
+			}
+		]
+	},
+	"Extrahop": {
+		"vendor_code": "extrahop",
+		"products": [
+			{
+				"product_name": "Extrahop Reveal(x)",
+				"product_code": "revealx"
+			}
+		]
+	},
+	"Extreme Networks": {
+		"vendor_code": "extremenetworks",
+		"products": [
+			{
+				"product_name": "Zebra WLAN Management",
+				"product_code": "zwlanm"
+			},
+			{
+				"product_name": "EXOS",
+				"product_code": "exos"
+			},
+			{
+				"product_name": "Universal ZTNA",
+				"product_code": "uztna"
+			},
+			{
+				"product_name": "Platform ONE",
+				"product_code": "pone"
+			}
+		]
+	},
+	"F5": {
+		"vendor_code": "f5",
+		"products": [
+			{
+				"product_name": "F5 Advanced Web Application Firewall",
+				"product_code": "waf"
+			},
+			{
+				"product_name": "F5 BIG-IP",
+				"product_code": "bigip"
+			},
+			{
+				"product_name": "F5 Access Policy Manager",
+				"product_code": "apm"
+			},
+			{
+				"product_name": "F5 Advanced Firewall Manager",
+				"product_code": "afm"
+			},
+			{
+				"product_name": "F5 Application Security Manager",
+				"product_code": "asm"
+			},
+			{
+				"product_name": "F5 BIG-IP DNS",
+				"product_code": "bigipdns"
+			},
+			{
+				"product_name": "F5 Silverline",
+				"product_code": "silverline"
+			},
+			{
+				"product_name": "BIG-IP F5 LBR",
+				"product_code": "lbr"
+			},
+			{
+				"product_name": "F5 WebSafe",
+				"product_code": "websafe"
+			},
+			{
+				"product_name": "NGINX",
+				"product_code": "nginx"
+			},
+			{
+				"product_name": "F5 Distributed Cloud",
+				"product_code": "dc"
+			}
+		]
+	},
+	"Trellix": {
+		"vendor_code": "fireeye",
+		"products": [
+			{
+				"product_name": "Trellix Central Management",
+				"product_code": "cms"
+			},
+			{
+				"product_name": "Trellix Email Security",
+				"product_code": "emps"
+			},
+			{
+				"product_name": "Trellix Email Security - Cloud Edition",
+				"product_code": "etp"
+			},
+			{
+				"product_name": "Trellix Web MPS",
+				"product_code": "wmps"
+			},
+			{
+				"product_name": "Trellix Endpoint Security (HX)",
+				"product_code": "endpointsecurity"
+			},
+			{
+				"product_name": "Trellix Helix",
+				"product_code": "helix"
+			},
+			{
+				"product_name": "Trellix Network Security (NX)",
+				"product_code": "networksecurity"
+			},
+			{
+				"product_name": "Trellix DLP Endpoint",
+				"product_code": "dlp"
+			},
+			{
+				"product_name": "Trellix Email Security",
+				"product_code": "ep"
+			},
+			{
+				"product_name": "Trellix Endpoint Security",
+				"product_code": "es"
+			},
+			{
+				"product_name": "Trellix ePolicy Orchestrator",
+				"product_code": "mepo"
+			},
+			{
+				"product_name": "Trellix Database Security",
+				"product_code": "mdam"
+			},
+			{
+				"product_name": "Trellix Network Security Platform",
+				"product_code": "nsp"
+			}
+		]
+	},
+	"FireMon": {
+		"vendor_code": "firemon",
+		"products": [
+			{
+				"product_name": "FireMon",
+				"product_code": "f"
+			}
+		]
+	},
+	"Forcepoint": {
+		"vendor_code": "forcepoint",
+		"products": [
+			{
+				"product_name": "Forcepoint DLP",
+				"product_code": "dlp"
+			},
+			{
+				"product_name": "Forcepoint Email Security",
+				"product_code": "emailsecurity"
+			},
+			{
+				"product_name": "Forcepoint Next-Gen Firewall",
+				"product_code": "ngfw"
+			},
+			{
+				"product_name": "Websense Security Gateway",
+				"product_code": "wsg"
+			}
+		]
+	},
+	"Forescout": {
+		"vendor_code": "forescout",
+		"products": [
+			{
+				"product_name": "Forescout CounterACT",
+				"product_code": "couteract"
+			}
+		]
+	},
+	"Fortinet": {
+		"vendor_code": "fortinet",
+		"products": [
+			{
+				"product_name": "Fortinet Enterprise Firewall",
+				"product_code": "firewall"
+			},
+			{
+				"product_name": "FortiAuthenticator",
+				"product_code": "fortiauthenticator"
+			},
+			{
+				"product_name": "FortiGate",
+				"product_code": "fortigate"
+			},
+			{
+				"product_name": "Fortiweb Web Application Firewall",
+				"product_code": "fortiweb"
+			},
+			{
+				"product_name": "Fortinet UTM",
+				"product_code": "utm"
+			},
+			{
+				"product_name": "Fortinet VPN",
+				"product_code": "vpn"
+			},
+			{
+				"product_name": "FortiSIEM",
+				"product_code": "fortisiem"
+			},
+			{
+				"product_name": "FortiNAC",
+				"product_code": "fortinac"
+			},
+			{
+				"product_name": "FortiClient",
+				"product_code": "forticlient"
+			},
+			{
+				"product_name": "FortiXDR",
+				"product_code": "fortixdr"
+			}
+		]
+	},
+	"FreeBSD": {
+		"vendor_code": "freebsd",
+		"products": [
+			{
+				"product_name": "FreeBSD",
+				"product_code": "fbsd"
+			}
+		]
+	},
+	"FTP": {
+		"vendor_code": "ftp",
+		"products": [
+			{
+				"product_name": "FTP",
+				"product_code": "f"
+			}
+		]
+	},
+	"F-Secure": {
+		"vendor_code": "fsecure",
+		"products": [
+			{
+				"product_name": "F-Secure Client Security",
+				"product_code": "clientsecurity"
+			}
+		]
+	},
+	"Gallagher": {
+		"vendor_code": "gallagher",
+		"products": [
+			{
+				"product_name": "Gallagher Access Control",
+				"product_code": "ac"
+			}
+		]
+	},
+	"Gamma": {
+		"vendor_code": "gamma",
+		"products": [
+			{
+				"product_name": "Gamma",
+				"product_code": "g"
+			}
+		]
+	},
+	"GitHub": {
+		"vendor_code": "github",
+		"products": [
+			{
+				"product_name": "GitHub",
+				"product_code": "g"
+			}
+		]
+	},
+	"GitLab": {
+		"vendor_code": "gitlab",
+		"products": [
+			{
+				"product_name": "GitLab",
+				"product_code": "gl"
+			}
+		]
+	},
+	"GoAnywhere": {
+		"vendor_code": "goanywhere",
+		"products": [
+			{
+				"product_name": "GoAnywhere MFT",
+				"product_code": "gamft"
+			}
+		]
+	},
+	"Google": {
+		"vendor_code": "google",
+		"products": [
+			{
+				"product_name": "Google Cloud Platform",
+				"product_code": "cloudplatform"
+			},
+			{
+				"product_name": "GCP CloudAudit",
+				"product_code": "gcpca"
+			},
+			{
+				"product_name": "Gemini Enterprise",
+				"product_code": "geminient"
+			},
+			{
+				"product_name": "Google Workspace",
+				"product_code": "workspace"
+			},
+			{
+				"product_name": "Security Command Center",
+				"product_code": "gcscc"
+			},
+			{
+				"product_name": "Cloud Asset Inventory",
+				"product_code": "cai"
+			}			
+		]
+	},
+	"Harvey": {
+		"vendor_code": "harvey",
+		"products": [
+			{
+				"product_name": "Harvey AI",
+				"product_code": "harveyai"
+			}
+		]
+	},
+	"HelpSystems": {
+		"vendor_code": "helpsystems",
+		"products": [
+			{
+				"product_name": "Powertech Identity and Access Manager",
+				"product_code": "powertechiam"
+			}
+		]
+	},
+	"HUMAN Security": {
+		"vendor_code": "humansecurity",
+		"products": [
+			{
+				"product_name": "HUMAN Bot Defender",
+				"product_code": "botdefender"
+			}
+		]
+	},
+	"Hornet": {
+		"vendor_code": "hornet",
+		"products": [
+			{
+				"product_name": "Hornetsecurity Cloud Email Security Services",
+				"product_code": "email"
+			}
+		]
+	},
+	"HP": {
+		"vendor_code": "hp",
+		"products": [
+			{
+				"product_name": "Aruba ClearPass Policy Manager",
+				"product_code": "arubacpm"
+			},
+			{
+				"product_name": "Aruba Mobility Master",
+				"product_code": "arubamm"
+			},
+			{
+				"product_name": "ArubaOS",
+				"product_code": "arubaos"
+			},
+			{
+				"product_name": "Aruba Wireless controller",
+				"product_code": "arubawc"
+			},
+			{
+				"product_name": "HPE Comware",
+				"product_code": "comware"
+			},
+			{
+				"product_name": "HP LaserJet Printer",
+				"product_code": "lprinter"
+			},
+			{
+				"product_name": "HPE 3PAR StoreServ",
+				"product_code": "3parstoreserv"
+			},
+			{
+				"product_name": "HP iLO",
+				"product_code": "hpilo"
+			},
+			{
+				"product_name": "NonStop",
+				"product_code": "nonstop"
+			},
+			{
+				"product_name": "HP Print Server",
+				"product_code": "printserver"
+			}
+		]
+	},
+	"Huawei": {
+		"vendor_code": "huawei",
+		"products": [
+			{
+				"product_name": "Huawei Enterprise Network Firewall",
+				"product_code": "enf"
+			},
+			{
+				"product_name": "Huawei Unified Security Gateway",
+				"product_code": "usg"
+			}
+		]
+	},
+	"IBM": {
+		"vendor_code": "ibm",
+		"products": [
+			{
+				"product_name": "DB2",
+				"product_code": "db2"
+			},
+			{
+				"product_name": "Guardium",
+				"product_code": "guardium"
+			},
+			{
+				"product_name": "IBM",
+				"product_code": "i"
+			},
+			{
+				"product_name": "IBM Datapower",
+				"product_code": "datapower"
+			},
+			{
+				"product_name": "HCL Notes",
+				"product_code": "hclnotes"
+			},
+			{
+				"product_name": "IBM Mainframe",
+				"product_code": "mainframe"
+			},
+			{
+				"product_name": "QRadar SIEM",
+				"product_code": "qsiem"
+			},
+			{
+				"product_name": "Security Access Manager",
+				"product_code": "sam"
+			},
+			{
+				"product_name": "Sterling B2B Integrator",
+				"product_code": "sbi"
+			}
+		]
+	},
+	"iBoss": {
+		"vendor_code": "iboss",
+		"products": [
+			{
+				"product_name": "Iboss Cloud",
+				"product_code": "cloud"
+			}
+		]
+	},
+	"Illumio": {
+		"vendor_code": "illumio",
+		"products": [
+			{
+				"product_name": "Illumio Core",
+				"product_code": "ic"
+			}
+		]
+	},
+	"Imperva": {
+		"vendor_code": "imperva",
+		"products": [
+			{
+				"product_name": "Attack Analytics",
+				"product_code": "attackanalytics"
+			},
+			{
+				"product_name": "Imperva Incapsula",
+				"product_code": "incapsula"
+			},
+			{
+				"product_name": "Imperva SecureSphere",
+				"product_code": "securesphere"
+			}
+		]
+	},
+	"Imprivata": {
+		"vendor_code": "imprivata",
+		"products": [
+			{
+				"product_name": "Imprivata",
+				"product_code": "i"
+			}
+		]
+	},
+	"IMSS": {
+		"vendor_code": "imss",
+		"products": [
+			{
+				"product_name": "IMSS",
+				"product_code": "i"
+			}
+		]
+	},
+	"IMSVA": {
+		"vendor_code": "imsva",
+		"products": [
+			{
+				"product_name": "IMSVA",
+				"product_code": "i"
+			}
+		]
+	},
+	"Infoblox": {
+		"vendor_code": "infoblox",
+		"products": [
+			{
+				"product_name": "BloxOne DDI",
+				"product_code": "bddi"
+			},
+			{
+				"product_name": "Infoblox NIOS",
+				"product_code": "nios"
+			},
+			{
+				"product_name": "Infoblox NetMRI",
+				"product_code": "netmri"
+			}
+		]
+	},
+	"Informatica": {
+		"vendor_code": "informatica",
+		"products": [
+			{
+				"product_name": "Informatica Cloud",
+				"product_code": "infocloud"
+			}
+		]
+	},
+	"Ipswitch": {
+		"vendor_code": "ipswitch",
+		"products": [
+			{
+				"product_name": "MoveIt Transfer",
+				"product_code": "moveittransfer"
+			}
+		]
+	},
+	"IPTables": {
+		"vendor_code": "iptables",
+		"products": [
+			{
+				"product_name": "IPTables FW",
+				"product_code": "fw"
+			}
+		]
+	},
+	"Ironscales": {
+		"vendor_code": "ironscales",
+		"products": [
+			{
+				"product_name": "Ironscales",
+				"product_code": "is"
+			}
+		]
+	},
+	"Ivanti": {
+		"vendor_code": "ivanti",
+		"products": [
+			{
+				"product_name": "Ivanti Pulse Secure",
+				"product_code": "ps"
+			}
+		]
+	},
+	"IXIA": {
+		"vendor_code": "ixia",
+		"products": [
+			{
+				"product_name": "IXIA ThreatArmor",
+				"product_code": "ta"
+			}
+		]
+	},
+	"Jamf": {
+		"vendor_code": "jamf",
+		"products": [
+			{
+				"product_name": "Jamf Protect",
+				"product_code": "jamfpro"
+			}
+		]
+	},
+	"Johnson Controls": {
+		"vendor_code": "johnsoncontrols",
+		"products": [
+			{
+				"product_name": "Johnson Controls P2000",
+				"product_code": "p2000"
+			}
+		]
+	},
+	"Jumpcloud": {
+		"vendor_code": "jumpcloud",
+		"products": [
+			{
+				"product_name": "Jumpcloud",
+				"product_code": "jc"
+			}
+		]
+	},
+	"Juniper Networks": {
+		"vendor_code": "juniper",
+		"products": [
+			{
+				"product_name": "Junos OS",
+				"product_code": "junos"
+			},
+			{
+				"product_name": "Juniper SRX Series",
+				"product_code": "srx"
+			}
+		]
+	},
+	"Kasada": {
+		"vendor_code": "kasada",
+		"products": [
+			{
+				"product_name": "Kasada",
+				"product_code": "k"
+			}
+		]
+	},
+	"Kaspersky": {
+		"vendor_code": "kaspersky",
+		"products": [
+			{
+				"product_name": "Kaspersky Endpoint Security for Business",
+				"product_code": "endpointsecurity"
+			}
+		]
+	},
+	"Keeper Security": {
+		"vendor_code": "keepersecurity",
+		"products": [
+			{
+				"product_name": "Keeper",
+				"product_code": "keeper"
+			}
+		]
+	},
+	"Kemp": {
+		"vendor_code": "kemp",
+		"products": [
+			{
+				"product_name": "Kemp LoadMaster",
+				"product_code": "loadmaster"
+			}
+		]
+	},
+	"KnowBe4": {
+		"vendor_code": "knowbe4",
+		"products": [
+			{
+				"product_name": "Security Awareness Training",
+				"product_code": "sat"
+			}
+		]
+	},
+	"Kong": {
+		"vendor_code": "kong",
+		"products": [
+			{
+				"product_name": "Kong Gateway",
+				"product_code": "kg"
+			}
+		]
+	},
+	"LanScope": {
+		"vendor_code": "lanscope",
+		"products": [
+			{
+				"product_name": "LanScope Cat",
+				"product_code": "cat"
+			}
+		]
+	},
+	"LastPass": {
+		"vendor_code": "lastpass",
+		"products": [
+			{
+				"product_name": "LastPass",
+				"product_code": "l"
+			}
+		]
+	},
+	"Lenel": {
+		"vendor_code": "lenel",
+		"products": [
+			{
+				"product_name": "OnGuard",
+				"product_code": "og"
+			}
+		]
+	},
+	"Libraesva": {
+		"vendor_code": "libraesva",
+		"products": [
+			{
+				"product_name": "Libraesva Email Security",
+				"product_code": "libraes"
+			}
+		]
+	},
+	"LiquidFiles": {
+		"vendor_code": "liquidfiles",
+		"products": [
+			{
+				"product_name": "LiquidFiles",
+				"product_code": "l"
+			}
+		]
+	},
+	"LogRhythm": {
+		"vendor_code": "logrhythm",
+		"products": [
+			{
+				"product_name": "LogRhythm",
+				"product_code": "l"
+			},
+			{
+				"product_name": "NetMon",
+				"product_code": "netmon"
+			}
+		]
+	},
+	"Lookout": {
+		"vendor_code": "lookout",
+		"products": [
+			{
+				"product_name": "Lookout",
+				"product_code": "l"
+			}
+		]
+	},
+	"Malwarebytes": {
+		"vendor_code": "malwarebytes",
+		"products": [
+			{
+				"product_name": "Malwarebytes Endpoint Protection",
+				"product_code": "ep"
+			}
+		]
+	},
+	"ManageEngine": {
+		"vendor_code": "manageengine",
+		"products": [
+			{
+				"product_name": "ADAuditPlus",
+				"product_code": "adauditplus"
+			},
+			{
+				"product_name": "ADManager Plus",
+				"product_code": "admplus"
+			},
+			{
+				"product_name": "ADSSP",
+				"product_code": "adssp"
+			},
+			{
+				"product_name": "PAM360",
+				"product_code": "pam360"
+			}
+		]
+	},
+	"MariaDB": {
+		"vendor_code": "mariadb",
+		"products": [
+			{
+				"product_name": "MariaDB",
+				"product_code": "m"
+			}
+		]
+	},
+	"McAfee": {
+		"vendor_code": "mcafee",
+		"products": [
+			{
+				"product_name": "McAfee Web Gateway",
+				"product_code": "wg"
+			}
+		]
+	},
+	"Menlo Security": {
+		"vendor_code": "menlo",
+		"products": [
+			{
+				"product_name": "Menlo Security",
+				"product_code": "ms"
+			}
+		]
+	},
+	"MicroFocus ArcSight": {
+		"vendor_code": "microfocusarcsight",
+		"products": [
+			{
+				"product_name": "MicroFocus ArcSight",
+				"product_code": "ma"
+			}
+		]
+	},
+	"Microsoft": {
+		"vendor_code": "microsoft",
+		"products": [
+			{
+				"product_name": "Active Directory Federation Services",
+				"product_code": "adfs"
+			},
+			{
+				"product_name": "Microsoft Advanced Threat Analytics",
+				"product_code": "ata"
+			},
+			{
+				"product_name": "Azure AD Activity Logs",
+				"product_code": "azureadactivity"
+			},
+			{
+				"product_name": "Azure AD Sign-In Logs",
+				"product_code": "azureadsignin"
+			},
+			{
+				"product_name": "Azure ATP",
+				"product_code": "azureatp"
+			},
+			{
+				"product_name": "Azure Container Registry",
+				"product_code": "azurecr"
+			},
+			{
+				"product_name": "Azure Event Hub",
+				"product_code": "azureeh"
+			},
+			{
+				"product_name": "Azure Firewall",
+				"product_code": "azurefw"
+			},
+			{
+				"product_name": "Azure Key Vault",
+				"product_code": "azurekv"
+			},
+			{
+				"product_name": "Azure Kubernetes Service",
+				"product_code": "azureks"
+			},
+			{
+				"product_name": "Azure MFA",
+				"product_code": "azuremfa"
+			},
+			{
+				"product_name": "Azure Monitor",
+				"product_code": "azuremon"
+			},
+			{
+				"product_name": "Azure DevOps",
+				"product_code": "azuredevops"
+			},
+			{
+				"product_name": "Azure Monitor - VM Insights",
+				"product_code": "azuremonvm"
+			},
+			{
+				"product_name": "Microsoft Sentinel",
+				"product_code": "sentinel"
+			},
+			{
+				"product_name": "Microsoft CAS",
+				"product_code": "mcas"
+			},
+			{
+				"product_name": "Microsoft Defender for Cloud",
+				"product_code": "defendercloud"
+			},
+			{
+				"product_name": "Microsoft Defender for Endpoint",
+				"product_code": "defenderep"
+			},
+			{
+				"product_name": "Microsoft Exchange",
+				"product_code": "exchange"
+			},
+			{
+				"product_name": "Microsoft Intune",
+				"product_code": "intune"
+			},
+			{
+				"product_name": "Event Viewer - ADFS",
+				"product_code": "evadfs"
+			},
+			{
+				"product_name": "Event Viewer - Application",
+				"product_code": "evapp"
+			},
+			{
+				"product_name": "Event Viewer - Applocker",
+				"product_code": "evapplocker"
+			},
+			{
+				"product_name": "Event Viewer - BFE Resorce Flows",
+				"product_code": "evbferf"
+			},
+			{
+				"product_name": "Event Viewer - CertificateServicesClient",
+				"product_code": "evcertsc"
+			},
+			{
+				"product_name": "Event Viewer - DFS-Replication",
+				"product_code": "evdfsrep"
+			},
+			{
+				"product_name": "Event Viewer - Directory-Service",
+				"product_code": "evdirservice"
+			},
+			{
+				"product_name": "Event Viewer - DNSServer",
+				"product_code": "evdnsserver"
+			},
+			{
+				"product_name": "Event Viewer - DNSClient",
+				"product_code": "evdnsclient"
+			},
+			{
+				"product_name": "Event Viewer - Kernel-IO",
+				"product_code": "evkernelio"
+			},
+			{
+				"product_name": "Event Viewer - KnownFolders",
+				"product_code": "evknownfolders"
+			},
+			{
+				"product_name": "Event Viewer - Licensing-Platform",
+				"product_code": "evlp"
+			},
+			{
+				"product_name": "Event Viewer - LiveId",
+				"product_code": "evliveid"
+			},
+			{
+				"product_name": "Event Viewer - AzureADPasswordProtection-DCAgent",
+				"product_code": "evazureadppdca"
+			},
+			{
+				"product_name": "Event Viewer - NTLM",
+				"product_code": "evntlm"
+			},
+			{
+				"product_name": "Event Viewer - NetworkProfile",
+				"product_code": "evnetworkprofile"
+			},
+			{
+				"product_name": "Event Viewer - NPS",
+				"product_code": "evnps"
+			},
+			{
+				"product_name": "Event Viewer - OpenSSH",
+				"product_code": "evossh"
+			},
+			{
+				"product_name": "Event Viewer - Security",
+				"product_code": "evsecurity"
+			},
+			{
+				"product_name": "Event Viewer - System",
+				"product_code": "evsystem"
+			},
+			{
+				"product_name": "Event Viewer - PowerShell",
+				"product_code": "evpowershell"
+			},
+			{
+				"product_name": "Event Viewer - PrintService",
+				"product_code": "evprintservice"
+			},
+			{
+				"product_name": "Event Viewer - TaskScheduler",
+				"product_code": "evtaskscheduler"
+			},
+			{
+				"product_name": "Event Viewer - RemoteDesktopServices",
+				"product_code": "evsecurityrds"
+			},
+			{
+				"product_name": "Event Viewer - TerminalServices-Gateway",
+				"product_code": "evterminalservicesgateway"
+			},
+			{
+				"product_name": "Event Viewer - TerminalServices-LocalSessionManager",
+				"product_code": "evterminalserviceslocalsm"
+			},
+			{
+				"product_name": "Event Viewer - TerminalServices-RemoteConnectionManager",
+				"product_code": "evterminalservicesremotecm"
+			},
+			{
+				"product_name": "Event Viewer - IPhlpSVC",
+				"product_code": "eviphlpsvc"
+			},
+			{
+				"product_name": "Event Viewer - Base-Filtering-Engine-Connections",
+				"product_code": "evbfec"
+			},
+			{
+				"product_name": "Event Viewer - WinNat",
+				"product_code": "evwinnat"
+			},
+			{
+				"product_name": "Event Viewer - Setup",
+				"product_code": "evsetup"
+			},
+			{
+				"product_name": "Event Viewer - Windows Firewall",
+				"product_code": "evwinfirewall"
+			},
+			{
+				"product_name": "Event Viewer - Kernel-PnP",
+				"product_code": "evkernelpnp"
+			},
+			{
+				"product_name": "Event Viewer - WinRM",
+				"product_code": "evwinrm"
+			},
+			{
+				"product_name": "Event Viewer - BITS-Client",
+				"product_code": "evbitsclient"
+			},
+			{
+				"product_name": "Event Viewer - LSA",
+				"product_code": "evlsa"
+			},
+			{
+				"product_name": "Event Viewer - SMB",
+				"product_code": "evsmb"
+			},
+			{
+				"product_name": "Event Viewer - File Replication Service",
+				"product_code": "evfrs"
+			},
+			{
+				"product_name": "Microsoft IIS",
+				"product_code": "iis"
+			},
+			{
+				"product_name": "M365 Audit Logs",
+				"product_code": "m365auditlogs"
+			},
+			{
+				"product_name": "Microsoft DNS Log",
+				"product_code": "mdnslog"
+			},
+			{
+				"product_name": "Microsoft DHCP Log",
+				"product_code": "mdhcplog"
+			},
+			{
+				"product_name": "Microsoft WMI Log",
+				"product_code": "mwmilog"
+			},
+			{
+				"product_name": "Microsoft Network Policy Server",
+				"product_code": "nps"
+			},
+			{
+				"product_name": "Microsoft 365",
+				"product_code": "o365"
+			},
+			{
+				"product_name": "Microsoft RRAS",
+				"product_code": "rras"
+			},
+			{
+				"product_name": "MSSQL",
+				"product_code": "mssql"
+			},
+			{
+				"product_name": "Sysmon",
+				"product_code": "sysmon"
+			},
+			{
+				"product_name": "Network Security Group Flow Logs",
+				"product_code": "nsgflowlogs"
+			},
+			{
+				"product_name": "Windows Defender Application Control",
+				"product_code": "wdac"
+			},
+			{
+				"product_name": "Windows Device registration service",
+				"product_code": "wdrc"
+			},
+			{
+				"product_name": "Event Viewer - CodeIntegrity",
+				"product_code": "mci"
+			},
+			{
+				"product_name": "Event Viewer - CAPI2",
+				"product_code": "evcapi2"
+			},
+			{
+				"product_name": "Event Viewer - FileShareShadowCopyProvider",
+				"product_code": "evfsscp"
+			},
+			{
+				"product_name": "Microsoft Defender",
+				"product_code": "md"
+			},
+			{
+				"product_name": "Microsoft Entra",
+				"product_code": "me"
+			},
+			{
+				"product_name": "Microsoft Purview",
+				"product_code": "purview"
+			},
+			{
+				"product_name": "Event Viewer - ADWS",
+				"product_code": "evadws"
+			},
+			{
+				"product_name": "Event Viewer - TerminalServices",
+				"product_code": "evterinalservices"
+			},
+			{
+				"product_name": "NetLogon",
+				"product_code": "netlogon"
+			},
+			{
+				"product_name": "Azure Network Watcher",
+				"product_code": "networkwatcher"
+			},
+			{
+				"product_name": "Event Viewer - Kerberos-Key-Distribution-Center",
+				"product_code": "evkdc"
+			},
+			{
+				"product_name": "Copilot",
+				"product_code": "copilot"
+			},
+			{
+				"product_name": "Event Viewer - AzureADPasswordProtection-ProxyService",
+				"product_code": "evazureadppps"
+			}
+		]
+	},
+	"Mimecast": {
+		"vendor_code": "mimecast",
+		"products": [
+			{
+				"product_name": "Mimecast Secure Email Gateway",
+				"product_code": "seg"
+			},
+			{
+				"product_name": "Mimecast Targeted Threat Protection - URL",
+				"product_code": "ttp"
+			},
+			{
+				"product_name": "Code42 Incydr",
+				"product_code": "incydr"
+			}
+		]
+	},
+	"Monday.com": {
+		"vendor_code": "monday",
+		"products": [
+			{
+				"product_name": "Monday.com",
+				"product_code": "mon"
+			}
+		]
+	},
+	"MongoDB": {
+		"vendor_code": "mongodb",
+		"products": [
+			{
+				"product_name": "MongoDB",
+				"product_code": "m"
+			}
+		]
+	},
+	"Mvision": {
+		"vendor_code": "mvision",
+		"products": [
+			{
+				"product_name": "Mvision",
+				"product_code": "m"
+			}
+		]
+	},
+	"Mysql": {
+		"vendor_code": "mysql",
+		"products": [
+			{
+				"product_name": "Mysql",
+				"product_code": "m"
+			}
+		]
+	},
+	"N3K": {
+		"vendor_code": "n3k",
+		"products": [
+			{
+				"product_name": "N3K",
+				"product_code": "n"
+			}
+		]
+	},
+	"Nagios": {
+		"vendor_code": "nagios",
+		"products": [
+			{
+				"product_name": "Nagios",
+				"product_code": "n"
+			}
+		]
+	},
+	"Nasuni": {
+		"vendor_code": "nasuni",
+		"products": [
+			{
+				"product_name": "Nasuni",
+				"product_code": "n"
+			}
+		]
+	},
+	"NetApp": {
+		"vendor_code": "netapp",
+		"products": [
+			{
+				"product_name": "NetApp",
+				"product_code": "n"
+			},
+			{
+				"product_name": "NetApp Ontap",
+				"product_code": "netappontap"
+			}
+		]
+	},
+	"NetMotion Wireless": {
+		"vendor_code": "netmotionwireless",
+		"products": [
+			{
+				"product_name": "NetMotion Wireless",
+				"product_code": "nw"
+			}
+		]
+	},
+	"Netskope": {
+		"vendor_code": "netskope",
+		"products": [
+			{
+				"product_name": "Netskope Security Cloud",
+				"product_code": "sc"
+			},
+			{
+				"product_name": "Netskope CASB",
+				"product_code": "casb"
+			},
+			{
+				"product_name": "Netskope Webtx",
+				"product_code": "webtx"
+			}
+		]
+	},
+	"Netwrix": {
+		"vendor_code": "netwrix",
+		"products": [
+			{
+				"product_name": "Netwrix Auditor",
+				"product_code": "auditor"
+			}
+		]
+	},
+	"NextDLP": {
+		"vendor_code": "nextdlp",
+		"products": [
+			{
+				"product_name": "Reveal",
+				"product_code": "r"
+			}
+		]
+	},
+	"Nightfall": {
+		"vendor_code": "nightfall",
+		"products": [
+			{
+				"product_name": "Nightfall AI",
+				"product_code": "na"
+			}
+		]
+	},
+	"NNT": {
+		"vendor_code": "nnt",
+		"products": [
+			{
+				"product_name": "NNT ChangeTracker",
+				"product_code": "ct"
+			}
+		]
+	},
+	"Nozomi Networks": {
+		"vendor_code": "nozomi",
+		"products": [
+			{
+				"product_name": "Nozomi Networks Guardian",
+				"product_code": "guardian"
+			}
+		]
+	},
+	"Obsidian Security": {
+		"vendor_code": "obsidiansecurity",
+		"products": [
+			{
+				"product_name": "SaaS Security",
+				"product_code": "saassec"
+			}
+		]
+	},
+	"Okta": {
+		"vendor_code": "okta",
+		"products": [
+			{
+				"product_name": "Okta Adaptive MFA",
+				"product_code": "amfa"
+			},
+			{
+				"product_name": "Okta Workforce Identity Cloud",
+				"product_code": "wic"
+			}			
+		]
+	},
+	"Onapsis": {
+		"vendor_code": "onapsis",
+		"products": [
+			{
+				"product_name": "Onapsis",
+				"product_code": "o"
+			}
+		]
+	},
+	"OneLogin": {
+		"vendor_code": "onelogin",
+		"products": [
+			{
+				"product_name": "OneLogin",
+				"product_code": "o"
+			}
+		]
+	},
+	"OneSpan": {
+		"vendor_code": "onespan",
+		"products": [
+			{
+				"product_name": "Digipass for Apps",
+				"product_code": "dp"
+			}
+		]
+	},
+	"OneWelcome": {
+		"vendor_code": "onewelcome",
+		"products": [
+			{
+				"product_name": "OneWelcome Cloud Identity Platform",
+				"product_code": "ocip"
+			}
+		]
+	},
+	"OpenAI": {
+		"vendor_code": "openai",
+		"products": [
+			{
+				"product_name": "OpenAI",
+				"product_code": "oai"
+			},
+			{
+				"product_name": "ChatGPT",
+				"product_code": "chatgpt"
+			}
+		]
+	},
+	"OpenDJ": {
+		"vendor_code": "opendj",
+		"products": [
+			{
+				"product_name": "OpenDJ",
+				"product_code": "o"
+			}
+		]
+	},
+	"OpenLDAP": {
+		"vendor_code": "Openldap",
+		"products": [
+			{
+				"product_name": "OpenLDAP",
+				"product_code": "o"
+			}
+		]
+	},
+	"Open Shift": {
+		"vendor_code": "openshift",
+		"products": [
+			{
+				"product_name": "OpenShift",
+				"product_code": "o"
+			}
+		]
+	},
+	"Open VPN": {
+		"vendor_code": "openvpn",
+		"products": [
+			{
+				"product_name": "Open VPN",
+				"product_code": "ov"
+			}
+		]
+	},
+	"Oracle": {
+		"vendor_code": "oracle",
+		"products": [
+			{
+				"product_name": "Oracle Database",
+				"product_code": "db"
+			},
+			{
+				"product_name": "Oracle Public Cloud",
+				"product_code": "pc"
+			},
+			{
+				"product_name": "Solaris",
+				"product_code": "solaris"
+			},
+			{
+				"product_name": "Oracle Cloud Infrastructure",
+				"product_code": "ci"
+			}
+		]
+	},
+	"Ordr": {
+		"vendor_code": "ordr",
+		"products": [
+			{
+				"product_name": "Ordr SCE",
+				"product_code": "sce"
+			},
+						{
+				"product_name": "Ordr AI Protect",
+				"product_code": "aiprotect"
+			}
+		]
+	},
+	"OSSEC": {
+		"vendor_code": "ossec",
+		"products": [
+			{
+				"product_name": "OSSEC",
+				"product_code": "o"
+			}
+		]
+	},
+	"Osquery": {
+		"vendor_code": "osquery",
+		"products": [
+			{
+				"product_name": "Osquery",
+				"product_code": "o"
+			}
+		]
+	},
+	"oVirt": {
+		"vendor_code": "ovirt",
+		"products": [
+			{
+				"product_name": "oVirt",
+				"product_code": "o"
+			}
+		]
+	},
+	"PacketFence": {
+		"vendor_code": "packetfence",
+		"products": [
+			{
+				"product_name": "PacketFence",
+				"product_code": "p"
+			}
+		]
+	},
+	"PagerDuty": {
+		"vendor_code": "pagerduty",
+		"products": [
+			{
+				"product_name": "PagerDuty",
+				"product_code": "pagerduty"
+			}
+		]
+	},
+	"Palo Alto Networks": {
+		"vendor_code": "pan",
+		"products": [
+			{
+				"product_name": "Palo Alto Aperture",
+				"product_code": "aperture"
+			},
+			{
+				"product_name": "Cortex XDR",
+				"product_code": "cortex"
+			},
+			{
+				"product_name": "Cortex XSOAR",
+				"product_code": "xsoar"
+			},
+			{
+				"product_name": "GlobalProtect",
+				"product_code": "gp"
+			},
+			{
+				"product_name": "Palo Alto NGFW",
+				"product_code": "ngfw"
+			},
+			{
+				"product_name": "Prisma Access",
+				"product_code": "prismaaccess"
+			},
+			{
+				"product_name": "Prisma Cloud",
+				"product_code": "prisma"
+			},
+			{
+				"product_name": "Palo Alto WildFire",
+				"product_code": "wildfire"
+			}
+		]
+	},
+
+	"Parallels": {
+		"vendor_code": "parallels",
+		"products": [
+			{
+				"product_name": "Parallels Secure Workspace",
+				"product_code": "psw"
+			}
+		]
+	},
+
+	"Password Manager Pro": {
+		"vendor_code": "passwordmngrpro",
+		"products": [
+			{
+				"product_name": "Password Manager Pro",
+				"product_code": "p"
+			}
+		]
+	},
+	"Perforce": {
+		"vendor_code": "perforce",
+		"products": [
+			{
+				"product_name": "Perforce",
+				"product_code": "p"
+			}
+		]
+	},
+	"pfSense": {
+		"vendor_code": "pfsense",
+		"products": [
+			{
+				"product_name": "pfSense",
+				"product_code": "p"
+			}
+		]
+	},
+	"Picture Perfect": {
+		"vendor_code": "pictureperfect",
+		"products": [
+			{
+				"product_name": "Picture Perfect",
+				"product_code": "pp"
+			}
+		]
+	},
+	"Ping Identity": {
+		"vendor_code": "pingidentity",
+		"products": [
+			{
+				"product_name": "ForgeRock",
+				"product_code": "forgerock"
+			},
+			{
+				"product_name": "Ping Identity",
+				"product_code": "pi"
+			},
+			{
+				"product_name": "PingOne",
+				"product_code": "pingone"
+			},
+			{
+				"product_name": "PingFederate",
+				"product_code": "pingf"
+			},
+			{
+				"product_name": "Ping Access",
+				"product_code": "pinga"
+			}
+		]
+	},
+	"Portkey": {
+		"vendor_code": "portkey",
+		"products": [
+			{
+				"product_name": "Portkey",
+				"product_code": "p"
+			}
+		]
+	},
+	"Portnox": {
+		"vendor_code": "portnox",
+		"products": [
+			{
+				"product_name": "Portnox Cloud",
+				"product_code": "cloud"
+			}
+		]
+	},
+	"Postfix": {
+		"vendor_code": "postfix",
+		"products": [
+			{
+				"product_name": "Postfix",
+				"product_code": "postfix"
+			}
+		]
+	},
+	"PostgreSQL": {
+		"vendor_code": "postgresql",
+		"products": [
+			{
+				"product_name": "PostgreSQL",
+				"product_code": "p"
+			}
+		]
+	},
+	"PowerSentry": {
+		"vendor_code": "powersentry",
+		"products": [
+			{
+				"product_name": "PowerSentry",
+				"product_code": "ps"
+			}
+		]
+	},
+	"Progress": {
+		"vendor_code": "progress",
+		"products": [
+			{
+				"product_name": "Progress ShareFile",
+				"product_code": "sharefile"
+			}
+		]
+	},
+	"Proofpoint": {
+		"vendor_code": "proofpoint",
+		"products": [
+			{
+				"product_name": "Proofpoint CASB",
+				"product_code": "casb"
+			},
+			{
+				"product_name": "ObserveIT",
+				"product_code": "o"
+			},
+			{
+				"product_name": "Proofpoint Enterprise Protection",
+				"product_code": "pep"
+			},
+			{
+				"product_name": "Targeted Attack Platform",
+				"product_code": "tap"
+			},
+			{
+				"product_name": "Proofpoint Email Protection",
+				"product_code": "tappod"
+			},
+			{
+				"product_name": "Proofpoint Insider Threat Management",
+				"product_code": "pitm"
+			}
+		]
+	},
+	"Qualys": {
+		"vendor_code": "qualys",
+		"products": [
+			{
+				"product_name": "Qualys AssetView",
+				"product_code": "q"
+			}
+		]
+	},
+	"Quest Software": {
+		"vendor_code": "questsoftware",
+		"products": [
+			{
+				"product_name": "Quest Change Auditor for Active Directory",
+				"product_code": "caad"
+			},
+			{
+				"product_name": "Quest Change Auditor for SQL Server",
+				"product_code": "casql"
+			}
+		]
+	},
+	"Radware": {
+		"vendor_code": "radware",
+		"products": [
+			{
+				"product_name": "Alteon",
+				"product_code": "alteon"
+			},
+			{
+				"product_name": "Radware WAF",
+				"product_code": "waf"
+			}
+		]
+	},
+	"Rapid7": {
+		"vendor_code": "Rapid7",
+		"products": [
+			{
+				"product_name": "Rapid7 InsightVM",
+				"product_code": "insightvm"
+			}
+		]
+	},
+	"Recorded Future": {
+		"vendor_code": "recordedfuture",
+		"products": [
+			{
+				"product_name": "Recorded Future Threat Intelligence",
+				"product_code": "ti"
+			}
+		]
+	},
+	"Riverbed Steelhead": {
+		"vendor_code": "riverbedsteelhead",
+		"products": [
+			{
+				"product_name": "Riverbed Steelhead",
+				"product_code": "rs"
+			}
+		]
+	},
+	"RS2 Technologies": {
+		"vendor_code": "rs2",
+		"products": [
+			{
+				"product_name": "RS2 Technologies",
+				"product_code": "t"
+			}
+		]
+	},
+	"RSA": {
+		"vendor_code": "rsa",
+		"products": [
+			{
+				"product_name": "RSA NetWitness Platform",
+				"product_code": "netwitness"
+			},
+			{
+				"product_name": "RSA Authentication Manager",
+				"product_code": "ram"
+			},
+			{
+				"product_name": "SecurID",
+				"product_code": "securid"
+			}
+		]
+	},
+	"Rubrik": {
+		"vendor_code": "rubrik",
+		"products": [
+			{
+				"product_name": "Rubrik Cloud Data Management",
+				"product_code": "cdm"
+			}
+		]
+	},
+	"Sailpoint": {
+		"vendor_code": "sailpoint",
+		"products": [
+			{
+				"product_name": "Sailpoint IIQ",
+				"product_code": "iiq"
+			},
+			{
+				"product_name": "IdentityNow",
+				"product_code": "identitynow"
+			},
+			{
+				"product_name": "SecurityIQ",
+				"product_code": "securityiq"
+			}
+		]
+	},
+	"Salesforce": {
+		"vendor_code": "salesforce",
+		"products": [
+			{
+				"product_name": "Salesforce",
+				"product_code": "sf"
+			}
+		]
+	},
+	"Sangfor": {
+		"vendor_code": "sangfor",
+		"products": [
+			{
+				"product_name": "Sangfor NGAF",
+				"product_code": "ngaf"
+			}
+		]
+	},
+	"SAP": {
+		"vendor_code": "sap",
+		"products": [
+			{
+				"product_name": "SAP",
+				"product_code": "s"
+			}
+		]
+	},
+	"Secomea": {
+		"vendor_code": "secomea",
+		"products": [
+			{
+				"product_name": "Secomea",
+				"product_code": "s"
+			}
+		]
+	},
+	"SecureAuth": {
+		"vendor_code": "secureauth",
+		"products": [
+			{
+				"product_name": "SecureAuth IDP",
+				"product_code": "idp"
+			},
+			{
+				"product_name": "SecureAuth Login",
+				"product_code": "login"
+			}
+		]
+	},
+	"SecurEnvoy": {
+		"vendor_code": "securenvoy",
+		"products": [
+			{
+				"product_name": "SecurEnvoy Multi-Factor Authentication",
+				"product_code": "semfa"
+			}
+		]
+	},
+	"SecureLink": {
+		"vendor_code": "securelink",
+		"products": [
+			{
+				"product_name": "SecureLink",
+				"product_code": "s"
+			}
+		]
+	},
+	"SecureNet": {
+		"vendor_code": "securenet",
+		"products": [
+			{
+				"product_name": "SecureNet",
+				"product_code": "s"
+			}
+		]
+	},
+	"Semperis": {
+		"vendor_code": "semperis",
+		"products": [
+			{
+				"product_name": "Semperis DSP",
+				"product_code": "dsp"
+			}
+		]
+	},
+	"SentinelOne": {
+		"vendor_code": "sentinelone",
+		"products": [
+			{
+				"product_name": "Event Viewer - Sentinelone",
+				"product_code": "evsentinelone"
+			},
+			{
+				"product_name": "Scalyr",
+				"product_code": "scalyr"
+			},
+			{
+				"product_name": "Singularity Platform",
+				"product_code": "singularityp"
+			},
+			{
+				"product_name": "Vigilance",
+				"product_code": "v"
+			}
+		]
+	},
+	"ServiceNow": {
+		"vendor_code": "servicenow",
+		"products": [
+			{
+				"product_name": "ServiceNow",
+				"product_code": "s"
+			}
+		]
+	},
+	"Shibboleth": {
+		"vendor_code": "shibboleth",
+		"products": [
+			{
+				"product_name": "Shibboleth",
+				"product_code": "s"
+			}
+		]
+	},
+	"Siemens": {
+		"vendor_code": "siemens",
+		"products": [
+			{
+				"product_name": "Siemens Access Control",
+				"product_code": "s"
+			}
+		]
+	},
+	"SIGSCI": {
+		"vendor_code": "sigsci",
+		"products": [
+			{
+				"product_name": "SIGSCI",
+				"product_code": "sigsci"
+			}
+		]
+	},
+	"Silverfort": {
+		"vendor_code": "silverfort",
+		"products": [
+			{
+				"product_name": "Silverfort Authentication Platform",
+				"product_code": "s"
+			}
+		]
+	},
+	"SiteMinder": {
+		"vendor_code": "siteminder",
+		"products": [
+			{
+				"product_name": "Symantec SiteMinder",
+				"product_code": "symantecsm"
+			}
+		]
+	},
+	"Skyformation": {
+		"vendor_code": "skyformation",
+		"products": [
+			{
+				"product_name": "Skyformation",
+				"product_code": "s"
+			}
+		]
+	},
+	"Skyhigh Security": {
+		"vendor_code": "skyhighsecurity",
+		"products": [
+			{
+				"product_name": "Skyhigh Security Cloud",
+				"product_code": "ssc"
+			},
+			{
+				"product_name": "Secure Web Gateway",
+				"product_code": "swg"
+			},
+			{
+				"product_name": "Skyhigh CASB",
+				"product_code": "sncasb"
+			}
+		]
+	},
+	"SkySea": {
+		"vendor_code": "skysea",
+		"products": [
+			{
+				"product_name": "SkySea ClientView",
+				"product_code": "cv"
+			}
+		]
+	},
+	"Slack": {
+		"vendor_code": "slack",
+		"products": [
+			{
+				"product_name": "Slack",
+				"product_code": "s"
+			}
+		]
+	},
+	"SmartSuite": {
+		"vendor_code": "smartsuite",
+		"products": [
+			{
+				"product_name": "SmartSuite",
+				"product_code": "ssuite"
+			}
+		]
+	},
+	"Snort": {
+		"vendor_code": "snort",
+		"products": [
+			{
+				"product_name": "Snort",
+				"product_code": "s"
+			}
+		]
+	},
+	"Snowflake": {
+		"vendor_code": "snowflake",
+		"products": [
+			{
+				"product_name": "Snowflake",
+				"product_code": "s"
+			}
+		]
+	},
+	"Sophos": {
+		"vendor_code": "sophos",
+		"products": [
+			{
+				"product_name": "Sophos Endpoint Protection",
+				"product_code": "ep"
+			},
+			{
+				"product_name": "Sophos UTM",
+				"product_code": "utm"
+			},
+			{
+				"product_name": "Sophos XG Firewall",
+				"product_code": "xgfirewall"
+			},
+			{
+				"product_name": "Sophos XGS Firewall",
+				"product_code": "xgsfirewall"
+			},
+			{
+				"product_name": "Sophos ZTNA",
+				"product_code": "sztna"
+			}
+		]
+	},
+	"Splunk": {
+		"vendor_code": "splunk",
+		"products": [
+			{
+				"product_name": "Splunk ES",
+				"product_code": "ses"
+			},
+			{
+				"product_name": "Splunk Stream",
+				"product_code": "s"
+			}
+		]
+	},
+	"Squid": {
+		"vendor_code": "squid",
+		"products": [
+			{
+				"product_name": "Squid",
+				"product_code": "s"
+			}
+		]
+	},
+	"StealthBits": {
+		"vendor_code": "stealthbits",
+		"products": [
+			{
+				"product_name": "StealthIntercept",
+				"product_code": "s"
+			}
+		]
+	},
+	"SunOne": {
+		"vendor_code": "sunone",
+		"products": [
+			{
+				"product_name": "SunOne",
+				"product_code": "s"
+			}
+		]
+	},
+	"Suricata": {
+		"vendor_code": "suricata",
+		"products": [
+			{
+				"product_name": "Suricata",
+				"product_code": "s"
+			}
+		]
+	},
+	"Swift": {
+		"vendor_code": "swift",
+		"products": [
+			{
+				"product_name": "Swift",
+				"product_code": "s"
+			}
+		]
+	},
+	"Swivel": {
+		"vendor_code": "swivel",
+		"products": [
+			{
+				"product_name": "Swivel",
+				"product_code": "swivel"
+			}
+		]
+	},
+	"Symantec": {
+		"vendor_code": "symantec",
+		"products": [
+			{
+				"product_name": "Symantec Advanced Threat Protection",
+				"product_code": "atp"
+			},
+			{
+				"product_name": "Symantec Content Analysis System",
+				"product_code": "cas"
+			},
+			{
+				"product_name": "Symantec CloudSOC",
+				"product_code": "cloudsoc"
+			},
+			{
+				"product_name": "Symantec DLP",
+				"product_code": "dlp"
+			},
+			{
+				"product_name": "Symantec Email Security",
+				"product_code": "esc"
+			},
+			{
+				"product_name": "Symantec Endpoint Protection",
+				"product_code": "endpointprotection"
+			},
+			{
+				"product_name": "Symantec VIP",
+				"product_code": "vip"
+			},
+			{
+				"product_name": "Symantec Web Security Service",
+				"product_code": "wss"
+			}
+		]
+	},
+	"Synology NAS": {
+		"vendor_code": "synologynas",
+		"products": [
+			{
+				"product_name": "Synology NAS",
+				"product_code": "s"
+			}
+		]
+	},
+	"Sysdig": {
+		"vendor_code": "sysdig",
+		"products": [
+			{
+				"product_name": "Sysdig Monitor",
+				"product_code": "monitor"
+			}
+		]
+	},
+	"Tanium": {
+		"vendor_code": "tanium",
+		"products": [
+			{
+				"product_name": "Tanium Cloud Platform",
+				"product_code": "cpp"
+			},
+			{
+				"product_name": "Tanium Core Platform",
+				"product_code": "cp"
+			},
+			{
+				"product_name": "Tanium Integrity Monitor",
+				"product_code": "im"
+			},
+			{
+				"product_name": "Tanium Threat Response",
+				"product_code": "tr"
+			}
+		]
+	},
+	"Tenable": {
+		"vendor_code": "tenable",
+		"products": [
+			{
+				"product_name": "Tenable Vulnerability Management",
+				"product_code": "tvm"
+			},
+			{
+				"product_name": "Tenable Web App Scanning",
+				"product_code": "twas"
+			},
+			{
+				"product_name": "Tenable Cloud Security",
+				"product_code": "tcs"
+			},
+			{
+				"product_name": "Tenable Identity Exposure",
+				"product_code": "tie"
+			}
+		]
+	},
+	"Teradata": {
+		"vendor_code": "teradata",
+		"products": [
+			{
+				"product_name": "Teradata RDBMS",
+				"product_code": "rdbms"
+			}
+		]
+	},
+	"ThoughtSpot": {
+		"vendor_code": "thoughtspot",
+		"products": [
+			{
+				"product_name": "ThoughtSpot",
+				"product_code": "ts"
+			}
+		]
+	},
+	"ThreatBlockr": {
+		"vendor_code": "threatblockr",
+		"products": [
+			{
+				"product_name": "ThreatBlockr",
+				"product_code": "t"
+			}
+		]
+	},
+	"Trend Micro": {
+		"vendor_code": "trendmicro",
+		"products": [
+			{
+				"product_name": "Apex One",
+				"product_code": "apexone"
+			},
+			{
+				"product_name": "Trend Micro Email Security",
+				"product_code": "es"
+			},
+			{
+				"product_name": "Deep Discovery Inspector",
+				"product_code": "ddi"
+			},
+			{
+				"product_name": "Deep Security",
+				"product_code": "ds"
+			},
+			{
+				"product_name": "OfficeScan",
+				"product_code": "officescan"
+			},
+			{
+				"product_name": "Trend Micro ScanMail",
+				"product_code": "scanmail"
+			},
+			{
+				"product_name": "TippingPoint NGIPS",
+				"product_code": "tippingpoint"
+			},
+			{
+				"product_name": "Vision One",
+				"product_code": "vone"
+			}
+		]
+	},
+	"Tripwire Enterprise": {
+		"vendor_code": "tripwire",
+		"products": [
+			{
+				"product_name": "Tripwire Enterprise",
+				"product_code": "t"
+			}
+		]
+	},
+	"Tyco": {
+		"vendor_code": "tyco",
+		"products": [
+			{
+				"product_name": "CCURE Building Management System",
+				"product_code": "ccure"
+			}
+		]
+	},
+	"Ubiquiti": {
+		"vendor_code": "ubiquiti",
+		"products": [
+			{
+				"product_name": "Unifi Access Point",
+				"product_code": "uac"
+			}
+		]
+	},
+	"Unix": {
+		"vendor_code": "unix",
+		"products": [
+			{
+				"product_name": "Auditbeat",
+				"product_code": "auditbeat"
+			},
+			{
+				"product_name": "rsyslog",
+				"product_code": "rsyslog"
+			},
+			{
+				"product_name": "Unix Sendmail",
+				"product_code": "sm"
+			},
+			{
+				"product_name": "Unix",
+				"product_code": "unix"
+			},
+			{
+				"product_name": "Unix Auditd",
+				"product_code": "unixauditd"
+			},
+			{
+				"product_name": "Unix dhcpd",
+				"product_code": "unixdhcpd"
+			},
+			{
+				"product_name": "Unix Named",
+				"product_code": "unixnamed"
+			}
+		]
+	},
+	"Varonis": {
+		"vendor_code": "varonis",
+		"products": [
+			{
+				"product_name": "Varonis Data Security Platform",
+				"product_code": "dsp"
+			}
+		]
+	},
+	"VBCorp": {
+		"vendor_code": "vbcorp",
+		"products": [
+			{
+				"product_name": "VBCorp",
+				"product_code": "v"
+			}
+		]
+	},
+	"Vectra": {
+		"vendor_code": "vectra",
+		"products": [
+			{
+				"product_name": "Vectra Cognito Detect",
+				"product_code": "cd"
+			}
+		]
+	},
+	"Virtru": {
+		"vendor_code": "virtru",
+		"products": [
+			{
+				"product_name": "Virtru",
+				"product_code": "v"
+			}
+		]
+	},
+	"Veeam": {
+		"vendor_code": "veeam",
+		"products": [
+			{
+				"product_name": "Veeam",
+				"product_code": "v"
+			}
+		]
+	},
+	"Visma": {
+		"vendor_code": "visma",
+		"products": [
+			{
+				"product_name": "Megaflex",
+				"product_code": "megaflex"
+			}
+		]
+	},
+	"VMware": {
+		"vendor_code": "vmware",
+		"products": [
+			{
+				"product_name": "VMware AirWatch",
+				"product_code": "airwatch"
+			},
+			{
+				"product_name": "Aria",
+				"product_code": "aria"
+			},			
+			{
+				"product_name": "Carbon Black App Control",
+				"product_code": "carbonblackappctrl"
+			},
+			{
+				"product_name": "Carbon Black CES",
+				"product_code": "carbonblack"
+			},
+			{
+				"product_name": "Carbon Black EDR",
+				"product_code": "carbonblackedr"
+			},
+			{
+				"product_name": "VMware ESXi",
+				"product_code": "esxi"
+			},
+			{
+				"product_name": "VMware Horizon",
+				"product_code": "horizon"
+			},
+			{
+				"product_name": "VMware NSX",
+				"product_code": "nsx"
+			},
+			{
+				"product_name": "vCenter",
+				"product_code": "vcenter"
+			},
+			{
+				"product_name": "VMware View",
+				"product_code": "view"
+			},
+			{
+				"product_name": "VMware Identity Manager",
+				"product_code": "idm"
+			},
+			{
+				"product_name": "VMware VeloCloud SD-WAN",
+				"product_code": "vmsdwan"
+			}
+		]
+	},
+	"Vormetric": {
+		"vendor_code": "vormetric",
+		"products": [
+			{
+				"product_name": "Vormetric",
+				"product_code": "v"
+			}
+		]
+	},
+	"Wallix": {
+		"vendor_code": "wallix",
+		"products": [
+			{
+				"product_name": "Wallix Bastion",
+				"product_code": "wbastion"
+			}
+		]
+	},
+	"Watchguard": {
+		"vendor_code": "watchguard",
+		"products": [
+			{
+				"product_name": "Watchguard",
+				"product_code": "w"
+			}
+		]
+	},
+	"Wiz": {
+		"vendor_code": "wiz",
+		"products": [
+			{
+				"product_name": "Wiz",
+				"product_code": "w"
+			}
+		]
+	},
+	"Workday": {
+		"vendor_code": "workday",
+		"products": [
+			{
+				"product_name": "Workday",
+				"product_code": "wd"
+			}
+		]
+	},
+	"xPLAN": {
+		"vendor_code": "xplan",
+		"products": [
+			{
+				"product_name": "xPLAN",
+				"product_code": "x"
+			}
+		]
+	},
+	"XPS": {
+		"vendor_code": "xps",
+		"products": [
+			{
+				"product_name": "XPS",
+				"product_code": "x"
+			}
+		]
+	},
+	"Zeek": {
+		"vendor_code": "zeek",
+		"products": [
+			{
+				"product_name": "Zeek",
+				"product_code": "z"
+			}
+		]
+	},
+	"Zimperium": {
+		"vendor_code": "zimperium",
+		"products": [
+			{
+				"product_name": "Zimperium MTD",
+				"product_code": "mtd"
+			}
+		]
+	},
+	"Zoom": {
+		"vendor_code": "zoom",
+		"products": [
+			{
+				"product_name": "Zoom",
+				"product_code": "z"
+			}
+		]
+	},
+	"Zscaler": {
+		"vendor_code": "zscaler",
+		"products": [
+			{
+				"product_name": "Zscaler Breach Predictor",
+				"product_code": "bp"
+			},
+			{
+				"product_name": "Zscaler Internet Access",
+				"product_code": "ia"
+			},
+			{
+				"product_name": "Zscaler Private Access",
+				"product_code": "pa"
+			},
+			{
+				"product_name": "FW Zscaler Cloud",
+				"product_code": "fwzc"
+			},
+			{
+				"product_name": "Zscaler Deception",
+				"product_code": "deception"
+			}
+		]
+	},
+	"Zyxel Networks": {
+		"vendor_code": "zyxel",
+		"products": [
+			{
+				"product_name": "Zyxel USG FLEX",
+				"product_code": "usgflex"
+			}
+		]
+	},
+	"RedShield": {
+		"vendor_code": "redshield",
+		"products": [
+			{
+				"product_name": "RedShield WAF",
+				"product_code": "rswaf"
+			}
+		]
+	},
+	"Confluent": {
+		"vendor_code": "confluent",
+		"products": [
+			{
+				"product_name": "Confluent Cloud",
+				"product_code": "confluentcloud"
+			}
+		]
+	},
+	"PowerDNS": {
+		"vendor_code": "pdns",
+		"products": [
+			{
+				"product_name": "PowerDNS Recursor",
+				"product_code": "recursor"
+			}
+		]
+	},
+	"Venafi": {
+		"vendor_code": "vfi",
+		"products": [
+			{
+				"product_name": "TLS Protect",
+				"product_code": "tlp"
+			}
+		]
+	},
+	"Checkmarx": {
+		"vendor_code": "checkmarx",
+		"products": [
+			{
+				"product_name": "Checkmarx",
+				"product_code": "checkm"
+			}
+		]
+	},
+	"Saviynt": {
+		"vendor_code": "saviynt",
+		"products": [
+			{
+				"product_name": "Saviynt",
+				"product_code": "savy"
+			}
+		]
+	},
+	"Halcyon": {
+		"vendor_code": "halcyon",
+		"products": [
+			{
+				"product_name": "Halcyon",
+				"product_code": "halcyon"
+			}
+		]
+	},
+	"Fastly": {
+		"vendor_code": "fastly",
+		"products": [
+			{
+				"product_name": "Next-Gen Web Application Firewall",
+				"product_code": "ngwaf"
+			}
+		]
+	},
+	"1password": {
+		"vendor_code": "1password",
+		"products": [
+			{
+				"product_name": "1password",
+				"product_code": "1pwd"
+			}
+		]
+	},
+	"Cyberhaven": {
+		"vendor_code": "cyberhaven",
+		"products": [
+			{
+				"product_name": "Cyberhaven DLP",
+				"product_code": "cyberhdlp"
+			}
+		]
+	},
+	"TXOne Networks": {
+		"vendor_code": "txone",
+		"products": [
+			{
+				"product_name": "StellarProtect",
+				"product_code": "stlrp"
+			},
+			{
+				"product_name": "StellarOne",
+				"product_code": "stlrone"
+			}
+		]
+	},
+	"Swimlane": {
+		"vendor_code": "swimlane",
+		"products": [
+			{
+				"product_name": "Swimlane Turbine",
+				"product_code": "turbine"
+			}
+		]
+	},
+	"ZeroFox": {
+		"vendor_code": "zerofox",
+		"products": [
+			{
+				"product_name": "ZeroFox Protection",
+				"product_code": "zerofoxprotect"
+			}
+		]
+	},
+	"Int64 Software": {
+		"vendor_code": "int64software",
+		"products": [
+			{
+				"product_name": "OVERLAPS",
+				"product_code": "ol"
+			}
+		]
+	},
+	"Zero Networks": {
+		"vendor_code": "zeronetworks",
+		"products": [
+			{
+				"product_name": "Zero Networks",
+				"product_code": "zeronetworks"
+			}
+		]
+	},
+	"Canon": {
+		"vendor_code": "canon",
+		"products": [
+			{
+				"product_name": "imageRUNNER ADVANCE",
+				"product_code": "iradv"
+			}
+		]
+	},
+	"Corelight": {
+		"vendor_code": "corelight",
+		"products": [
+			{
+				"product_name": "Corelight IDS",
+				"product_code": "corelightids"
+			}
+		]
+	},
+	"Hillstone Networks": {
+		"vendor_code": "hillstone",
+		"products": [
+			{
+				"product_name": "Hillstone BDS",
+				"product_code": "hnbds"
+			},
+			{
+				"product_name": "Hillstone Web Application Firewall",
+				"product_code": "hwaf"
+			}
+		]
+	},
+	"Upwind": {
+		"vendor_code": "upwind",
+		"products": [
+			{
+				"product_name": "Upwind",
+				"product_code": "upw"
+			}
+		]
+	}
+}

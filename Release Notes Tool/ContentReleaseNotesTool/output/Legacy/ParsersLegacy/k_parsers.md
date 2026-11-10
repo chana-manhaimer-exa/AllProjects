@@ -1,0 +1,16 @@
+| Old Parser Name              | New-Scale Parser Name                                          |
+| ---------------------------- | -------------------------------------------------------------- |
+| kaspersky-es-alert-1         | kaspersky-endpointsecurity-kv-alert-trigger-success-kes        |
+| kemp-lb-failed-login         | kemp-loadmaster-str-app-authentication-fail-loginfailed        |
+| kemp-lb-system-info          | kemp-loadmaster-str-app-notification-automatedbackup           |
+| kemp-lb-system-info-2        | kemp-loadmaster-str-app-activity-l4d                           |
+| kemp-lb-system-info-3        | kemp-loadmaster-str-app-notification-smtpalertsuccessfullysent |
+| kerberos-as                  | unix-unix-str-endpoint-login-as-req-krb                        |
+| kerberos-tgs                 | unix-unix-str-endpoint-login-success-tgs-reg-krb               |
+| kiteworks-account-lockout-1  | accellion-kw-kv-user-lock-success-useraccountlocked            |
+| kiteworks-account-unlocked-1 | accellion-kw-kv-user-unlock-success-reactivateuser             |
+| kiteworks-account-unlocked-2 | accellion-kw-kv-user-unlock-success-useraccountunlocked        |
+| kiteworks-app-activity-1     | accellion-kw-kv-group-member-add-adduser                       |
+| kiteworks-failed-app-login-1 | accellion-kw-kv-app-login-fail-userlogin                       |
+| kiteworks-logout-1           | accellion-kw-kv-app-logout-success-userloggedout               |
+| kiteworks-password-change-1  | accellion-kw-kv-user-password-modify-success-resetpassword     |

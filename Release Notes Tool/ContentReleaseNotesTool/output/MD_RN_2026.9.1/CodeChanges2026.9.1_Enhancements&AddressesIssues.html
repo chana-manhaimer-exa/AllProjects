@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Enhancements & Addressed Issues — 2026.9.1</title>
+<style>
+  body { font-family: sans-serif; margin: 2em; }
+  h1, h2, h3 { color: #2e7d32; }
+  ul { margin: 0.5em 0 1em 1.5em; }
+  table { border-collapse: collapse; width: 100%; margin-top: 0.5em; }
+  th, td { border: 1px solid #ddd; padding: 6px 10px; text-align: left; vertical-align: top; }
+  th { background: #f5f5f5; }
+  tr:nth-child(even) { background: #fafafa; }
+  details { margin-top: 1.2em; }
+  details > summary { font-size: 1.4em; font-weight: bold; color: #2e7d32; cursor: pointer; user-select: none; list-style: none; padding: 0.2em 0; }
+  details > summary::-webkit-details-marker { display: none; }
+  details > summary::before { content: "\25B6\00A0"; font-size: 0.75em; }
+  details[open] > summary::before { content: "\25BC\00A0"; font-size: 0.75em; }
+</style>
+</head>
+<body>
+<h1>Content Package 2026.9.1</h1>
+<p>These release notes contain information about content package 2026.9.1, released on 16 Sep 2026.</p>
+<h2>Enhancements</h2><ul>
+<li>Added new parsers for CrowdStrike Falcon logs: crowdstrike-falcon-json-app-login-streamstarted-auditlogv3, crowdstrike-falcon-json-app-logout-streamstopped-auditlogv3, crowdstrike-falcon-json-app-login-apirequest-logged.</li>
+<li>Updated varonis-dsp-json-alert-trigger-success-varonisdacloud parser conditions to parse broader category of Varonis DA alert logs.</li>
+<li>Added new parser for Cisco Duo logs: cisco-duo-json-app-activity-success-mgmtsyssync</li>
+<li>Updated network as platform for the event_builders with subjects: http &amp; network</li>
+<li>Added new parsers for Microsoft Azure Monitor logs: microsoft-azuremon-csv-http-request-session-frontdooraccesslog, microsoft-azuremon-csv-http-request-success-frontdoorwaf, microsoft-azuremon-csv-app-notification-success-frontdoorhealthprobe.</li>
+<li>Added new parsers for Aqua Security Workload Protection: aquasecurity-wp-json-app-activity-success-scan, aquasecurity-wp-json-app-activity-success-policyfailure, aquasecurity-wp-json-alert-trigger-success-alert, aquasecurity-wp-json-app-activity-success-catchall</li>
+<li>Added new parser for Microsoft Azure Synapse Analytics logs: microsoft-azuresynapseanalytics-csv-app-activity-sqlsecurityauditevents</li>
+<li>Added new parsers for One Identity Safeguard logs.</li>
+<li>Updated CIM field descriptions.</li>
+<li>Updated pingidentity-pi-json-app-activity-apipingone parser conditions to parse broader category of Ping Identity logs.</li>
+<li>Added new parser for Extrahop Reveal(x) logs: extrahop-revealx-json-alert-trigger-success-detection-1</li>
+<li>Updated microsoft-evsecurity-kv-endpoint-login-fail-4625-4, microsoft-evsecurity-kv-endpoint-spanish-4624 parser conditions to parse broader category of Microsoft Event Viewer - Security logs. Added new parsers for Microsoft Event Viewer - Security logs: microsoft-evsecurity-kv-user-privilege-assign-success-4672-1, microsoft-evsecurity-kv-user-switch-success-4648-6, microsoft-evsecurity-kv-group-modify-success-4735-1, microsoft-evsecurity-kv-rdp-traffic-success-4778-2</li>
+<li>Added Extract uri_path, uri_query and uri from url field using extractUriPath(),extractUriQuery() and extractUri() function in event enricher.</li>
+<li>Added new parsers for VMware vCenter logs.</li>
+<li>Updated event-builder for parser: microsoft-o365-json-email-send-receive-internentmessageid</li>
+<li>Activity Types Removed: case-modify, case-create, case-delete, case-read, detection_group_rule-create, detection_group_rule-modify, detection_group_rule-delete, detection_group_rule-enable, detection_group_rule-disable, parser-create, parser-delete, parser-modify, parser-import, parser-enable, parser-disable, log-search, log-download, log-export, log_source-remove, log_source-enable, log_source-disable, log_source-add, log_source-modify, log_account-create, log_account-delete, log_account-modify, context_table-create, context_table-modify, context_table-delete, site_collector-create, site_collector-delete, site_collector-enable, site_collector-disable, site_collector-modify, collector-create, collector-modify, collector-delete, collector-enable, collector-disable, template-delete, template-create, template-modify, visualization-create, visualization-delete, visualization-download, visualization-export, visualization-schedule, visualization-publish, visualization-modify, dashboard-create, dashboard-delete, dashboard-download, dashboard-export, dashboard-schedule, dashboard-modify, dashboard-publish. Subjects Removed: detection_group_rule, site_collector, collector, template, log_account, context_table, log_source, parser, dashboard, visualization.</li>
+<li>Reclassified categories for multiple vendors and products.</li>
+</ul>
+<h2>Addressed Issues</h2><ul>
+<li>Updated additional_info field and added dest_host, count field extractions for parser qualys-q-json-app-activity-success-scan.</li>
+<li>Updated additional_info field extraction for parser: sophos-ep-json-alert-trigger-success-applicationblocked</li>
+<li>Updated conditions for Cisco parsers: cisco-websec-str-app-activity-info and cisco-websec-str-app-activity-warning.</li>
+<li>Added new parsers microsoft-mssql-xml-database-activity-success-dbactivity</li>
+<li>Updated time field extraction for parser: mcafee-wg-str-http-session-denied.</li>
+<li>Updated src_ip field extraction for parser: atlassian-atlassian-json-app-activity-success</li>
+<li>Added dest_user, user, dest_domain, domain fields extraction for parser: sentinelone-singularityp-json-process-create-success-process.</li>
+<li>Updated email_address, dest_email_address, risk_score, bytes_in, rule_count, new_ip, dest_ip, src_email_address, bytes,risk_level, bytes_out, src_ip, origin_ip, src_port and packets field extractions for Netskope Security Cloud logs.</li>
+<li>Updated alert_description and alert_name field extractions for Netskope Security Cloud logs.</li>
+<li>Added new parsers for Palo Alto NGFW logs.</li>
+<li>Updated parser conditions for Microsoft 365 Defender logs.</li>
+<li>Update the time, additional_info field extraction for parser amazon-awsshield-mix-alert-trigger-success-attackmitigation</li>
+<li>Added new timeformat for parser: pingidentity-pi-json-app-authentication-fail-invalidpasscode.</li>
+<li>Added new Event Builder condition for parser microsoft-o365-cef-user-password-reset-selfservice</li>
+<li>Updated operation, bucket_name, http_response_code, src_ip and auth_type field extractions for parser: amazon-s3-str-http-session-success-accesslog</li>
+<li>Updated resource_path, object, operation_type, authorization_scope, identifier field extraction for parser: github-g-json-app-activity-success-apirequest</li>
+<li>Updated process_path, process_dir, process_command_line and path field extractions for parser: microsoft-evsecurity-mix-process-create-success-created.</li>
+<li>Updated failure_reason, policy_name and host field extraction for parser: azure-azuremfa-json-app-login-success-mfarequirementsatisfied.</li>
+<li>Updated Event Builder conditions that utilize the http_response_code field.</li>
+<li>Updated json field extractions and parser matching conditions for parser: google-gcscc-json-alert-trigger-successs-notificationconfig</li>
+<li>Updated dest_email_address, dest_email_domain field extractions for parser: cisco-ie-str-email-success-dcid.</li>
+<li>Added file_ext field extraction for parser: proofpoint-tap-sk4-email-receive-threatdetected. Updated email_attachments field extraction for parser: proofpoint-tap-sk4-email-receive-threatdetected</li>
+<li>Updated host field extraction for parser: unix-unix-kv-process-create-success-command.</li>
+<li>Updated parser's condition for microsoft-azurefw-json-dns-request-success-azfwdnsquery , microsoft-azurefw-json-network-session-azfwapplicationrule and microsoft-azurefw-json-network-session-azfwnetworkrule parser.</li>
+<li>Updated bucket_arn field extraction for Amazon AWS CloudTrail parsers.</li>
+<li>Updated threat_id field extraction for parser: pan-ngfw-csv-http-session-9999</li>
+<li>Updated host field extraction for Microsoft parsers with syslog-format logs.</li>
+<li>Updated Dnsmasq parsers: barracuda-waf-str-dns-request-dnsmasqquery, dnsmasq-dnsmasq-str-dns-response-dnsmasqcached.</li>
+<li>Updated aws_account field extraction for parser: amazon-awscloudtrail-json-role-assume-success-assumerole.</li>
+<li>Added rule field extraction for parser: aws-waf-json-http-session-httprequest. Added json support for parser aws-waf-json-http-session-httprequest.</li>
+<li>Updated file_name, file_type field extractions for parser: anthropic-claude-json-ai_agent-request-success-messages.</li>
+<li>Updated alert_type, domain, category field extraction for parser - checkpoint-hs-json-alert-trigger-success-event-security.</li>
+<li>Added the new parser for VMware vCenter logs: vmware-vcenter-str-list-read-sucess-ssoadminserver.</li>
+<li>Added new event builders for parsers: unix-unix-kv-process-create-success-execve &amp; unix-unix-kv-process-create-success-exe</li>
+<li>Added a new parser for vendor Upwind: upwind-upw-json-alert-trigger-success-apisecurity, upwind-upw-json-alert-trigger-success-cloudlogs, upwind-upw-json-alert-trigger-success-fileevents, upwind-upw-json-alert-trigger-success-network, upwind-upw-json-alert-trigger-success-process</li>
+<li>Moved zeek-zeek-str-network-traffic-syslog and zeek-z-str-email-success-smtplog to lower precedence.</li>
+<li>Updated host field extraction for Microsoft Event Viewer - Security parsers.</li>
+<li>Updated parser condition for parser microsoft-o365-json-mail-access-mailitemsaccessed.</li>
+<li>Updated actOnCondition for rules Fact-PC-Chmod-Setgid &amp; Fact-PC-Chmod-Setuid.</li>
+</ul>
+</body>
+</html>

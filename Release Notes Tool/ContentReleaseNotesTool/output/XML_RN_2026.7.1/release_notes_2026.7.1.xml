@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+<title>Content Package 2026.7.1</title>
+<section><title>Content Package 2026.7.1</title>
+<para>These release notes contain information about content package 2026.7.1, released on 15 Jul 2026.</para>
+<para><emphasis role='bold'>Enhancements</emphasis></para>
+<itemizedlist>
+<listitem><para>Updated parser fortinet-fortiweb-kv-alert-trigger-success-attack condition to parse unparsed logs.</para></listitem>
+<listitem><para>Updated json path for parser template m365-activity. Added session_id field extraction for Microsoft 365 parsers.</para></listitem>
+<listitem><para>Updated src_host field extraction for parser: microsoft-nps-xml-radius-traffic-fail-6273, microsoft-nps-xml-radius-traffic-fail-6274, microsoft-evsecurity-xml-endpoint-authentication-4774, microsoft-evsecurity-kv-endpoint-authentication-4774.</para></listitem>
+<listitem><para>Added new parser for Microsoft Azure AD Activity logs : microsoft-azureadactivity-json-app-activity-success-aadgraphactivity.</para></listitem>
+<listitem><para>Updated operation field extraction for parser: microsoft-o365-json-app-modify-success-addowner. Updated target_domain field extraction for parser: microsoft-o365-json-share-link-member-add-success-workload. Updated event_type mapping for parser: microsoft-o365-sk4-app-addowner. Fixed native JSON fields extraction issue for parser: microsoft-o365-json-user-permission-modify-success-addapproleassignment, microsoft-o365-json-user-permission-modify-success-adddelegatedpermission.</para></listitem>
+<listitem><para>Added new parser for CrowdStrike Falcon logs: crowdstrike-falcon-json-alert-trigger-success-cloudproviderfinding.</para></listitem>
+<listitem><para>Added new parser for Proofpoint Email Protection logs: proofpoint-tappod-json-email-receive-success-inbound.</para></listitem>
+<listitem><para>Added resource_path, resource_type, operation_details, identifier and http_response_code fields for github-g-json-app-activity-success-apirequest parser.</para></listitem>
+<listitem><para>Added new parsers for Hillstone Web Application Firewall logs: hillstone-hwaf-json-http-traffic-policy, hillstone-hwaf-str-http-traffic-wafwebevent and hillstone-hwaf-str-network-traffic-eventnetarp.</para></listitem>
+<listitem><para>Added new parser hillstone-hnbds-str-alert-trigger-success-threatsecurity to  support  Hillstone BDS  logs.</para></listitem>
+<listitem><para>Added 24 new Microsoft EVSecurity JSON parsers covering user/group management, policy changes, network session failures, registry modifications, scheduled tasks, services, endpoint activity, and audit events. Enhanced 5 existing parsers (Event Code: 4946, 4723, 4634, 4625, and 5152) to improve event parsing accuracy, normalization, and field extraction.</para></listitem>
+<listitem><para>Update conditions and field extraction for parser amazon-inspector-json-alert-trigger-success-inspector.</para></listitem>
+<listitem><para>Added new parser for Amazon AWS CloudTrail logs: amazon-awscloudtrail-json-app-activity-success-redshift.</para></listitem>
+<listitem><para>Added new parser for Salesforce logs: salesforce-sf-json-app-activity-success-apianomalyeventstore.</para></listitem>
+<listitem><para>Mitre Mapping updated for rules using mitre tactic Defense Evasion and mapped them to Stealth and  Defense Impairment as applicable.</para></listitem>
+<listitem><para>Updated Category for multiple Products from Other category to a better fitting specific category. This will lead to better Outcomes Navigator coverage analysis.</para></listitem>
+<listitem><para>Updated additional_info field extraction for parsers - crowdstrike-falcon-json-process-create-success-processrollup, crowdstrike-falcon-json-process-create-success-processroll, crowdstrike-falcon-json-process-create-success-syntheticprocessroll, crowdstrike-falcon-json-process-create-processrollup2stats and crowdstrike-falcon-json-process-create-syntheticprocessrollup2.</para></listitem>
+<listitem><para>Added permissions field extraction for parsers github-g-json-app-activity-success-action and github-g-json-user-invite-success-org Added permissions field extraction for template json-github-actions-1.</para></listitem>
+<listitem><para>Added github-user_type enricher and added user_type field for GitHub parsers.</para></listitem>
+<listitem><para>Added new parser for Cybereason logs: cybereason-cr-json-alert-trigger-success-malops.</para></listitem>
+<listitem><para>Added new parsers for Netskope Events and Alerts logs: netskope-sc-str-events-alerts-cloudapp, netskope-sc-str-events-alerts-privateapp, netskope-sc-str-events-alerts-nonweb, netskope-sc-str-events-alerts-nonweb-2, netskope-sc-str-events-alerts-web, netskope-sc-str-events-alerts-epdlp.</para></listitem>
+<listitem><para>Updated added_user field for amazon-awscloudtrail-json-image-modify-imageattribute parser.</para></listitem>
+<listitem><para>Enhanced parser and event builder logic across Cisco CUCM, Cisco FMC, Cisco IE, Dell Security, HP Aruba, ArubaOS, and Microsoft Azure parsers to improve event classification, detection accuracy, and log processing consistency. Expanded field extraction and event coverage by adding support for new CyberArk PAM log fields, extracting user and email attributes in Aruba CPM authentication events.</para></listitem>
+<listitem><para>Added 18 new Suricata JSON parsers to expand monitoring coverage across DNS, HTTP, FTP, SMTP, SSH, RDP, LDAP, IKE/VPN, QUIC, SNMP, DCERPC, SMB, Kerberos, TFTP, anomaly detection, and statistics events.</para></listitem>
+<listitem><para>Updated the Microsoft Windows Event codes 4697, 7045 service-create parsers to capture service account details as dest_user and dest_domain Updated activity-type from service-create to service-start for event code 5478.</para></listitem>
+</itemizedlist>
+<para><emphasis role='bold'>Addressed Issues</emphasis></para>
+<itemizedlist>
+<listitem><para>Updated event builder for parser dell-sw-kv-alert-trigger-success-security.</para></listitem>
+<listitem><para>Updated event builder conditions for parser: zscaler-ia-csv-network-traffic-ipsecnetworksecurity.</para></listitem>
+<listitem><para>Added alternative timestamp to microsoft parsers and templates. Parsers: microsoft-defenderep-json-alert-trigger-success-dlprulematch-1, microsoft-o365-cef-alert-trigger-success-alertdetected, microsoft-o365-sk4-app-activity-success-movetofolder, microsoft-windows-cef-process-create-success-process, microsoft-o365-mix-file-success-workload, microsoft-o365-sk4-app-file-operationworkload, microsoft-o365-json-email-send-receive-internentmessageid, microsoft-o365-sk4-alert-trigger-success-malwareindata, microsoft-o365-sk4-alert-trigger-success-urlclicked, microsoft-azureadip-cef-alert-trigger-success-logininfected. Templates: cef-microsoft-o365-app-activity-1, o365-file-app-activity, cef-microsoft-o365-app-activity.</para></listitem>
+<listitem><para>Updated dest_ip field for trendmicro-tippingpoint-cef-alert-trigger-success-unityone parser .</para></listitem>
+<listitem><para>Added src_host field extraction for parser: microsoft-evnps-xml-radius-traffic-success-6272.</para></listitem>
+<listitem><para>Updated host field extraction in parser - microsoft-evsecurity-kv-endpoint-unlock-success-4801-5.</para></listitem>
+<listitem><para>Updated event builder of parser catonetworks-cc-json-vpn-http-success-connectivity.</para></listitem>
+<listitem><para>Updated user field extraction for parser: imperva-securesphere-leef-alert-trigger-success-alertdescription and microsoft-o365-sk4-app-file-operationworkload.</para></listitem>
+<listitem><para>Added app, session_id, hash_md5, dest_country, web_domain,confidence_level, category, device_type, dest_country, src_ip and email_address fields for netskope-sc-json-alert-trigger-success-alertname and netskope-sc-json-app-activity-success-share parser .</para></listitem>
+<listitem><para>Updated failure_reason field extraction for parser microsoft-azuread-cef-app-login-clientappused.</para></listitem>
+<listitem><para>Added new parser azure-azuread-json-endpoint-domain-join-success-azureadjoin. Updated event builder for azure-azuread-json-app-activity-useractivitydisplayname and microsoft-o365-sk4-app-file-operationworkload.</para></listitem>
+<listitem><para>Updated the email_address field extraction for the parser netskope-sc-sk4-alert-trigger-success-actdetect.</para></listitem>
+<listitem><para>Added support for new activity_type mappings (registrykeyrenamed, registryvaluedeleted, registrykeydeleted, registrykeycreated, and registryvalueset) in the microsoft-defenderep-sk4-registry-modify-advancedhunting parser.</para></listitem>
+<listitem><para>Added src_file_dir and bytes field extractions for parser - microsoft-o365-cef-app-file-success-filesyncuploadedfull.</para></listitem>
+<listitem><para>Updated Event type and added fields into parser fortinet-fortigate-kv-network-app-fortigate.</para></listitem>
+<listitem><para>Updated process_path, process_dir, process_name, parent_process_path, parent_process_dir, parent_process_name field extractions for parser: microsoft-evsecurity-xml-process-create-success-4688.</para></listitem>
+<listitem><para>Added host field extraction for parser microsoft-evsecurity-kv-ds-object-move-success-serviceobject.</para></listitem>
+<listitem><para>Added dest_user field for parser: unix-unix-str-group-member-add-success-usermod , unix-unix-str-group-member-add-success-usermod-1, unix-unix-str-user-modify-usermod.</para></listitem>
+<listitem><para>Added network_app field extraction for parser: checkpoint-ngfw-kv-network-traffic-success-accept-1 and Updated field extraction for app to network_app for parser: checkpoint-ngfw-kv-network-traffic-fail-reject-1.</para></listitem>
+<listitem><para>Updated parser name to exabeam-observra-json-ai-agent-activity with new parser conditions and set Product/Platform to Observra.</para></listitem>
+<listitem><para>Updated login_type_text, session_id for parser: microsoft-o365-cef-app-login-fail-userloginfailed.</para></listitem>
+<listitem><para>Removed src_file_* mapping from parser microsoft-o365-sk4-file-write-success-filemodified. Added file_name, file_path, file_dir, file_ext field extractions for parser microsoft-o365-sk4-file-write-success-filemodified.</para></listitem>
+<listitem><para>Updated the regex to extract session_id, login_type_text for parser: microsoft-o365-cef-app-login-success-user.</para></listitem>
+<listitem><para>Updated parser conditions and regex extractions for dest_domain, domain, dest_login_id, login_id, dest_user_sid, user_sid, auth_process, auth_package, src_host_windows, src_host, subject_sid and src_user in parser - microsoft-evsecurity-kv-endpoint-success-4624-1.</para></listitem>
+<listitem><para>Updated dest_ip, dest_port, categories, method, protocol, url, web_domain, uri_path, uri_query, mime, bytes_in, bytes_out and user_agent field extractions for parser: mcafee-wg-kv-http-session-success-mwgaccess3.</para></listitem>
+<listitem><para>Added file_path, file_name, file_ext, file_dir, bytes, email_address, email_domain field extractions for parser: microsoft-o365-sk4-file-write-success-fileuploaded.</para></listitem>
+<listitem><para>Updated dest_ip field extraction for parser: pan-ngfw-csv-http-session-9999, postgresql-p-str-database-query-success-statement, postgresql-p-str-database-activity-log, unix-unix-str-endpoint-login-sshdconnectionfrom.</para></listitem>
+<listitem><para>Updated the host and server field extraction for Symantec parsers.</para></listitem>
+<listitem><para>Updated time regex and respective TimeFormat in parser: snowflake-s-sk4-database-query-success-queryhistory.</para></listitem>
+<listitem><para>Added rule, folder_name and risk_score field extractions for parser: proofpoint-tap-json-email-receive-fail-threat , proofpoint-tap-json-email-receive-fail-threatinsight.</para></listitem>
+<listitem><para>Updated activity type from email-send to alert-trigger:success and added log_time and dest_ip field extractions for parser: proofpoint-tap-json-email-receive-fail-threatinsight.</para></listitem>
+<listitem><para>Added alert_name, alert_type field extraction for parser: pan-cortex-json-alert-trigger-success-xdr.</para></listitem>
+<listitem><para>Updated time field extraction and corresponding time formats for parsers: microsoft-evsystem-xml-endpoint-notification-success-25, microsoft-azuremon-json-app-activity-operationname, amazon-awscloudtrail-json-app-activity-awsapicall, amazon-awscloudtrail-json-file-write-putobject, amazon-awscloudtrail-json-file-read-getobject, confluent-confluentcloud-json-app-activity-appactivity, microsoft-evsecurity-xml-driver-load-fail-5038.</para></listitem>
+<listitem><para>Updated parsers for Netskope Security Cloud WebTx logs.</para></listitem>
+</itemizedlist>
+<para>Click the following link for the complete package release notes: <link xlink:href="https://github.com/ExabeamLabs/Content-Library-CIM2/blob/2026.7.1/Release%20Notes/MD_RN_2026.7.1/release_notes_2026.7.1.md">2026.7.1 Content Package Release Notes</link></para>
+</section>
+</article>

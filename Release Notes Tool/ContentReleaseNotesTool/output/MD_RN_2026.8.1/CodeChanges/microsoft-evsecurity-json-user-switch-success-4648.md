@@ -1,0 +1,6 @@
+# Code Changes for microsoft-evsecurity-json-user-switch-success-4648 (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| edit_regex_field | dest_host | ['"(Hostname|MachineName|Computer)":"({dest_host}({host}[\w\-.]*))', '"TargetServerName":"(localhost|({dest_host}[\w\-.]*))', 'exa_regex="(Hostname|MachineName|Computer)":"({dest_host}({host}[\w\-.]*))'] | ['"(Hostname|MachineName|Computer)":"(localhost|({dest_host}({host}[\w\-.]*)))', '"TargetServerName":"(localhost|({dest_host}[\w\-.]*))', 'exa_regex="(Hostname|MachineName|Computer)":"(localhost|({dest_host}({host}[\w\-.]*)))', 'exa_regex=TargetServerName":"(localhost|({dest_host}[\w\-.]*))'] |
+| edit_regex_field | host | ['"(Hostname|MachineName|Computer)":"({dest_host}({host}[\w\-.]*))', 'exa_regex="(Hostname|MachineName|Computer)":"({dest_host}({host}[\w\-.]*))'] | ['"(Hostname|MachineName|Computer)":"(localhost|({dest_host}({host}[\w\-.]*)))', 'exa_regex="(Hostname|MachineName|Computer)":"(localhost|({dest_host}({host}[\w\-.]*)))'] |

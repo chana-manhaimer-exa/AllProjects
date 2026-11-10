@@ -1,0 +1,6 @@
+# Code Changes for exabeam-aa-kv-rule-trigger-success-anomaly-1 (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| changed_parsed_fields | N/A | ['alert_source', 'asset_labels', 'base_risk_score', 'container_id', 'dest_host', 'dest_ip', 'dest_port', 'domain', 'event_category', 'event_id', 'event_time', 'host', 'incident_creation_time', 'log_time', 'mitre_labels', 'original_risk_score', 'rule', 'rule_description', 'rule_id', 'rule_reason', 'rule_usecases', 'session_id', 'src_host', 'src_ip', 'src_port', 'time', 'trigger_entity', 'trigger_type', 'url', 'user'] | ['alert_source', 'asset_labels', 'base_risk_score', 'container_id', 'dest_host', 'dest_ip', 'dest_port', 'domain', 'event_category', 'event_id', 'event_time', 'host', 'incident_creation_time', 'log_time', 'mitre_labels', 'original_risk_score', 'rule', 'rule_description', 'rule_id', 'rule_reason', 'rule_usecases', 'session_id', 'site_id', 'src_host', 'src_ip', 'src_port', 'time', 'trigger_entity', 'trigger_type', 'url', 'user'] |
+| added_regex_field | site_id | [] | ['\ssite_id="({site_id}[^"]+)"'] |

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+si
+<title>Content Package 2026.01</title>
+<section><title>Content Package 2026.01</title>
+<para>These release notes contain information about content package 2026.01, released on 01 Jan 2026.</para>
+<para><emphasis role='bold'>Enhancements</emphasis></para>
+<itemizedlist>
+<listitem><para>Fixed existing parser condition radware-waf-json-alert-trigger-security-eaaf</para></listitem>
+<listitem><para>Updated Windows 4720 parsers to extract dest_host from the computer field.</para></listitem>
+<listitem><para>Added new parser microsoft-evntlm-xml-endpoint-authentication-fail-8004 to support unparsed logs.</para></listitem>
+<listitem><para>Enhanced logic for host to ip enrichment.</para></listitem>
+<listitem><para>Updated product values for Windows parsers based on channel information and alignment with other parsers for the same event code. Event IDs: 1149, 4105, 4616, 4622, 4699, 4727, 4755, 4760, 4799, 4928, 5142, 6272, 6273, 7040, 7045, 8001, 8015.</para></listitem>
+<listitem><para>* BEAM Release Notes Summary * Count of Beam Features newly added: 3 Count of Beam Features removed: 2 Count of Beam Features Modified: 429 Final number of Features: 657 Final number of rarity adjusters: 75 Final number of families: 76 Total Beam Features to be Released: 732 * Content too large for this field * (158,002 characters) * Complete details available as Excel workbook with multiple sheets: * [Download Complete Details]( https://exabeam.atlassian.net/secure/attachment/394821/BEAM_Release_Notes_ENG-85539_20260107_111232.xlsx ) * Attachment: * BEAM_Release_Notes_ENG-85539_20260107_111232.xlsx Click the attachment link above or download from the attachments section below. Excel format with separate sheets for each table - no extra empty columns! * Excel Sheets Included: * Summary - Key metrics and counts Added Features - New features details Removed Features - Removed features details Modified Features - Changed features with old/new values</para></listitem>
+<listitem><para>Added raw logs for parsers that were missing in Sake.</para></listitem>
+<listitem><para>Added raw logs for parsers that were missing in Sake.</para></listitem>
+<listitem><para>Removed (?i) from non-json parser's.</para></listitem>
+<listitem><para>Standardize the query to replace trigger.scope_value with specific entity_id values * Attachment: * BEAM_Release_Notes_ENG-85165_20260106_045956.xlsx for more details</para></listitem>
+<listitem><para>Created new parser dragos-dragosp-cef-app-notification-success for Dragos platform logs.</para></listitem>
+<listitem><para>Added new parsers cisco-fmc-kv-app-activity-logtypecatchall-1 &amp; cisco-fmc-kv-app-activity-logtypecatchall for cisco FMC product</para></listitem>
+<listitem><para>Added a new parser symantec-endpointprotection-cef-alert-trigger-success-sedr support for Symantec SEDR</para></listitem>
+<listitem><para>Added new parser cloudflare-cloudflareaudit-json-app-activity-auditlog</para></listitem>
+<listitem><para>Added new parser for Cisco Secure Network Analytics logs: cisco-securenwanalytics-kv-alert-trigger-success-stealthwatch-1</para></listitem>
+<listitem><para>Updated parser oracle-oci-json-app-activity-auditlogevent condition to match broader category of logs.</para></listitem>
+<listitem><para>Updated existing parser conditions and also added new parsers microsoft-iis-str-http-request-headotherports, microsoft-iis-str-http-request-getotherports  &amp; microsoft-iis-str-http-request-postotherports</para></listitem>
+<listitem><para>Reviewed and standardized the query definitions for numeric beam features.</para></listitem>
+<listitem><para>Added new parsers for Salesforce logs: salesforce-sf-json-app-login-loginattempted, salesforce-sf-json-app-activity-success-operation, salesforce-sf-json-app-logout-success-logout</para></listitem>
+<listitem><para>Developed new parser for Absolute Security logs</para></listitem>
+<listitem><para>Added new parser humansecurity-botdefender-json-app-notification-webactivity</para></listitem>
+<listitem><para>Added new parser f5-bigip-kv-configuration-modify-audit-1</para></listitem>
+<listitem><para>Add new parser 'trendmicro-vone-json-app-activity-success-audit' and EB condition</para></listitem>
+<listitem><para>* BEAM Release Notes Summary * Count of Beam Features newly added: 0 Count of Beam Features removed: 1 Count of Beam Features Modified: 60 Final number of Features: 656 Final number of rarity adjusters: 74 Final number of families: 76 Total Beam Features to be Released: 730 * Content too large for this field * (35,463 characters) * Full detailed release notes available as PDF attachment: * [Download Complete Details]( https://exabeam.atlassian.net/secure/attachment/394102/BEAM_Release_Notes_ENG-83928_20251224_020457.pdf ) * Attachment: * BEAM_Release_Notes_ENG-83928_20251224_020457.pdf Click the attachment link above or download from the attachments section below. PDF document - professional format with statistics and detailed tables</para></listitem>
+<listitem><para>Updated EB condition for parsers, pan-ngfw-csv-network-traffic-success-end pan-ngfw-cef-network-traffic-success-end pan-ngfw-cef-network-traffic-fail-deny pan-ngfw-cef-network-traffic-fail-drop pan-ngfw-csv-network-traffic-success-allow pan-ngfw-csv-network-traffic-fail-panorama pan-ngfw-csv-network-traffic-fail-tcp pan-ngfw-csv-network-traffic-fail-drop pan-ngfw-str-network-traffic-fail-trafficdrop pan-ngfw-str-network-traffic-success-trafficallow pan-ngfw-leef-network-traffic-success-allow pan-ngfw-cef-network-traffic-starttraffic pan-prismaaccess-leef-network-traffic-fail-deny pan-prismaaccess-leef-network-traffic-fail-drop pan-ngfw-kv-network-traffic-fail-drop pan-ngfw-kv-network-traffic-success-end pan-prismaaccess-leef-network-traffic-success-end pan-gp-leef-network-traffic-success-allow pan-ngfw-json-network-traffic-fail-actiondrop pan-ngfw-json-network-traffic-fail-deny-4 pan-ngfw-json-network-traffic-fail-deny-1 pan-ngfw-json-network-traffic-fail-drop pan-ngfw-json-network-traffic-fail-deny pan-ngfw-json-network-traffic-success-allow pan-ngfw-leef-network-traffic-fail-drop pan-ngfw-leef-network-traffic-fail-deny-1 pan-ngfw-leef-network-traffic-fail-deny</para></listitem>
+<listitem><para>Created new parser wallix-wbastion-kv-process-completed for Wallix Bastion logs. Updated the parser conditions and regex for parser f5-bigipasm-str-app-notification-infologger</para></listitem>
+</itemizedlist>
+<para><emphasis role='bold'>Addressed Issues</emphasis></para>
+<itemizedlist>
+<listitem><para>Updated Okta event builders to classify ABANDONED results as failures for app-authentication and app-login events with the operation user.authentication.auth_via_mfa. Parsers: okta-amfa-mix-app-login-success-securitycontext, okta-amfa-cef-app-login-success-userauthverify, okta-amfa-sk4-app-appactivity and okta-amfa-csv-app-login-success-securitycontext.</para></listitem>
+<listitem><para>Enhanced the regex extracting host field for below unix parsers unix-unix-str-scheduled-task-start-anacron, unix-unix-str-scheduled-task-create-success-cmd, unix-unix-str-endpoint-login-success-startedsession, unix-unix-str-endpoint-notification-kernel, unix-unix-str-endpoint-activity-anacron, unix-unix-str-endpoint-activity-sshd, unix-unix-str-network-notification-success-networkmanager, unix-unix-str-scheduled-task-start-anacronjob, unix-unix-str-endpoint-activity-systemd, unix-unix-str-endpoint-activity-system, unix-unix-str-endpoint-activity-crond, unix-unix-str-endpoint-authentication-sshdnotreceiveid, unix-unix-str-endpoint-logout-sshddisconnected, unix-unix-str-endpoint-logout-sshdreceiveddisconnect, unix-unix-mix-ssh-traffic-success-ssh2accepted, unix-unix-str-endpoint-notification-success-systemd, unix-ad-str-endpoint-activity-auditd</para></listitem>
+<listitem><para>Updated user and email_address field extractions for parser: pingidentity-pi-json-app-login-success-ssoidp</para></listitem>
+<listitem><para>Added field extraction for url in multiple Netskope parsers.</para></listitem>
+<listitem><para>Fixed event builder for parser okta-amfa-mix-app-login-success-securitycontext to create as app-authentication:success/fail</para></listitem>
+<listitem><para>Fix event builder conditions of the parser aimsecurity-aisecurity-json-ai-agent-request-aimsecurity to map the correct activity type</para></listitem>
+<listitem><para>Updated host field extractions for template: postgresql-parser-str-1 and postgresql-parser-str Updated host field extractions for parser : postgresql-p-str-database-query-success-statement and postgresql-p-csv-database-login-success-authentication</para></listitem>
+<listitem><para>Updated src_location regex for parsers pan-ngfw-mix-alert-trigger-success-spywarealert, pan-ngfw-csv-alert-trigger-success-scan and pan-ngfw-csv-http-session-9999</para></listitem>
+<listitem><para>Added user regex to parse correct user field for pan-ngfw-json-alert-trigger-success-spyware parser.</para></listitem>
+<listitem><para>Udated the priority of parser microsoft-o365-sk4-app-activity-success-forwardto Enhanced the field extraction for parser microsoft-o365-sk4-app-activity-success-forwardto</para></listitem>
+<listitem><para>Updated mitre techniques for beam features. Removed the mitre block for features where the mitre was inconsistent.</para></listitem>
+<listitem><para>Updated precedence for user &amp; email_address extraction for parser microsoft-365defender-json-alert-trigger-success-publish</para></listitem>
+<listitem><para>Updated user parsing regexes in Windows parsers for Event IDs 4720, 5137, and 624.</para></listitem>
+<listitem><para>Updated activity type from scheduled_task-create:success to scheduled_task-trigger:success in parser: vmware-vcenter-str-scheduled-task-create-success-cmd.</para></listitem>
+<listitem><para>Updated dest_country field regex for pan-ngfw-mix-alert-trigger-success-threatvulnerability.</para></listitem>
+<listitem><para>Updated the email regex for the parser 'microsoft-windows-cef-endpoint-login-device'</para></listitem>
+<listitem><para>Updated the dest_country extraction for parser pan-ngfw-mix-alert-trigger-success-spywarealert</para></listitem>
+<listitem><para>Updated the field extraction for parser microsoft-defenderep-cef-network-session-devicenetworkevents to parse src_host instead of dest_host from DeviceName</para></listitem>
+<listitem><para>Updated dest_user_full_name and dest_email_address field regexes for okta-amfa-mix-app-login-success-securitycontext and updated its event type to user-disable.</para></listitem>
+<listitem><para>Updated host field extraction for Cisco parsers</para></listitem>
+<listitem><para>Updated the parser microsoft-o365-sk4-app-file-workload,microsoft-o365-json-email-send-receive-internentmessageid, microsoft-o365-mix-app-login-success-teamssessionstarted to extract bytes, alert_severity, domain, result.</para></listitem>
+<listitem><para>Added zone field extraction for parser: fortinet-firewall-kv-network-traffic-notice, fortinet-fortigate-kv-network-traffic-logid</para></listitem>
+<listitem><para>updated EB for parsers 'cisco-ise-kv-radius-traffic-success-authsucceeded', 'cisco-ise-kv-radius-traffic-success-deviceadminstrationsucceeded', 'cisco-ise-kv-endpoint-login-61025', 'cisco-ise-kv-endpoint-login-success-51001'</para></listitem>
+<listitem><para>Updated the activity type for EventID 23 to endpoint-logout:success and for EventID 20519 to rdp-traffic:success.</para></listitem>
+<listitem><para>Updated IP addresses, hosts, users JSON field extractions for Barracuda logs.</para></listitem>
+<listitem><para>Updated email_address field extractions for parsers : snowflake-s-csv-app-login-loginhistory</para></listitem>
+<listitem><para>Updated src_host, src_ip, and user field extractions for parser - cisco-fp-str-network-session-302020.</para></listitem>
+<listitem><para>Updated process_id field extractions for parsers : microsoft-defenderep-sk4-process-create-success-processcreated, microsoft-defenderep-cef-process-create-success-processcreated</para></listitem>
+</itemizedlist>
+<para>Click the following link for the complete package release notes: <link xlink:href="https://github.com/ExabeamLabs/Content-Library-CIM2/blob/2026.01/Release%20Notes/MD_RN_2026.01/release_notes_2026.01.md">2026.01 Content Package Release Notes</link></para>
+</section>
+</article>

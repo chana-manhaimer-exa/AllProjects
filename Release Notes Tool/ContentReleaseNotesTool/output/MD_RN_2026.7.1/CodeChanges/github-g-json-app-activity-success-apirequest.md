@@ -1,0 +1,7 @@
+# Code Changes for github-g-json-app-activity-success-apirequest (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| changed_parsed_fields | N/A | ['domain', 'email_address', 'src_ip', 'src_user', 'user', 'user_type'] | ['domain', 'email_address', 'operation_details', 'resource_type', 'src_ip', 'src_user', 'user', 'user_type'] |
+| added_regex_field | operation_details | [] | ['exa_json_path=$.filtered_request_body.query,exa_regex=(?i)\b(?:query|mutation)\s+({operation_details}[A-Za-z_][A-Za-z0-9_]*)', 'exa_json_path=$.query_string,exa_regex=(?i)\b(?:query|mutation)\s+({operation_details}[A-Za-z_][A-Za-z0-9_]*)', 'exa_json_path=$.route,exa_regex=^/({operation_details}[^/:]+)', 'exa_json_path=$.route,exa_regex=^/repositories?/:[^/]+/({operation_details}[^/]+)'] |
+| added_regex_field | resource_type | [] | ['exa_json_path=$.route,exa_regex=^/(?:repositories?/:[^/]+/)?({resource_type}actions)(?:/|$)', 'exa_json_path=$.route,exa_regex=^/(?:repositories?/:[^/]+/)?({resource_type}workflows?)(?:/|$)', 'exa_json_path=$.route,exa_regex=^/({resource_type}enterprises?|organizations?|orgs|teams?|billing|audit|copilot|releases?|commits?)(?:/|$)', 'exa_json_path=$.route,exa_regex=^/({resource_type}graphql)(?:/|$)'] |

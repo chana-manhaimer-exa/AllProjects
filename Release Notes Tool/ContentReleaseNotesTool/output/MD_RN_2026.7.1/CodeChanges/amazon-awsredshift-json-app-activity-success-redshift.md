@@ -1,0 +1,5 @@
+# Code Changes for amazon-awsredshift-json-app-activity-success-redshift (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| added_parser | N/A | N/A | {"Name": "amazon-awsredshift-json-app-activity-success-redshift", "Vendor": "Amazon", "Product": "AWS Redshift", "TimeFormat": "epoch", "ExtractionType": "json", "Conditions": ["\"eventId\":", "\"REDSHIFT-EVENT", "\"severity\":", "\"message\":"], "Fields": ["exa_json_path=$.severity,exa_field_name=severity", "exa_json_path=$.date,exa_field_name=time", "exa_json_path=$.sourceIdentifier,exa_field_name=src_host", "exa_json_path=$.sourceType,exa_field_name=src_resource_type", "exa_json_path=$.eventCategories,exa_regex=\[?({categories}[^\]]+)\]?", "exa_json_path=$.message,exa_field_name=additional_info", "exa_json_path=$.eventId,exa_field_name=event_name", "exa_regex=({app}REDSHIFT)"], "ParserVersion": "v1.0.0"} |

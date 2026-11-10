@@ -1,0 +1,2613 @@
+{
+  "permissions": [
+    {
+      "id": "000000000000000000000001",
+      "name": "team:access",
+      "category": "Identity and Access Management",
+      "displayName": "User, roles, and single sign-on",
+      "application": "Settings",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "93",
+      "description": "View and manage users, roles, and single sign-on settings",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000004",
+      "name": "alert-rank:access",
+      "category": "Investigation and Response",
+      "displayName": "Alert Rank",
+      "application": "Alert Triage",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "5",
+      "description": "View and manage Alert Rank.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000005",
+      "name": "parser-editor:access",
+      "category": "Security Management",
+      "displayName": "Manage Auto Parser Generator",
+      "application": "Auto Parser Generator",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "26",
+      "description": "View and manage SaaS parsers in Auto Parser Generator.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000006",
+      "name": "custom-actions:access",
+      "category": "Security Management",
+      "displayName": "Actions Editor",
+      "application": "Action Editor",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "18",
+      "description": "View and manage custom actions.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000007",
+      "name": "alert-triage:access",
+      "category": "Investigation and Response",
+      "displayName": "Alert Triage",
+      "application": "Alert Triage",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "6",
+      "description": "View and manage Alert Triage",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000000b",
+      "name": "alert-triage:public-saved-filters:manage",
+      "category": "Investigation and Response",
+      "displayName": "Alert Triage Public Saved Filters",
+      "application": "Alert Triage",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "7",
+      "description": "View and manage public saved filters.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000000c",
+      "name": "saas:common:manage-context",
+      "category": "Security Management",
+      "displayName": "SaaS manage context tables",
+      "application": "SaaS context tables",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "30",
+      "description": "View and manage entities and other objects in SaaS context tables.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000000d",
+      "name": "saas:common:manage-content-packages",
+      "category": "Security Management",
+      "displayName": "Advanced Analytics manage content packages",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "29",
+      "description": "View and manage content packages for automatic installation in Advanced Analytics.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000000e",
+      "name": "saas:common:admin",
+      "category": "Security Management",
+      "displayName": "SaaS context tables manage users and context sources",
+      "application": "SaaS Context Collectors",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "28",
+      "description": "View and manage users, roles, and context sources for decision support in SaaS.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000000f",
+      "name": "saas:uba:search-incidents",
+      "category": "Threat Detection",
+      "displayName": "Advanced Analytics threat hunter search incidents",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "67",
+      "description": "Perform basic threat hunter incident searches in Advanced Analytics. Basic threat hunter incident search allows one to search for an incident and associated details.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000010",
+      "name": "saas:uba:manage-queues",
+      "category": "Security Management",
+      "displayName": "Case Manager manage queues",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "57",
+      "description": "View and manage membership to queues in Case Manager.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000011",
+      "name": "saas:uba:admin",
+      "category": "Security Management",
+      "displayName": "Advanced Analytics administrative operations",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "44",
+      "description": "Perform all administrative operations in Advanced Analytics.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000013",
+      "name": "saas:uba:run-playbooks",
+      "category": "Investigation and Response",
+      "displayName": "Incident Responder run playbooks",
+      "application": "Incident Responder",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write"
+      ],
+      "accessGroup": "66",
+      "description": "Run playbooks from the workbench in Incident Responder.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000014",
+      "name": "saas:uba:edit-incidents",
+      "category": "Investigation and Response",
+      "displayName": "Case Manager read, write, and delete incidents",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write"
+      ],
+      "accessGroup": "48",
+      "description": "Edit incidents in Case Manager",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000015",
+      "name": "saas:uba:manage-watchlist",
+      "category": "Security Management",
+      "displayName": "Advanced Analytics manage watchlists",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "64",
+      "description": "Add and remove users from the watchlists in Advanced Analytics.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000016",
+      "name": "saas:uba:run-actions",
+      "category": "Investigation and Response",
+      "displayName": "Incident Responder run actions",
+      "application": "Incident Responder",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write"
+      ],
+      "accessGroup": "65",
+      "description": "Launch individual actions from the user interface in Incident Responder.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000017",
+      "name": "saas:uba:add-aa-comments",
+      "category": "Investigation and Response",
+      "displayName": "Advanced Analytics add comments",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write"
+      ],
+      "accessGroup": "42",
+      "description": "Add comments for entities in Advanced Analytics.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000018",
+      "name": "saas:uba:manage-saved-search",
+      "category": "Threat Detection",
+      "displayName": "Advanced Analytics manage threat hunter search library",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "59",
+      "description": "View and manage threat hunter saved searches in Advanced Analytics.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000019",
+      "name": "saas:uba:view-rules",
+      "category": "Security Management",
+      "displayName": "Advanced Analytics view rules",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "82",
+      "description": "View rules that determine how security events are handled in Advanced Analytics.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000001b",
+      "name": "saas:uba:bulk-update",
+      "category": "Investigation and Response",
+      "displayName": "Case Manager bulk edit",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "45",
+      "description": "Edit multiple incidents at the same time in Case Manager.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000001c",
+      "name": "saas:uba:view-unmasked-data",
+      "category": "Investigation and Response",
+      "displayName": "Advanced Analytics view unmasked data (PII)",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "84",
+      "description": "View personally identifiable information (PII) when data masking is enabled in Advanced Analytics.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000001d",
+      "name": "saas:uba:workbench-reset",
+      "category": "Security Management",
+      "displayName": "Incident Responder reset incident workbench",
+      "application": "Incident Responder",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write"
+      ],
+      "accessGroup": "85",
+      "description": "Reset incident workbench",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000001e",
+      "name": "saas:uba:manage-ingest-rules",
+      "category": "Security Management",
+      "displayName": "Case Manager manage incident rules",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "55",
+      "description": "View and manage rules for how incidents are assigned, restricted, and prioritized on ingestion in Case Manager.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000001f",
+      "name": "saas:uba:accept-lockouts",
+      "category": "Investigation and Response",
+      "displayName": "Advanced Analytics approve lockouts",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write"
+      ],
+      "accessGroup": "41",
+      "description": "Accept account lockout activities for users in Advanced Analytics. Accepting lockouts indicates that the specific set of behaviors are deemed normal and allowed for that user.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000020",
+      "name": "saas:uba:view-incidents",
+      "category": "Investigation and Response",
+      "displayName": "Case Manager read, write, and delete incidents",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "48",
+      "description": "View incidents in Case Manager.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000021",
+      "name": "saas:uba:manage-playbooks",
+      "category": "Security Management",
+      "displayName": "Incident Responder manage playbooks",
+      "application": "Incident Responder",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "56",
+      "description": "Manage playbooks in Incident Responder.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000022",
+      "name": "saas:uba:manage-rules",
+      "category": "Security Management",
+      "displayName": "Case Manager manage rules",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "58",
+      "description": "View and manage rules that determine how security events are handled in Case Manager.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000023",
+      "name": "saas:uba:view-executives",
+      "category": "Threat Detection",
+      "displayName": "Advanced Analytics view executive info",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "73",
+      "description": "View the risk reasons and timeline of the executive users in the organization. You will be able to see the activities performed by executive users along with the associated anomalies.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000024",
+      "name": "saas:uba:manage-ingest",
+      "category": "Security Management",
+      "displayName": "Advanced Analytics manage data ingestion",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "54",
+      "description": "Configure log sources, feeds, and email ingestion in Advanced Analytics.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000025",
+      "name": "saas:uba:view-global-insights",
+      "category": "Threat Detection",
+      "displayName": "Advanced Analytics view global insights",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "74",
+      "description": "View the organizational models and histograms showing normal behavior for users and assets in Advanced Analytics.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000026",
+      "name": "saas:uba:view-health",
+      "category": "Platform Insights",
+      "displayName": "Advanced Analytics view health",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "75",
+      "description": "Advanced Analytics view system health.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000027",
+      "name": "saas:uba:add-ir-comments",
+      "category": "Investigation and Response",
+      "displayName": "Case Manager add comments",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write"
+      ],
+      "accessGroup": "43",
+      "description": "Add comments in Case Manager.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000028",
+      "name": "saas:uba:create-incidents",
+      "category": "Investigation and Response",
+      "displayName": "Case Manager create incidents",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write"
+      ],
+      "accessGroup": "46",
+      "description": "Create incidents in Case Manager.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000029",
+      "name": "saas:uba:threat-hunting",
+      "category": "Threat Detection",
+      "displayName": "Advanced Analytics threat hunting",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "69",
+      "description": "Perform threat hunting in Advanced Analytics.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000002a",
+      "name": "saas:uba:manage-services",
+      "category": "Security Management",
+      "displayName": "Incident Responder manage services",
+      "application": "Incident Responder",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "60",
+      "description": "View and manage services (third-party integrations) in Incident Responder.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000002b",
+      "name": "saas:uba:view-metrics",
+      "category": "Platform Insights",
+      "displayName": "Case Manager view metrics",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "79",
+      "description": "View Case Manager metrics.",
+      "visibility": "Hidden"
+    },
+    {
+      "id": "00000000000000000000002c",
+      "name": "saas:uba:view-insights",
+      "category": "Threat Detection",
+      "displayName": "Advanced Analytics view data insights",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "78",
+      "description": "View the normal behaviors for specific users and assets in Advanced Analytics.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000002d",
+      "name": "saas:uba:delete-incidents",
+      "category": "Investigation and Response",
+      "displayName": "Case Manager read, write, and delete incidents",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "48",
+      "description": "Delete incidents in Case Manager",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000002e",
+      "name": "saas:uba:view-comments",
+      "category": "Investigation and Response",
+      "displayName": "Case Manager view comments",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "72",
+      "description": "View case comments in Case Manager.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000002f",
+      "name": "saas:uba:manage-templates",
+      "category": "Security Management",
+      "displayName": "Incident Responder manage playbook templates.",
+      "application": "Incident Responder",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "61",
+      "description": "View and manage playbook templates",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000030",
+      "name": "saas:uba:view-saved-search",
+      "category": "Threat Detection",
+      "displayName": "Advanced Analytics view threat hunter search library",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "83",
+      "description": "View the Threat Hunter Search Library and the corresponding search results in Advanced Analytics.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000031",
+      "name": "saas:uba:manage-incident-configs",
+      "category": "Security Management",
+      "displayName": "Case Manager manage incident configuration",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "52",
+      "description": "View and manage incident configurations including incident types, fields, layouts, case notifications, and checklists in Case Manager.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000032",
+      "name": "saas:uba:manage-threat-hunter-saved-searches",
+      "category": "Threat Detection",
+      "displayName": "Advanced Analytics manage threat hunter public searches",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "62",
+      "description": "View and manage saved threat hunter public searches.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000033",
+      "name": "saas:uba:send-incidents",
+      "category": "Investigation and Response",
+      "displayName": "Advanced Analytics send incidents to Incident Responder",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write"
+      ],
+      "accessGroup": "68",
+      "description": "Send incidents to Incident Responder from Advanced Analytics.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000034",
+      "name": "saas:uba:manage-triggers",
+      "category": "Security Management",
+      "displayName": "Incident Responder manage triggers",
+      "application": "Incident Responder",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "63",
+      "description": "View and manage playbook triggers in Incident Responder.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000035",
+      "name": "saas:uba:view-apis",
+      "category": "APIs",
+      "displayName": "Advanced Analytics view APIs",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "71",
+      "description": "View Advanced Analytics Application Programming Interfaces (APIs).",
+      "visibility": "Hidden"
+    },
+    {
+      "id": "000000000000000000000036",
+      "name": "saas:uba:view-activities",
+      "category": "Threat Detection",
+      "displayName": "Advanced Analytics view notable activities",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "70",
+      "description": "View all notable users, assets, sessions, and related risk reasons in Advanced Analytics.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000037",
+      "name": "saas:uba:view-infographics",
+      "category": "Platform Insights",
+      "displayName": "Advanced Analytics view trends",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "77",
+      "description": "View overall trends with Advanced Analytics.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000038",
+      "name": "saas:uba:manage-bidirectional-communication",
+      "category": "Security Management",
+      "displayName": "Case Manager manage bi-directional Communication",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "49",
+      "description": "Configure inbound and outbound settings for bidirectional communications in Case Manager.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000039",
+      "name": "saas:uba:view-raw-logs",
+      "category": "Threat Detection",
+      "displayName": "Advanced Analytics view raw logs",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "80",
+      "description": "View the raw logs that are used to build the events in the Advanced Analytics timeline.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000003b",
+      "name": "saas:uba:manage-custom-action-package",
+      "category": "Security Management",
+      "displayName": "Incident Responder manage custom services and packages",
+      "application": "Incident Responder",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "51",
+      "description": "Manage custom services and related packages in Incident Responder.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000003c",
+      "name": "saas:uba:delete-entities-artifacts",
+      "category": "Security Management",
+      "displayName": "Case Manager delete entities and artifacts",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "47",
+      "description": "Delete entities and artifacts in Case Manager.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000003d",
+      "name": "saas:uba:manage-checklist-defs",
+      "category": "Security Management",
+      "displayName": "Case Manager manage checklist definitions",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "50",
+      "description": "Configure checklist definitions in Case Manager.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000003e",
+      "name": "saas:uba:manage-incident-def",
+      "category": "Security Management",
+      "displayName": "Case Manager manage incident definitions",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "53",
+      "description": "View and manage incident definitions in Case Manager.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000003f",
+      "name": "saas:lms:manage-collectors",
+      "category": "Collectors",
+      "displayName": "SaaS Site Collectors manage collectors",
+      "application": "SaaS Site Collectors",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "32",
+      "description": "Perform all collector operations, such as managing collectors, changing template assignments, and toggling operations in SaaS Site Collectors.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000040",
+      "name": "saas:lms:manage-indices",
+      "category": "Security Management",
+      "displayName": "Data Lake manage indices",
+      "application": "Data Lake",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "35",
+      "description": "Re-parse and re-index the logs of indices in Data Lake",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000041",
+      "name": "saas:lms:manage-alert-rules",
+      "category": "Security Management",
+      "displayName": "Data Lake manage correlation rules",
+      "application": "Data Lake",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "31",
+      "description": "View and manage correlation rules in Data Lake.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000042",
+      "name": "saas:lms:manage-data-access",
+      "category": "Security Management",
+      "displayName": "Data Lake manage data access",
+      "application": "Data Lake",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "34",
+      "description": "View and manage data access rules in Data Lake",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000043",
+      "name": "saas:lms:manage-retention",
+      "category": "Security Management",
+      "displayName": "Data Lake manage data retention",
+      "application": "Data Lake",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write"
+      ],
+      "accessGroup": "37",
+      "description": "Manage data retention and archive configuration in Data Lake.",
+      "visibility": "Hidden"
+    },
+    {
+      "id": "000000000000000000000044",
+      "name": "saas:lms:view-saved-objects",
+      "category": "Security Management",
+      "displayName": "Data Lake view saved objects",
+      "application": "Data Lake",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "40",
+      "description": "View saved searches, visualizations, dashboards, and reports in Data Lake.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000045",
+      "name": "saas:lms:manage-saved-objects",
+      "category": "Security Management",
+      "displayName": "Data Lake manage saved objects",
+      "application": "Data Lake",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "40",
+      "description": "View and manage saved searches, visualizations, dashboards, and reports in Data Lake.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000046",
+      "name": "saas:lms:manage-kafka-connect",
+      "category": "Security Management",
+      "displayName": "Data Lake manage Kafka Connect",
+      "application": "Data Lake",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "36",
+      "description": "View and manage connectors in Kafka Connect in Data Lake.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000047",
+      "name": "saas:lms:run-es-search",
+      "category": "Threat Detection",
+      "displayName": "Data Lake run Elasticsearch Searches",
+      "application": "Data Lake",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "39",
+      "description": "Perform Elasticsearch search requests in Data Lake.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000048",
+      "name": "saas:lms:manage-cross-cluster-connections",
+      "category": "Security Management",
+      "displayName": "Data Lake manage cross-cluster connection",
+      "application": "Data Lake",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "33",
+      "description": "Add and edit the connection to remote clusters in Data Lake.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000049",
+      "name": "saas:uba:view-restricted-incidents",
+      "category": "Investigation and Response",
+      "displayName": "Case Manager view restricted incidents",
+      "application": "Case Manager",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "81",
+      "description": "View incidents restricted to other users or groups in Case Manager.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000005a",
+      "name": "team:view",
+      "category": "Identity and Access Management",
+      "displayName": "Identity and Access Management",
+      "application": "Settings",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "92",
+      "description": "View and manage users and associated roles",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000005b",
+      "name": "team:manage",
+      "category": "Identity and Access Management",
+      "displayName": "Identity and Access Management",
+      "application": "Settings",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "92",
+      "description": "View and manage users and associated roles",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000005c",
+      "name": "idp:view",
+      "category": "Identity and Access Management",
+      "displayName": "single sign-on configuration",
+      "application": "Settings",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "23",
+      "description": "View and manage single sign-on configurations.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000005d",
+      "name": "idp:manage",
+      "category": "Identity and Access Management",
+      "displayName": "single sign-on configuration",
+      "application": "Settings",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "23",
+      "description": "View and manage single sign-on configurations.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000005e",
+      "name": "cloud-connectors:access",
+      "category": "Collectors",
+      "displayName": "SaaS Cloud Connectors",
+      "application": "SaaS Cloud Connectors",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "12",
+      "description": "View and manage SaaS Cloud Connectors",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000005f",
+      "name": "cloud-connectors:manage",
+      "category": "Collectors",
+      "displayName": "SaaS Cloud Connectors",
+      "application": "SaaS Cloud Connectors",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "12",
+      "description": "View and manage SaaS Cloud Connectors",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000060",
+      "name": "dashboard:access",
+      "category": "Threat Detection",
+      "displayName": "Dashboards",
+      "application": "Dashboards",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "19",
+      "description": "View and manage dashboards.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000061",
+      "name": "dashboard:manage",
+      "category": "Threat Detection",
+      "displayName": "Dashboards",
+      "application": "Dashboards",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "19",
+      "description": "View and manage dashboards.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000062",
+      "name": "correlation-rules:access",
+      "category": "Security Management",
+      "displayName": "Correlation Rules",
+      "application": "Correlation Rules",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "15",
+      "description": "View and manage correlation rules.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000063",
+      "name": "correlation-rules:manage",
+      "category": "Security Management",
+      "displayName": "Correlation Rules",
+      "application": "Correlation Rules",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "15",
+      "description": "View and manage correlation rules.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000065",
+      "name": "dashboard:anomalies:access",
+      "category": "Threat Detection",
+      "displayName": "Dashboards Anomalies",
+      "application": "Dashboards",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "20",
+      "description": "View and manage Anomalies Dashboards.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000066",
+      "name": "dashboard:anomalies:manage",
+      "category": "Threat Detection",
+      "displayName": "Dashboards Anomalies",
+      "application": "Dashboards",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "20",
+      "description": "View and manage Anomalies Dashboards.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000067",
+      "name": "dashboard:dl:access",
+      "category": "Threat Detection",
+      "displayName": "Dashboards Data Lake",
+      "application": "Dashboards",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "22",
+      "description": "View and manage Data Lake Dashboards.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000068",
+      "name": "dashboard:dl:manage",
+      "category": "Threat Detection",
+      "displayName": "Dashboards Data Lake",
+      "application": "Dashboards",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "22",
+      "description": "View and manage Data Lake Dashboards.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000069",
+      "name": "dashboard:cm:access",
+      "category": "Investigation and Response",
+      "displayName": "Dashboards Case Management",
+      "application": "Dashboards",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "21",
+      "description": "View and manage Case Management Dashboards.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000006a",
+      "name": "dashboard:cm:manage",
+      "category": "Investigation and Response",
+      "displayName": "Dashboards Case Management",
+      "application": "Dashboards",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "21",
+      "description": "View and manage Case Management Dashboards.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000006b",
+      "name": "site-collectors:access",
+      "category": "Collectors",
+      "displayName": "Site Collectors",
+      "application": "Site Collectors",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "90",
+      "description": "View and manage Site Collectors' settings.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000006c",
+      "name": "site-collectors:manage",
+      "category": "Collectors",
+      "displayName": "Site Collectors",
+      "application": "Site Collectors",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "90",
+      "description": "View and manage Site Collectors' settings.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "00000000000000000000006d",
+      "name": "site-collectors:core:access",
+      "category": "Collectors",
+      "displayName": "Site Collectors",
+      "application": "Site Collectors",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "91",
+      "description": "View and manage Site Collectors' Core settings.",
+      "visibility": "Hidden"
+    },
+    {
+      "id": "00000000000000000000006e",
+      "name": "site-collectors:core:manage",
+      "category": "Collectors",
+      "displayName": "Site Collectors",
+      "application": "Site Collectors",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "91",
+      "description": "View and manage Site Collectors' Core settings.",
+      "visibility": "Hidden"
+    },
+    {
+      "id": "00000000000000000000006f",
+      "name": "manage-parsers:access",
+      "category": "Security Management",
+      "displayName": "Manage Log Stream Parsers",
+      "application": "Log Stream",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "25",
+      "description": "View and manage parsers, parser updates, view live parsed events, and re-parsing jobs in Log Stream.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000070",
+      "name": "cloud-collectors:access",
+      "category": "Collectors",
+      "displayName": "Cloud Collectors",
+      "application": "Cloud Collectors",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "11",
+      "description": "View and manage Cloud Collectors.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000071",
+      "name": "cloud-collectors:manage",
+      "category": "Collectors",
+      "displayName": "Cloud Collectors",
+      "application": "Cloud Collectors",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "11",
+      "description": "View and manage Cloud Collectors.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000073",
+      "name": "security-outcomes:access",
+      "category": "Platform Insights",
+      "displayName": "Outcomes Navigator",
+      "application": "Outcomes Navigator",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "88",
+      "description": "View Outcomes Navigator.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "000000000000000000000074",
+      "name": "apikey:manage",
+      "category": "APIs",
+      "displayName": "Manage API keys",
+      "application": "Application Programming Interfaces",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "8",
+      "description": "View and manage API keys.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000003",
+      "name": "context-management:manage",
+      "category": "Security Management",
+      "displayName": "Context Management",
+      "application": "Context Management",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "96",
+      "description": "View and manage Context Management configuration.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000004",
+      "name": "search:query",
+      "category": "Threat Detection",
+      "displayName": "Search, Analyze and Export",
+      "application": "Search",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "86",
+      "description": "Search, analyze, and export logs, alerts, and events.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000008",
+      "name": "acm:alert:view",
+      "category": "Investigation and Response",
+      "displayName": "Threat Center alerts",
+      "application": "Threat Center",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "3",
+      "description": "View and manage alerts in Threat Center.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000009",
+      "name": "acm:alert:manage",
+      "category": "Investigation and Response",
+      "displayName": "Threat Center alerts",
+      "application": "Threat Center",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "3",
+      "description": "View and manage alerts in Threat Center.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000010",
+      "name": "acm:case:view",
+      "category": "Investigation and Response",
+      "displayName": "Threat Center cases",
+      "application": "Threat Center",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "4",
+      "description": "View and manage cases in Threat Center.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000011",
+      "name": "acm:case:manage",
+      "category": "Investigation and Response",
+      "displayName": "Threat Center cases",
+      "application": "Threat Center",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "4",
+      "description": "View and manage cases in Threat Center.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "20000000000000000000001c",
+      "name": "css:content:view",
+      "category": "Internal Tools",
+      "displayName": "Content Studio",
+      "application": "Content Studio",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "17",
+      "description": "View and manage parsers in Content Studio.",
+      "visibility": "Hidden"
+    },
+    {
+      "id": "20000000000000000000001f",
+      "name": "secured-resources:manage",
+      "category": "Security Management",
+      "displayName": "Secured Resources",
+      "application": "Search",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "87",
+      "description": "View and manage Secured Resources.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000020",
+      "name": "secured-resources:view",
+      "category": "Security Management",
+      "displayName": "Secured Resources",
+      "application": "Search",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "87",
+      "description": "View and manage Secured Resources.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000022",
+      "name": "aa-stream:manage",
+      "category": "Security Management",
+      "displayName": "Event Selection streams",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "1",
+      "description": "View or modify streams in Advanced Analytics with Event Selection.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000023",
+      "name": "aa-event-store:view",
+      "category": "Security Management",
+      "displayName": "Event Selection streams",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "1",
+      "description": "View or modify streams in Advanced Analytics with Event Selection.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000024",
+      "name": "content-studio:manage",
+      "category": "Internal Tools",
+      "displayName": "Content Studio",
+      "application": "Content Studio",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "13",
+      "description": "View and manage Content Studio.",
+      "visibility": "Hidden"
+    },
+    {
+      "id": "200000000000000000000025",
+      "name": "content-studio:view",
+      "category": "Internal Tools",
+      "displayName": "Content Studio",
+      "application": "Content Studio",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "13",
+      "description": "View and manage Content Studio.",
+      "visibility": "Hidden"
+    },
+    {
+      "id": "200000000000000000000026",
+      "name": "settings:view",
+      "category": "Security Management",
+      "displayName": "Manage Administrative Settings",
+      "application": "Settings",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "89",
+      "description": "View and manage administrative settings.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000027",
+      "name": "settings:manage",
+      "category": "Security Management",
+      "displayName": "Manage Administrative Settings",
+      "application": "Settings",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "89",
+      "description": "View and manage administrative settings.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000028",
+      "name": "context-management:view",
+      "category": "Security Management",
+      "displayName": "Context Management",
+      "description": "View and manage Context Management configuration.",
+      "application": "Context Management",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "96",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000029",
+      "name": "audit:query",
+      "category": "Compliance",
+      "displayName": "Audit Events Export",
+      "application": "Webhooks",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write"
+      ],
+      "accessGroup": "9",
+      "description": "Export audit events.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "20000000000000000000002a",
+      "name": "retention:manage",
+      "category": "Security Management",
+      "displayName": "Manage data retention settings",
+      "application": "Search",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "27",
+      "description": "View and manage data retention.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000030",
+      "name": "content-studio:deploy",
+      "category": "Internal Tools",
+      "displayName": "Deploy content",
+      "application": "Content Studio",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "95",
+      "description": "Create and deploy content in Content Studio.",
+      "visibility": "Hidden"
+    },
+    {
+      "id": "200000000000000000000031",
+      "name": "notifications:global-channels:manage",
+      "category": "Platform Insights",
+      "displayName": "Configure global notification channels",
+      "application": "Notifications",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "99",
+      "description": "View and manage global notification channels for your organization.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000032",
+      "name": "notifications:security:manage",
+      "category": "Platform Insights",
+      "displayName": "Manage security notifications",
+      "application": "Notifications",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "98",
+      "description": "View and manage security notifications for your profile.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000033",
+      "name": "notifications:health:manage",
+      "category": "Platform Insights",
+      "displayName": "Manage health notifications",
+      "application": "Notifications",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "97",
+      "description": "View and manage health notifications for your profile.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000034",
+      "name": "saas:uba:search",
+      "category": "Threat Detection",
+      "displayName": "Advanced Analytics threat hunter search",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "14",
+      "description": "Perform basic threat hunter searches in Advanced Analytics. Basic threat hunter incident search allows one to search for a specific user, asset, session, or a security alert.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000035",
+      "name": "saas:uba:accept-sessions",
+      "category": "Threat Detection",
+      "displayName": "Advanced Analytics accept sessions",
+      "application": "Advanced Analytics",
+      "platform": "SaaS",
+      "access": [
+        "read",
+        "write"
+      ],
+      "accessGroup": "24",
+      "description": "Allow a user to accept an Advanced Analytics session.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000036",
+      "name": "entity-management:view",
+      "category": "Security Management",
+      "displayName": "Entity Management",
+      "application": "Entity Management",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "100",
+      "description": "View and manage Entity Management.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000037",
+      "name": "entity-management:manage",
+      "category": "Security Management",
+      "displayName": "Entity Management",
+      "application": "Entity Management",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "100",
+      "description": "View and manage Entity Management.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000038",
+      "name": "webhook:manage",
+      "category": "APIs",
+      "displayName": "Manage webhooks",
+      "application": "Application Programming Interfaces",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "2",
+      "description": "View and manage webhooks.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000039",
+      "name": "acm:detection-grouping:view",
+      "category": "Investigation and Response",
+      "displayName": "Threat Center detection grouping rules",
+      "application": "Threat Center",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "76",
+      "description": "View and manage detection grouping rules in Threat Center.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "20000000000000000000003A",
+      "name": "acm:detection-grouping:manage",
+      "category": "Investigation and Response",
+      "displayName": "Threat Center detection grouping rules",
+      "application": "Threat Center",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "76",
+      "description": "Manage detection grouping rules in Threat Center.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000040",
+      "name": "mitre:access",
+      "category": "Internal Tools",
+      "displayName": "MITRE ATT&CK Framework",
+      "application": "Content",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "101",
+      "description": "List of MITRE ATT&CK framework tactics, techniques, and sub-techniques.",
+      "visibility": "Hidden"
+    },
+    {
+      "id": "200000000000000000000041",
+      "name": "use-cases:access",
+      "category": "Internal Tools",
+      "displayName": "Use Case Framework",
+      "application": "Content",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "102",
+      "description": "Exabeam use cases.",
+      "visibility": "Hidden"
+    },
+    {
+      "id": "200000000000000000000042",
+      "name": "autm:playbook:view",
+      "category": "Investigation and Response",
+      "displayName": "Automation Management playbooks",
+      "application": "Automation Management",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "103",
+      "description": "View and manage playbooks in Automation Management.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000043",
+      "name": "autm:playbook:manage",
+      "category": "Investigation and Response",
+      "displayName": "Automation Management playbooks",
+      "application": "Automation Management",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "103",
+      "description": "View and manage playbooks in Automation Management.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000044",
+      "name": "site-management:view",
+      "category": "Collectors",
+      "displayName": "Site Management",
+      "application": "Site Management",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "104",
+      "description": "View and manage sites.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000045",
+      "name": "site-management:manage",
+      "category": "Collectors",
+      "displayName": "Site Management",
+      "application": "Site Management",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "104",
+      "description": "View and manage sites",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000046",
+      "name": "multi-org:view",
+      "category": "Multi-Org",
+      "displayName": "Manage Organizations",
+      "application": "Manage Organizations",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "105",
+      "description": "View and manage Multi-Org.",
+      "visibility": "Hybrid"
+    },
+    {
+      "id": "200000000000000000000047",
+      "name": "multi-org:manage",
+      "category": "Multi-Org",
+      "displayName": "Manage Organizations",
+      "application": "Manage Organizations",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "105",
+      "description": "View and manage Multi-Org",
+      "visibility": "Hybrid"
+    },
+    {
+      "id": "200000000000000000000048",
+      "name": "notifications:manage",
+      "category": "APIs",
+      "displayName": "Notifications",
+      "application": "Application Programming Interfaces",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write"
+      ],
+      "accessGroup": "106",
+      "description": "View and manage notifications",
+      "visibility": "Hidden"
+    },
+    {
+      "id": "200000000000000000000049",
+      "name": "threat-center:view",
+      "category": "Investigation and Response",
+      "displayName": "Threat Center",
+      "application": "Threat Center",
+      "platform": "New-Scale",
+      "access": [
+        "read"
+      ],
+      "accessGroup": "107",
+      "description": "View and manage alerts, cases, and threat timelines",
+      "visibility": "Hidden"
+    },
+    {
+      "id": "200000000000000000000050",
+      "name": "threat-center:manage",
+      "category": "Investigation and Response",
+      "displayName": "Threat Center",
+      "application": "Threat Center",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "107",
+      "description": "View and manage alerts, cases, and threat timelines",
+      "visibility": "Hidden"
+    },
+    {
+      "id": "200000000000000000000051",
+      "name": "multi-org:authorize",
+      "category": "Multi-Org",
+      "displayName": "Authorize Organization Access",
+      "application": "Settings",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "108",
+      "description": "Approve, reject, or rescind access from a third-party organization",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000052",
+      "name": "notifications:consumption:manage",
+      "category": "Platform Insights",
+      "displayName": "Manage consumption notifications",
+      "application": "Notifications",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "109",
+      "description": "View and manage consumption notifications for your profile.",
+      "visibility": "Shown"
+    },
+    {
+      "id": "200000000000000000000053",
+      "name": "notifications:third-party:access",
+      "category": "Platform Insights",
+      "displayName": "Manage thirdparty-access",
+      "application": "Notifications",
+      "platform": "New-Scale",
+      "access": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "accessGroup": "110",
+      "description": "View and manage third-party access notifications for your profile.",
+      "visibility": "Shown"
+    }
+  ],
+  "roles": [
+    {
+      "id": "010000000000000000000001",
+      "name": "admin",
+      "displayName": "Administrator",
+      "description": "Administrators are responsible for overseeing and managing the entire platform and SOC team. They are responsible for security event monitoring, management, and response. Lastly, they collect metrics to generate reports, as well as, create and maintain playbooks.",
+      "permissions": [
+        "team:access",
+        "cloud-archive:access",
+        "alert-rank:access",
+        "alert-triage:access",
+        "alert-triage:public-saved-filters:manage",
+        "parser-editor:access",
+        "custom-actions:access",
+        "team:view",
+        "team:manage",
+        "idp:view",
+        "idp:manage",
+        "cloud-connectors:access",
+        "cloud-connectors:manage",
+        "cloud-collectors:access",
+        "cloud-collectors:manage",
+        "correlation-rules:access",
+        "correlation-rules:manage",
+        "entity-management:view",
+        "entity-management:manage",
+        "site-collectors:access",
+        "site-collectors:manage",
+        "manage-parsers:access",
+        "security-outcomes:access",
+        "apikey:manage",
+        "search:query",
+        "dashboard:access",
+        "dashboard:manage",
+        "dashboard:anomalies:access",
+        "dashboard:anomalies:manage",
+        "dashboard:cm:access",
+        "dashboard:cm:manage",
+        "acm:alert:view",
+        "acm:alert:manage",
+        "acm:case:view",
+        "acm:case:manage",
+        "acm:detection-grouping:view",
+        "acm:detection-grouping:manage",
+        "autm:playbook:view",
+        "autm:playbook:manage",
+        "dashboard:dl:access",
+        "dashboard:dl:manage",
+        "secured-resources:manage",
+        "secured-resources:view",
+        "settings:view",
+        "settings:manage",
+        "context-management:view",
+        "context-management:manage",
+        "audit:query",
+        "retention:manage",
+        "aa-event-store:view",
+        "aa-stream:manage",
+        "notifications:global-channels:manage",
+        "notifications:security:manage",
+        "notifications:health:manage",
+        "notifications:consumption:manage",
+        "content-studio:deploy",
+        "css:content:view",
+        "content-studio:manage",
+        "content-studio:view",
+        "idp:role-mappings:manage",
+        "webhook:manage",
+        "site-management:manage",
+        "site-management:view",
+        "multi-org:view",
+        "multi-org:manage",
+        "multi-org:authorize",
+        "notifications:third-party:access"
+      ]
+    },
+    {
+      "id": "010000000000000000000003",
+      "name": "manager",
+      "displayName": "Security Engineer",
+      "description": "Security Engineer's deploy, maintain, and upgrade security systems. They support the SOC's technical needs and requests on tuning system, as well as, consult the SOC for their technical perspective. They work with developers outside of the SOC team that help implement and connect APIs with security tools. Lastly, they implement playbooks and firewall policy.",
+      "permissions": [
+        "cloud-archive:access",
+        "alert-rank:access",
+        "alert-triage:access",
+        "alert-triage:public-saved-filters:manage",
+        "parser-editor:access",
+        "custom-actions:access",
+        "correlation-rules:access",
+        "entity-management:view",
+        "dashboard:access",
+        "dashboard:manage",
+        "acm:alert:view",
+        "acm:case:view",
+        "acm:case:manage",
+        "acm:detection-grouping:view",
+        "acm:detection-grouping:manage",
+        "autm:playbook:view",
+        "autm:playbook:manage",
+        "secured-resources:view",
+        "team:view",
+        "team:access",
+        "team:manage",
+        "site-collectors:access",
+        "site-collectors:manage",
+        "settings:manage",
+        "settings:view",
+        "security-outcomes:access",
+        "secured-resources:manage",
+        "saas:uba:workbench-reset",
+        "saas:uba:view-rules",
+        "retention:manage",
+        "audit:query",
+        "aa-stream:manage",
+        "apikey:manage",
+        "cloud-collectors:manage",
+        "cloud-collectors:access",
+        "manage-parsers:access",
+        "correlation-rules:manage",
+        "cloud-connectors:manage",
+        "cloud-connectors:access",
+        "idp:manage",
+        "idp:view",
+        "notifications:global-channels:manage",
+        "notifications:health:manage",
+        "notifications:consumption:manage",
+        "content-studio:view",
+        "content-studio:manage",
+        "context-management:manage",
+        "context-management:view",
+        "webhook:manage",
+        "site-management:manage",
+        "site-management:view",
+        "multi-org:view"
+      ]
+    },
+    {
+      "id": "010000000000000000000002",
+      "name": "standard",
+      "displayName": "Tier 3 Analyst",
+      "description": "Tier 3 Analysts (also known as Threat Hunter) are responsible for investigating and responding to complex security incidents. They are involved in forensic investigations that are escalated from Tier 1/Tier 2 analysts. They look for anomalies to discover unidentified threats, stay aware of threat trends, reverse engineer external threats. Lastly, they consult on high fidelity rules, setup, and playbooks updates to educate or mentor Tier 1/Tier 2 analysts.",
+      "permissions": [
+        "cloud-archive:access",
+        "alert-rank:access",
+        "alert-triage:access",
+        "custom-actions:access",
+        "correlation-rules:access",
+        "entity-management:view",
+        "dashboard:access",
+        "search:query",
+        "acm:alert:view",
+        "acm:alert:manage",
+        "acm:case:view",
+        "acm:case:manage",
+        "acm:detection-grouping:view",
+        "autm:playbook:view",
+        "css:content:view",
+        "content-studio:view",
+        "dashboard:cm:manage",
+        "dashboard:cm:access",
+        "dashboard:dl:manage",
+        "dashboard:dl:access",
+        "dashboard:anomalies:manage",
+        "dashboard:anomalies:access",
+        "dashboard:manage",
+        "alert-triage:public-saved-filters:manage",
+        "notifications:security:manage",
+        "multi-org:view"
+      ]
+    },
+    {
+      "id": "010000000000000000000011",
+      "name": "tier 2 analyst",
+      "displayName": "Tier 2 Analyst",
+      "description": "Tier 2 Analysts investigate escalated incidents and take actions to resolve them. They work with security engineers to tune the system. Lastly, they consult on creation and modification of playbooks and build incident reports for managers",
+      "permissions": [
+        "saas:uba:view-saved-search",
+        "saas:uba:view-raw-logs",
+        "saas:uba:view-metrics",
+        "saas:uba:view-insights",
+        "alert-rank:access",
+        "alert-triage:access",
+        "acm:case:manage",
+        "acm:case:view",
+        "acm:alert:manage",
+        "acm:alert:view",
+        "acm:detection-grouping:view",
+        "autm:playbook:view",
+        "dashboard:cm:manage",
+        "dashboard:cm:access",
+        "dashboard:dl:access",
+        "dashboard:anomalies:access",
+        "dashboard:manage",
+        "dashboard:access",
+        "notifications:security:manage",
+        "search:query",
+        "multi-org:view"
+      ]
+    },
+    {
+      "id": "010000000000000000000012",
+      "name": "tier 1 analyst",
+      "displayName": "Tier 1 Analyst",
+      "description": "Tier 1 Analysts triage assigned alerts and incidents, primarily by following pre-developed playbooks. They gather information from tools for Tier 2/Tier 3 analysts. They create and execute alerts and incidents if needed. Lastly, they share knowledge with team to improve their process.",
+      "permissions": [
+        "alert-rank:access",
+        "alert-triage:access",
+        "acm:case:manage",
+        "acm:case:view",
+        "acm:alert:manage",
+        "acm:alert:view",
+        "acm:detection-grouping:view",
+        "autm:playbook:view",
+        "dashboard:anomalies:access",
+        "dashboard:access",
+        "alert-triage:public-saved-filters:manage",
+        "notifications:security:manage",
+        "multi-org:view"
+      ]
+    },
+    {
+      "id": "010000000000000000000013",
+      "name": "compliance manager",
+      "displayName": "Compliance Manager",
+      "description": "Compliance Managers ensure the organization's adherence to information security laws, regulations, and industry standards. They develop and enforce security policies, conduct risk assessments, coordinate compliance audits, generate compliance reports, and maintain documentation to demonstrate compliance.",
+      "permissions": [
+        "search:query",
+        "dashboard:access",
+        "audit:query",
+        "notifications:security:manage",
+        "multi-org:view"
+      ]
+    },
+    {
+      "id": "010000000000000000000014",
+      "name": "developer",
+      "displayName": "Developer",
+      "description": "Developers author code to create custom workflows or integrate with third-party applications to reduce manual tasks.",
+      "permissions": [
+        "settings:manage",
+        "settings:view",
+        "apikey:manage",
+        "webhook:manage",
+        "multi-org:view"
+      ]
+    },
+    {
+      "id": "010000000000000000000004",
+      "name": "saas:uba:administrator",
+      "displayName": "Administrator (Advanced Analytics)",
+      "description": "Users assigned to this role can perform administrative operations on Exabeam such as configuring the product to fetch logs from the SIEM, connecting to Active Directory to pull in contextual information, and restarting the analytics engine. The default admin credential belongs to this role. This is a predefined role provided by Exabeam and cannot be deleted.",
+      "permissions": [
+        "saas:common:admin",
+        "saas:common:manage-context",
+        "saas:common:manage-content-packages",
+        "saas:uba:view-raw-logs",
+        "saas:uba:manage-rules",
+        "saas:uba:view-rules",
+        "saas:uba:admin",
+        "saas:uba:workbench-reset",
+        "saas:uba:manage-custom-action-package",
+        "saas:uba:manage-incident-configs",
+        "saas:uba:run-playbooks",
+        "saas:uba:run-actions",
+        "saas:uba:manage-triggers",
+        "saas:uba:manage-templates",
+        "saas:uba:manage-services",
+        "saas:uba:view-metrics",
+        "saas:uba:manage-queues",
+        "saas:uba:view-incidents",
+        "saas:uba:view-restricted-incidents",
+        "saas:uba:manage-playbooks",
+        "saas:uba:view-health",
+        "saas:uba:manage-ingest-rules",
+        "saas:uba:view-comments",
+        "saas:uba:add-ir-comments",
+        "saas:uba:delete-incidents",
+        "saas:uba:edit-incidents",
+        "saas:uba:manage-bidirectional-communication",
+        "saas:uba:view-apis",
+        "saas:uba:create-incidents",
+        "saas:uba:search-incidents",
+        "saas:uba:manage-ingest",
+        "saas:uba:bulk-update",
+        "cloud-connectors:access",
+        "cloud-connectors:manage",
+        "correlation-rules:access",
+        "correlation-rules:manage",
+        "dashboard:anomalies:access",
+        "dashboard:anomalies:manage",
+        "dashboard:cm:access",
+        "dashboard:cm:manage",
+        "acm:alert:view",
+        "acm:alert:manage",
+        "acm:case:view",
+        "acm:case:manage",
+        "acm:detection-grouping:view",
+        "acm:detection-grouping:manage",
+        "autm:playbook:view",
+        "autm:playbook:manage",
+        "audit:query",
+        "saas:uba:search"
+      ]
+    },
+    {
+      "id": "010000000000000000000008",
+      "name": "saas:uba:advanced-analyst",
+      "displayName": "Tier 3 Analyst (Advanced Analytics)",
+      "description": "Users assigned to this role perform day-to-day security operations and incident investigations using the Exabeam UI. They can review user sessions and account lockouts, add comments, approve activities, and perform threat hunting. This is a predefined role provided by Exabeam and cannot be deleted.",
+      "permissions": [
+        "saas:common:manage-context",
+        "saas:uba:manage-ingest-rules",
+        "saas:uba:workbench-reset",
+        "saas:uba:view-executives",
+        "saas:uba:view-global-insights",
+        "saas:uba:manage-custom-action-package",
+        "saas:uba:run-playbooks",
+        "saas:uba:run-actions",
+        "saas:uba:delete-incidents",
+        "saas:uba:view-insights",
+        "saas:uba:view-comments",
+        "saas:uba:view-saved-search",
+        "saas:uba:manage-playbooks",
+        "saas:uba:create-incidents",
+        "saas:uba:edit-incidents",
+        "saas:uba:search-incidents",
+        "saas:uba:manage-services",
+        "saas:uba:view-raw-logs",
+        "saas:uba:view-infographics",
+        "saas:uba:threat-hunting",
+        "saas:uba:manage-queues",
+        "saas:uba:manage-bidirectional-communication",
+        "saas:uba:manage-ingest",
+        "saas:uba:add-ir-comments",
+        "saas:uba:view-rules",
+        "saas:uba:view-activities",
+        "saas:uba:manage-watchlist",
+        "saas:uba:add-aa-comments",
+        "saas:uba:accept-lockouts",
+        "saas:uba:bulk-update",
+        "saas:uba:manage-templates",
+        "saas:uba:view-apis",
+        "saas:uba:manage-triggers",
+        "saas:uba:view-incidents",
+        "saas:uba:manage-saved-search",
+        "saas:uba:send-incidents",
+        "saas:uba:manage-threat-hunter-saved-searches",
+        "saas:uba:manage-rules",
+        "correlation-rules:access",
+        "correlation-rules:manage",
+        "dashboard:anomalies:access",
+        "dashboard:anomalies:manage",
+        "dashboard:cm:access",
+        "dashboard:cm:manage",
+        "acm:alert:view",
+        "acm:alert:manage",
+        "acm:case:view",
+        "acm:case:manage",
+        "acm:detection-grouping:view",
+        "autm:playbook:view",
+        "saas:uba:search",
+        "saas:uba:accept-sessions"
+      ]
+    },
+    {
+      "id": "010000000000000000000005",
+      "name": "saas:uba:tier1-analyst",
+      "displayName": "Tier 1 Analyst (Advanced Analytics)",
+      "description": "Users assigned to this role are junior security analysts or incident desk responders who support day-to-day enterprise security operations and monitoring. This role is not authorized to make any changes to the Exabeam system except for adding user, session, and lockout comments.  Users in this role cannot approve sessions or lockout activities. This is a predefined role provided by Exabeam and cannot be deleted.",
+      "permissions": [
+        "saas:uba:send-incidents",
+        "saas:uba:view-activities",
+        "saas:uba:view-executives",
+        "saas:uba:view-insights",
+        "saas:uba:view-global-insights",
+        "saas:uba:view-infographics",
+        "saas:uba:add-aa-comments",
+        "saas:uba:run-playbooks",
+        "saas:uba:run-actions",
+        "saas:uba:view-incidents",
+        "saas:uba:view-comments",
+        "saas:uba:add-ir-comments",
+        "saas:uba:edit-incidents",
+        "saas:uba:create-incidents",
+        "saas:uba:search-incidents",
+        "correlation-rules:access",
+        "dashboard:anomalies:access",
+        "dashboard:cm:access",
+        "acm:alert:view",
+        "acm:alert:manage",
+        "acm:case:view",
+        "acm:case:manage",
+        "acm:detection-grouping:view",
+        "autm:playbook:view",
+        "saas:uba:search"
+      ]
+    },
+    {
+      "id": "010000000000000000000006",
+      "name": "saas:uba:auditor",
+      "displayName": "Auditor (Advanced Analytics)",
+      "description": "Users assigned to this role only have view privileges within the Exabeam UI. They can view all activities within the Exabeam UI, but they cannot make any changes such as adding comments or approving sessions. This is a predefined role provided by Exabeam and cannot be deleted.",
+      "permissions": [
+        "saas:uba:view-executives",
+        "saas:uba:view-global-insights",
+        "saas:uba:view-insights",
+        "saas:uba:view-comments",
+        "saas:uba:view-saved-search",
+        "saas:uba:search-incidents",
+        "saas:uba:view-infographics",
+        "saas:uba:threat-hunting",
+        "saas:uba:view-activities",
+        "saas:uba:view-incidents",
+        "saas:uba:view-restricted-incidents",
+        "correlation-rules:access",
+        "dashboard:anomalies:access",
+        "dashboard:anomalies:manage",
+        "dashboard:cm:access",
+        "dashboard:cm:manage",
+        "acm:alert:view",
+        "acm:case:view",
+        "acm:detection-grouping:view",
+        "autm:playbook:view",
+        "saas:uba:search"
+      ]
+    },
+    {
+      "id": "010000000000000000000007",
+      "name": "saas:uba:data-privacy-officer",
+      "displayName": "Data Privacy Officer (Advanced Analytics)",
+      "description": "This role is needed only when data masking is enabled within Exabeam. Users assigned to this role are the only users that can view personally identifiable information (PII) in an unmasked form. They can review user sessions, account lockouts, add comments, approve activities, and perform threat hunting. This is a predefined role provided by Exabeam and cannot be deleted.",
+      "permissions": [
+        "saas:uba:view-executives",
+        "saas:uba:view-global-insights",
+        "saas:uba:view-insights",
+        "saas:uba:view-comments",
+        "saas:uba:view-saved-search",
+        "saas:uba:search-incidents",
+        "saas:uba:view-infographics",
+        "saas:uba:threat-hunting",
+        "saas:uba:view-unmasked-data",
+        "saas:uba:view-activities",
+        "saas:uba:manage-watchlist",
+        "saas:uba:add-aa-comments",
+        "saas:uba:view-incidents",
+        "saas:uba:view-restricted-incidents",
+        "saas:uba:manage-saved-search",
+        "saas:uba:send-incidents",
+        "correlation-rules:access",
+        "dashboard:anomalies:access",
+        "dashboard:anomalies:manage",
+        "dashboard:cm:access",
+        "dashboard:cm:manage",
+        "acm:alert:view",
+        "acm:alert:manage",
+        "acm:case:view",
+        "acm:case:manage",
+        "acm:detection-grouping:view",
+        "acm:detection-grouping:manage",
+        "autm:playbook:view",
+        "autm:playbook:manage",
+        "audit:query",
+        "saas:uba:search",
+        "saas:uba:accept-sessions"
+      ]
+    },
+    {
+      "id": "01000000000000000000000e",
+      "name": "saas:uba:cloud-ops-monitoring",
+      "displayName": "CloudOpsMonitoring (Advanced Analytics)",
+      "description": "This role is used by Exabeam for monitoring SaaS deployments.",
+      "permissions": [
+        "saas:uba:view-executives",
+        "saas:uba:view-global-insights",
+        "saas:uba:view-insights",
+        "saas:uba:view-comments",
+        "saas:uba:view-saved-search",
+        "saas:uba:search-incidents",
+        "saas:uba:view-infographics",
+        "saas:uba:threat-hunting",
+        "saas:uba:view-activities",
+        "saas:uba:view-incidents",
+        "saas:uba:view-restricted-incidents",
+        "correlation-rules:access",
+        "dashboard:anomalies:access",
+        "dashboard:anomalies:manage",
+        "dashboard:cm:access",
+        "dashboard:cm:manage",
+        "saas:uba:search"
+      ]
+    },
+    {
+      "id": "010000000000000000000009",
+      "name": "saas:lms:administrator",
+      "displayName": "Administrator (Data Lake)",
+      "description": "Users assigned to this role can perform administrative operations on Exabeam such as configuring the product to fetch logs from the SIEM, connecting to Active Directory to pull in contextual information, and restarting the analytics engine. The default admin credential belongs to this role. This is a predefined role provided by Exabeam and cannot be deleted.",
+      "permissions": [
+        "saas:common:admin",
+        "saas:common:manage-context",
+        "saas:common:manage-content-packages",
+        "saas:lms:manage-collectors",
+        "saas:lms:manage-indices",
+        "saas:lms:manage-alert-rules",
+        "saas:lms:manage-data-access",
+        "saas:lms:manage-retention",
+        "saas:lms:manage-saved-objects",
+        "saas:lms:manage-kafka-connect",
+        "saas:lms:view-saved-objects",
+        "saas:lms:run-es-search",
+        "saas:lms:manage-cross-cluster-connections",
+        "cloud-connectors:access",
+        "cloud-connectors:manage",
+        "correlation-rules:access",
+        "correlation-rules:manage",
+        "dashboard:dl:access",
+        "dashboard:dl:manage",
+        "audit:query"
+      ]
+    },
+    {
+      "id": "01000000000000000000000d",
+      "name": "saas:lms:advanced-analyst",
+      "displayName": "Tier 3 Analyst (Data Lake)",
+      "description": "Users assigned to this role perform day-to-day security operations and incident investigations using the Exabeam UI. They can review user sessions and account lockouts, add comments, approve activities, and perform threat hunting. This is a predefined role provided by Exabeam and cannot be deleted.",
+      "permissions": [
+        "saas:common:manage-context",
+        "saas:lms:view-saved-objects",
+        "saas:lms:manage-saved-objects",
+        "correlation-rules:access",
+        "correlation-rules:manage",
+        "dashboard:dl:access",
+        "dashboard:dl:manage"
+      ]
+    },
+    {
+      "id": "01000000000000000000000a",
+      "name": "saas:lms:tier1-analyst",
+      "displayName": "Tier 1 Analyst (Data Lake)",
+      "description": "Users assigned to this role are junior security analysts or incident desk responders who support day-to-day enterprise security operations and monitoring. This role is not authorized to make any changes to the Exabeam system except for adding user, session, and lockout comments.  Users in this role cannot approve sessions or lockout activities. This is a predefined role provided by Exabeam and cannot be deleted.",
+      "permissions": [
+        "saas:lms:view-saved-objects",
+        "saas:lms:manage-saved-objects",
+        "correlation-rules:access",
+        "dashboard:dl:access"
+      ]
+    },
+    {
+      "id": "01000000000000000000000b",
+      "name": "saas:lms:auditor",
+      "displayName": "Auditor (Data Lake)",
+      "description": "Users assigned to this role only have view privileges within the Exabeam UI. They can view all activities within the Exabeam UI, but they cannot make any changes such as adding comments or approving sessions. This is a predefined role provided by Exabeam and cannot be deleted.",
+      "permissions": [
+        "saas:lms:view-saved-objects",
+        "saas:lms:manage-saved-objects",
+        "correlation-rules:access",
+        "dashboard:dl:access",
+        "dashboard:dl:manage"
+      ]
+    },
+    {
+      "id": "01000000000000000000000c",
+      "name": "saas:lms:data-privacy-officer",
+      "displayName": "Data Privacy Officer (Data Lake)",
+      "description": "This role is needed only when data masking is enabled within Exabeam. Users assigned to this role are the only users that can view personally identifiable information (PII) in an unmasked form. They can review user sessions, account lockouts, add comments, approve activities, and perform threat hunting. This is a predefined role provided by Exabeam and cannot be deleted.",
+      "permissions": [
+        "saas:lms:view-saved-objects",
+        "saas:lms:manage-saved-objects",
+        "correlation-rules:access",
+        "dashboard:dl:access",
+        "dashboard:dl:manage",
+        "audit:query"
+      ]
+    },
+    {
+      "id": "01000000000000000000000f",
+      "name": "saas:lms:cloud-ops-monitoring",
+      "displayName": "CloudOpsMonitoring (Data Lake)",
+      "description": "This role is used by Exabeam for monitoring SaaS deployments.",
+      "permissions": [
+        "saas:lms:view-saved-objects",
+        "saas:lms:manage-saved-objects",
+        "correlation-rules:access",
+        "dashboard:dl:access",
+        "dashboard:dl:manage"
+      ]
+    },
+    {
+      "id": "010000000000000000000010",
+      "name": "cloud-connectors:administrator",
+      "displayName": "Administrator (SaaS Cloud Connectors)",
+      "description": "Users assigned to this role can perform administrative operations pertaining to SaaS Cloud Connectors. This is a predefined role provided by Exabeam and cannot be deleted.",
+      "permissions": [
+        "cloud-connectors:access",
+        "cloud-connectors:manage",
+        "cloud-collectors:access",
+        "cloud-collectors:manage",
+        "correlation-rules:access",
+        "entity-management:view",
+        "audit:query"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Code Changes for Destination User to Destination User SID or Destination User ID (Event Enricher)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| removed_enricher | definition | {"Name": "all-dest_user_sid-dest_user_id-dest_user", "DisplayName": "Destination User to Destination User SID or Destination User ID", "Description": "Enrich Destination User SID or Destination User ID from Destination User field", "Condition": "exists(dest_user) && contains(replaceAll(toLower(dest_user), '^(?:s-\\d-\\d+(?:-\\d+){1,14}|[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})$', 'found!'), 'found!')", "Map": [{"Field": "dest_user_sid", "Value": "if(contains(replaceAll(toLower(dest_user), '^(?:s-\\d-\\d+(?:-\\d+){1,14})$', 'found!'), 'found!'), dest_user, '')"}, {"Field": "dest_user_id", "Value": "if(contains(replaceAll(toLower(dest_user), '^(?:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})$', 'found!'), 'found!'), dest_user, '')"}, {"Field": "dest_user", "Value": "''"}]} | N/A |

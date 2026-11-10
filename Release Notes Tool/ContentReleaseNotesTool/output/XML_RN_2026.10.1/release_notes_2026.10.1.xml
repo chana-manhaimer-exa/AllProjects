@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+<title>Content Package 2026.10.1</title>
+<section><title>Content Package 2026.10.1</title>
+<para>These release notes contain information about content package 2026.10.1, released on 14 Oct 2026.</para>
+<para><emphasis role='bold'>Enhancements</emphasis></para>
+<para><emphasis role='bold'>Parser: Added</emphasis></para>
+<itemizedlist>
+<listitem><para>CrowdStrike Falcon: crowdstrike-falcon-json-app-activity-catchall</para></listitem>
+<listitem><para>GoAnywhere MFT: goanywhere-gamft-kv-configuration-modify-success-adminauditlog</para></listitem>
+<listitem><para>MongoDB: mongodb-m-json-network-session-success-clientmetadata, mongodb-m-json-network-session-fail-failedcheckconnectivity, mongodb-m-json-network-session-success-connectionaccepted, mongodb-m-json-app-login-success-successfullyauthenticated, mongodb-m-json-database-login-fail-failedtoauthenticate, mongodb-m-json-database-activity-fail-checkingauthorizationfailed, mongodb-m-json-database-activity-success-access-catchall, mongodb-m-json-configuration-modify-success-index, mongodb-m-json-configuration-modify-success-dropcollection, mongodb-m-json-database-activity-fail-authcheck, mongodb-m-json-role-create-success-createrole, mongodb-m-json-database-login-success-authenticate, mongodb-m-json-app-logout-success-logout, mongodb-m-json-database-activity-success-catchall</para></listitem>
+<listitem><para>VMWare vCenter: vmware-vcenter-str-app-activity-success-vmwareidentitylinuxidmnativeadapter, vmware-vcenter-str-app-activity-success-vmwareidentityprincipaldiscoveryserviceimpl, vmware-vcenter-str-app-activity-success-vmwarevise, vmware-vcenter-str-app-activity-success-vmwarevpxdmain, vmware-vcenter-str-app-notification-samltokenparsed</para></listitem>
+<listitem><para>Microsoft Azure: microsoft-azure-csv-network-traffic-networksecuritygroupevent</para></listitem>
+<listitem><para>Skyhigh Secure Web Gateway: skyhighsecurity-swg-cef-http-session-gateway</para></listitem>
+<listitem><para>HPE Nonstop: hpe-nonstop-kv-app-activity-success-safeguard</para></listitem>
+<listitem><para>Anthropic Claude Code and Cowork: anthropic-claudecode-json-ai_agent-request-success-claudecode, anthropic-claudecowork-json-ai_agent-request-success-cowork, anthropic-claudecowork-json-ai_agent-request-success-coworkremote</para></listitem>
+<listitem><para>GitHub: github-g-json-user-token-create-success-oauthauthorizationcreate</para></listitem>
+<listitem><para>Microsoft Event Viewer - Application: microsoft-evapp-kv-endpoint-login-biometric-1019, microsoft-evapp-kv-endpoint-login-biometric-1605, microsoft-evapp-kv-endpoint-login-pin-5001, microsoft-evapp-kv-endpoint-login-pin-5002</para></listitem>
+<listitem><para>Anthropic Claude: anthropic-claude-json-file-success-claudeprojectfile, anthropic-claude-json-file-success-claudefile, anthropic-claude-json-file-success-platformfile, anthropic-claude-json-file-success-claudeprojectdocument, anthropic-claude-json-group-read-success-groupviewed, anthropic-claude-json-user-role-assign-success-roleassignmentgranted, anthropic-claude-json-app-authentication-fail-claudechataccessfailed, anthropic-claude-json-group-list-success-grouplistviewed, anthropic-claude-json-endpoint-login-success-ccrsessioncreated, anthropic-claude-json-app-login-success-integrationuserconnected, anthropic-claude-json-user-modify-success-claudecodeusersettingsupdated, anthropic-claude-json-user-role-revoke-success-roleassignmentrevoked, anthropic-claude-json-group-member-list-success-orgmembersexported, anthropic-claude-json-user-modify-success-claudeuserseattierupdated, anthropic-claude-json-ai_conversation-delete-success-claudechatdeleted, anthropic-claude-json-app-scan-success-securityscancompleted, anthropic-claude-json-ai_agent-success-claudeskill, anthropic-claude-json-group-success-groupmember, anthropic-claude-json-project-modify-success-claudeprojectsharingupdated, anthropic-claude-json-project-create-success-claudeprojectcreated, anthropic-claude-json-project-delete-success-claudeprojectdeleted, anthropic-claude-json-app-logout-success-sessionrevoked, anthropic-claude-json-app-activity-success-activitylogs</para></listitem>
+<listitem><para>OneIdentity SPS: oneidentity-sps-cef-endpoint-command-success-commandchannelevent, oneidentity-sps-cef-app-activity-success-windowtitlechannelevent, oneidentity-sps-cef-app-activity-success-serverconnect</para></listitem>
+<listitem><para>Palo Alto NGFW: pan-ngfw-mix-alert-trigger-success-threatdlp</para></listitem>
+<listitem><para>Unix: unix-unix-str-file-delete-success-audit</para></listitem>
+<listitem><para>Check Point NGFW: checkpoint-ngfw-kv-network-session-success-firewall-applicationcontrol</para></listitem>
+<listitem><para>Oracle Cloud Infrastructure: oracle-ci-json-app-activity-problemdetected</para></listitem>
+</itemizedlist>
+<para><emphasis role='bold'>Parser: Updated</emphasis></para>
+<itemizedlist>
+<listitem><para>Updated parser conditions for Github parser: github-g-json-repository-create-success-githubauditrepo</para></listitem>
+<listitem><para>Updated parser conditions for all Unix SSH parsers.</para></listitem>
+<listitem><para>Added failure_reason, duration, method, operation, category, url fields extractions for Microsoft Azure Monitor parser: microsoft-azuremon-csv-http-request-session-frontdooraccesslog , microsoft-azuremon-csv-http-request-success-frontdoorwaf, microsoft-azuremon-csv-app-notification-success-frontdoorhealthprobe.</para></listitem>
+<listitem><para>Updated CrowdStrike Falcon parser: crowdstrike-falcon-json-app-activity-catchall and event builder conditions</para></listitem>
+<listitem><para>Added event_category, file_name, hash_sha256, dproc and email_address field extractions for CrowdStrike Falcon parser: crowdstrike-falcon-cef-app-activity-useractivityauditevent</para></listitem>
+<listitem><para>Added timeformat for Ping Identity parsers: pingidentity-pingone-json-user-modify-success-userupdated, pingidentity-pi-json-vpn-authentication-success-pingid, pingidentity-pi-json-app-authentication-fail-pingid</para></listitem>
+<listitem><para>Updated field extraction in Tier-2 parsers for vendors such as Auth0, Slack, Microsoft.</para></listitem>
+</itemizedlist>
+<para><emphasis role='bold'>EventBuilder: Updated</emphasis></para>
+<itemizedlist>
+<listitem><para>Updated platform to Network for all event builders with output types as http-* and network-*</para></listitem>
+</itemizedlist>
+<para><emphasis role='bold'>Enricher: Added</emphasis></para>
+<itemizedlist>
+<listitem><para>Added 8 new OOTB enrichers all-src_network_type-2, all-dest_network_type-2, all-network-direction-local, all-network-direction-inbound, all-network-direction-outbound, all-network-direction-internal, all-network-direction-external, all-network-direction-unknown for populating new reserve field network_direction in all the events where src_ip &amp; dest_ip are present.</para></listitem>
+<listitem><para>Added extractFileDir(file_path), extractFileName(file_path) and extractFileExt(file_path) enrichers to extract file_dir, file_name, and file_ext from file_path field.</para></listitem>
+</itemizedlist>
+<para><emphasis role='bold'>Addressed Issues</emphasis></para>
+<para><emphasis role='bold'>Parser: Updated</emphasis></para>
+<itemizedlist>
+<listitem><para>Updated email_address field extraction for parser: proofpoint-tappod-json-email-send-receive-rcpts.</para></listitem>
+<listitem><para>Updated TimeFormat to include 'yyyy-MM-dd'T'HH:mm:ss.SSSSSSSZ' for parsers: microsoft-o365-json-mail-access-mailitemsaccessed, microsoft-o365-json-create-email-item-success.</para></listitem>
+<listitem><para>Updated file_path field extraction for parsers: microsoft-azure-json-file-success-2, microsoft-azure-json-file-success-1.</para></listitem>
+<listitem><para>Updated activity-type from network-traffic to alert-trigger for parser: pan-ngfw-mix-alert-trigger-success-threatvulnerability.</para></listitem>
+<listitem><para>Added web_domain field extraction for parser: checkpoint-ngfw-kv-network-traffic-success-accept-1</para></listitem>
+<listitem><para>Added file_signed and file_signature field extractions for parser: microsoft-sysmon-xml-dll-load-7</para></listitem>
+<listitem><para>Updated parser matching condition for parser: cisco-duo-json-vpn-login-vpn</para></listitem>
+<listitem><para>Updated the user, groups and verb field extraction for parser: amazon-eks-json-app-activity-success-annotations.</para></listitem>
+<listitem><para>Updated alert_severity, action, category, app_protocol and device_id field extractions for parser: fortinet-fortiweb-kv-alert-trigger-success-attack.</para></listitem>
+<listitem><para>Added ticket_encryption_type, auth_package, service_name, auth_type and ticket_options field extractions for Microsoft Event Viewer - Security logs.</para></listitem>
+<listitem><para>Added old_value, new_value, file_path, file_dir, file_name, file_ext, src_file_path, src_file_dir, src_file_name, src_file_ext, process_name, rule_type, dest_process_command_line, process_command_line, parent_process_command_line, domain, failure_reason, target, protection_type, attribute_value and user extractions for Microsoft Defender parsers.</para></listitem>
+<listitem><para>Updated the user_id, host, user_agent, uri, operation, audit_id, time, object_name, resource_group and additional_info field extractions for parser: openshift-o-kv-app-activity-annotations.</para></listitem>
+<listitem><para>Updated attribute and uac_status field extractions for parser: microsoft-evsecurity-xml-ds-object-modify-success-4738.</para></listitem>
+<listitem><para>Added rule field extraction for Checkpoint parsers: checkpoint-ngfw-kv-network-traffic-success-accept-1, checkpoint-ngfw-str-network-traffic-fail-drop, checkpoint-ngfw-str-network-traffic-success-decrypt, checkpoint-ngfw-str-network-traffic-success-encrypt and checkpoint-ngfw-str-network-traffic-success-bypass-2.</para></listitem>
+<listitem><para>Added new fields for parser: openshift-o-kv-app-activity-annotations.</para></listitem>
+<listitem><para>Updated process_command_line, hash_sha1, hash_sha256, hash_md5, parent_hash_sha256, parent_hash_sha1 and parent_hash_md5 field extractions for Microsoft Defender parsers.</para></listitem>
+<listitem><para>Updated time, event_code, domain, user, host, src_host, src_ip field extraction for parser: microsoft-windows-str-log-clear-success-104</para></listitem>
+<listitem><para>Updated user, email_address, email_domain field extraction for the parser: microsoft-365defender-json-endpoint-activity-success-publish-identityinfo, okta-amfa-cef-app-login-fail-coreuserauthloginfailed</para></listitem>
+<listitem><para>Updated aws_email_address, email_address and email_domain field extractions for parser: amazon-awsguardduty-sk4-alert-trigger-success-anomalousbehavior</para></listitem>
+<listitem><para>Updated web_domain, host, devid, vm_pool_name, version, src_country, category, policy_name, additional_info, event_code, message_id, event_subtype, severity, app_protocol, result and cipher field extractions for parsers: fortinet-fortiweb-kv-http-session-traffic-http, fortinet-fortiweb-kv-http-session-traffic.</para></listitem>
+<listitem><para>Updated http_response_code field extraction for parser: Symantec-fireglass-cef-http-session-url</para></listitem>
+<listitem><para>Updated host field extraction for parser: unix-unix-kv-process-create-success-command.</para></listitem>
+<listitem><para>Updated alert_id field extraction for parser: unix-sm-kv-email-send.</para></listitem>
+<listitem><para>Updated time, event_code, task_name, provider_name, result, result, channel ,event_id ,thread_id, process_id, event_name, dest_host, host, user_sid, src_user, user, domain, src_domain, login_id, privileges, object_server, process_path, process_dir, process_name, process_id field extraction for parser: microsoft-evsecurity-json-user-privilege-assign-success-4673-1.</para></listitem>
+</itemizedlist>
+<para><emphasis role='bold'>EventBuilder: Added</emphasis></para>
+<itemizedlist>
+<listitem><para>Added a new event builder: microsoft-azure-user-password-modify-fail.</para></listitem>
+<listitem><para>Added a new event builder: dl-microsoft-365-app-logout-success and dl-microsoft-365-app-logout-fail</para></listitem>
+</itemizedlist>
+<para><emphasis role='bold'>EventBuilder: Updated</emphasis></para>
+<itemizedlist>
+<listitem><para>Updated case-create, case-modify, case-delete, case-read activity-type for parser: exabeam-audit-json-alert-case-success and restored the case subject definition under Subjects.</para></listitem>
+<listitem><para>Updated Event Builder block for parser: microsoft-o365-sk4-app-activity-success-setinboxrule</para></listitem>
+<listitem><para>Updated matching conditions for event builder: microsoft-azure-user-password-modify-success-2</para></listitem>
+<listitem><para>Updated matching conditions for event builder: microsoft-o365-sk4-app-file-operationworkload.</para></listitem>
+</itemizedlist>
+<para><emphasis role='bold'>CIM: Updated</emphasis></para>
+<itemizedlist>
+<listitem><para>Updated the CIM Field descriptions.</para></listitem>
+</itemizedlist>
+<para><emphasis role='bold'>Announcements</emphasis></para>
+<itemizedlist>
+<listitem><para>Field Extraction Expressions: We will be introducing built-in enricher expressions for extracting file, process, URL, and operating system sub-fields (e.g., file_dir, file_name, file_ext, process_dir, process_name, os, version, web_domain, top_domain, sub_domain, uri_path, uri_query, uri), reducing the need for parser-level regex extraction and simplifying parser development.</para></listitem>
+</itemizedlist>
+</section>
+</article>

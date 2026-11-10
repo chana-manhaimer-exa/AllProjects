@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+<title>Content Package 2026.4.1</title>
+<section><title>Content Package 2026.4.1</title>
+<para>These release notes contain information about content package 2026.4.1, released on 15 Apr 2026.</para>
+<para><emphasis role='bold'>Enhancements</emphasis></para>
+<itemizedlist>
+<listitem><para>Updated activity-type mapping for parser: crowdstrike-falcon-sk4-app-activity-fdritemsexplorer.</para></listitem>
+<listitem><para>Removed regex for direction field in parser - cisco-asa-str-network-traffic-success-built.</para></listitem>
+<listitem><para>Added channel field extraction for Microsoft parsers.</para></listitem>
+<listitem><para>Added new parsers for Zscaler Breach Predictor logs: zscaler-bp-json-http-session-threatcategory.</para></listitem>
+<listitem><para>Added new parsers for Microsoft DNS server updates &amp; notification logs.</para></listitem>
+<listitem><para>Added new parser for Axway Gateway logs.</para></listitem>
+<listitem><para>Updated web_domain field extraction for parser template bluecoat-proxy</para></listitem>
+<listitem><para>New parsers added for Microsoft AzureADPasswordProtection-DCAgent &amp; AzureADPasswordProtection-ProxyService logs.</para></listitem>
+<listitem><para>Added new parsers for Kong Gateway logs: kong-kg-json-http-session-accesslog</para></listitem>
+<listitem><para>Added new parsers for PowerProtect Data Manager logs .Parser Name : dell-ppdm-kv-app-activity-success-catchall, dell-ppdm-kv-app-login-success-audit, dell-ppdm-kv-app-logout-success-audit .</para></listitem>
+<listitem><para>Added new parser crowdstrike-falcon-json-app-activity-eambypassevent for CrowdStrike EAMBypassEvent events.</para></listitem>
+<listitem><para>Updated dg-ep-json-alert-trigger-success-dlp-activity conditions to parse broader category of Digital Guardian logs Added new activity-type event builders for parser: dg-ep-json-alert-trigger-success-dlp-activity</para></listitem>
+<listitem><para>Updated field extraction in parsers and event builders condition for Microsoft Tier-3 parsers.</para></listitem>
+<listitem><para>Updated extraction for fields http_response_code , bytes_in &amp; bytes_out , bytes field for parsers crowdstrike-falcon-json-app-login-apiactivityauditevent , extrahop-revealx-cef-alert-trigger-success-riskscore &amp; forcepoint-dlp-cef-alert-trigger-success-forcepointdlp respectively</para></listitem>
+<listitem><para>Added new Enrichers: User to Email Address, Destination User to Destination Email Address, User to User SID or User ID, Destination User to Destination User SID or Destination User ID, Microsoft User UPN to Email Address Enricher, Discard EM HOST, Discard EM USER Removed Enrichers: UID to User Lookup, EmployeeNumber to User Lookup, Email to User Enricher-1, Destination Email to Destination User Enricher-1, Email to User Enricher-2, Destination Email to Destination User Enricher-2, User SID to User Lookup, Microsoft User UPN to User/Email Enricher, CrowdStrike Asset ID to User Lookup, Discard EM External, Discard EM Ephemeral, Discard Exabeam User</para></listitem>
+<listitem><para>Updated dest_ip, dns_response, dns_response_flags field extractions for parser: infoblox-bddi-str-dns-request-success-dnsquery</para></listitem>
+<listitem><para>Added 3 parser to parse unparsed logs .Parser Name : microsoft-evntlm-xml-endpoint-authentication-fail-4021 , microsoft-evntlm-xml-alert-trigger-success-4014 and microsoft-evsystem-xml-endpoint-notification-success-catchall</para></listitem>
+<listitem><para>Added multiple new parsers for vendor Upwind</para></listitem>
+<listitem><para>New parsers created for Copilot AI operations logs.</para></listitem>
+<listitem><para>Enhanced existing parsers &amp; event-builders for vendors like Microsoft, Netskope, Okta, Oracle.</para></listitem>
+<listitem><para>Updated field extraction in parsers and event builders condition for Dell , F5, Google,HP,Skyhigh Security and etc  Tier-3 parsers.</para></listitem>
+<listitem><para>Enhanced existing parsers &amp; event-builders for vendors like Amazon, Badge, Barracuda Networks, Check Point, Cisco, CrowdStrike, CyberArk.</para></listitem>
+</itemizedlist>
+<para><emphasis role='bold'>Addressed Issues</emphasis></para>
+<itemizedlist>
+<listitem><para>Updated the vendor to Dnsmasq</para></listitem>
+<listitem><para>Updated group_name, dest_user, dest_email_address fields extraction for parser: azure-azuread-json-app-activity-useractivitydisplayname</para></listitem>
+<listitem><para>Updated user_id and email_address field extractions for parser - auth0-a-json-app-authentication-fail-warning.</para></listitem>
+<listitem><para>Added user_agent field for parser - mcafee-wg-csv-http-session-3.</para></listitem>
+<listitem><para>Updated src_host field extraction for the parser: symantec-endpointprotection-kv-alert-trigger-success-requestedaction</para></listitem>
+<listitem><para>Updated Platform values for multiple BloxOne DDI parsers.</para></listitem>
+<listitem><para>Fixed host field of parser postgresql-p-str-database-activity-context</para></listitem>
+<listitem><para>Updated product names of parsers - citrix-netscalerwaf-str-network-traffic-default, citrix-netscalerwaf-str-ssl-traffic-ssllog, and citrix-appfw-str-app-notification-message. Updated parser condition of citrix-appfw-str-app-notification-message to match the unparsed log.</para></listitem>
+<listitem><para>Added a new parser for Auth0 logs (Parser: auth0-a-json-app-login-fail-fsa). Additionally, updated the confidence_level field extraction across Auth0 parsers.</para></listitem>
+<listitem><para>Added user , country_code , location_city , region , failure_reason , additional_info , host, event_name , src_ip , and etc field extractions for parsers jumpcloud-jc-str-app-login-success and jumpcloud-jc-json-directoryinsights-events .</para></listitem>
+<listitem><para>Updated trigger_time field extractions for parsers: exabeam-nganalytics-json-rule-trigger-success-nganalytics, exabeam-cr-json-rule-trigger-success-correlationrule and exabeam-phishingengine-json-rule-trigger-success-phishingengine.</para></listitem>
+<listitem><para>Added tactic_key,tactic,technique_key,technique fields for parser corelight-corelightids-json-alert-trigger-success-suricatacorelight</para></listitem>
+<listitem><para>Enhanced parser accuracy by fixing priorities and conditions across multiple vendors including Microsoft (Azure Monitor, Microsoft Defender), Proofpoint, MariaDB, HP, Symantec, Accellion, and Citrix.</para></listitem>
+<listitem><para>Added parsers for Copilot Interaction &amp; Powerplatform logs.</para></listitem>
+<listitem><para>Added process related fields for parser jamf-jamfpro-json-endpoint-notification-success-devicetelemetrystream</para></listitem>
+<listitem><para>Added channel field extraction in the Microsoft parsers.</para></listitem>
+<listitem><para>Updated the parser conditions and regex for time, bytes, message_id, result, and log_source in the parser - microsoft-o365-json-email-send-receive-subject.</para></listitem>
+<listitem><para>Added host field extraction for Palo Alto Networks parsers.</para></listitem>
+<listitem><para>Added new parser - hp-arubaos-str-ssh-close-success-sshclose to generate correct events.</para></listitem>
+<listitem><para>Updated the parser template for parser checkpoint-ngfw-cef-endpoint-login-success-identity-1</para></listitem>
+<listitem><para>Updated the parser silverfort-s-cef-app-login-adminconsole for new log format.</para></listitem>
+<listitem><para>Updated email_recipients field extraction for parser microsoft-o365-sk4-app-activity-success-forwardto</para></listitem>
+<listitem><para>Added tenant_id field extraction for Microsoft parsers.</para></listitem>
+<listitem><para>Updated time field extraction for parser  salesforce-sf-json-app-activity-success-loginhistory.</para></listitem>
+<listitem><para>Updated the event builder conditions for parser: crowdstrike-falcon-json-file-delete-success-deleted</para></listitem>
+<listitem><para>Enhanced the user extraction for the parsers pingidentity-forgerock-json-endpoint-authentication-amlogin &amp; pingidentity-forgerock-json-endpoint-logout-amlogout</para></listitem>
+<listitem><para>Updated email_address, full_name, first_name, last_name, user field extractions for Microsoft parsers.</para></listitem>
+<listitem><para>Added email_attachments field extraction for parser proofpoint-tappod-json-email-send-receive-rcpts</para></listitem>
+<listitem><para>Added user_agent field extraction for parser: skyhighsecurity-ssc-csv-http-session-fail-denied. Updated parser conditions skyhighsecurity-ssc-csv-http-session-observed to reslove misparsing McAfee logs.</para></listitem>
+<listitem><para>Updated web_domain extraction for parser template bluecoat-proxy</para></listitem>
+<listitem><para>Fixed event type of parser microsoft-evsecurity-xml-http-request-403</para></listitem>
+<listitem><para>Added regex for event_category field in parsers - pan-gp-cef-app-activity-success-globalprotect and pan-tesm-csv-alert-trigger-hipmatch</para></listitem>
+<listitem><para>Removed parsing of src_host from TargetDeviceName for parser microsoft-defenderep-json-endpoint-login-identitylogonevents</para></listitem>
+<listitem><para>Resolved Salesforce Marketing Cloud Log getting misparsed as Picture Perfect log issue.</para></listitem>
+<listitem><para>Updated src_host, host field extractions for parser: microsoft-sysmon-kv-process-create-success-processcreate-1</para></listitem>
+<listitem><para>Added host field parsing for following parsers: cisco-mma-kv-alert-trigger-airmarshalevents, microsoft-mdhcplog-csv-dhcp-traffic-success-bootp,  unix-unix-str-endpoint-notification-bash, unix-unix-str-endpoint-notification-kernel, postgresql-p-json-database-activity-fail-error, vmware-esxi-str-app-activity-hostd-1, postfix-postfix-str-email-send-fail-statusdeferred, postfix-postfix-str-email-send-fail-deliveryfailure, postfix-postfix-str-smtp-close-connectionfail, unix-sm-kv-email-send and vmware-esxi-str-endpoint-activity-vmkernel.</para></listitem>
+<listitem><para>Added alert_severity, alert_subject, alert_name, and dest_ip fields extraction for parser: trendmicro-ds-cef-app-activity-appactivity.</para></listitem>
+<listitem><para>Updated alert_source extraction for parser template json-microsoft-security-events-1</para></listitem>
+<listitem><para>Updated EB conditions for parser azure-azuread-json-app-activity-useractivitydisplayname. Added new activity_type for parser azure-azuread-json-app-activity-useractivitydisplayname</para></listitem>
+<listitem><para>Updated src_host extraction for parser template json-microsoft-security-events-1</para></listitem>
+<listitem><para>Parsed field dest_user from account field into parser delinea-ss-cef-app-activity-success-thycotic</para></listitem>
+<listitem><para>Added host field in parser microsoft-o365-cef-app-login-fail-userloginfailed</para></listitem>
+<listitem><para>Updated regex for host field extraction in parsers - microsoft-azuread-json-app-login-appdisplayname and microsoft-o365-cef-app-login-success-user.</para></listitem>
+<listitem><para>Removed the mapping of first_name, last_name and full_name from parser azure-azuread-json-app-activity-useractivitydisplayname. Updated mapping for user_agent for parser azure-azuread-json-app-activity-useractivitydisplayname</para></listitem>
+<listitem><para>Updated precedence of pan-gp-cef-app-activity-success-globalprotect parser.</para></listitem>
+<listitem><para>Updated email_address regex in following parsers - microsoft-evsecurity-xml-endpoint-login-fail-4625, crowdstrike-falcon-sk4-endpoint-login-userloginfail, microsoft-o365-sk4-app-activity-success-softdelete, mcafee-wg-kv-http-session-success-mwgaccess3, microsoft-o365-json-email-send-fail-advancedhunting, microsoft-o365-sk4-file-write-success-filemodified and microsoft-o365-sk4-app-activity-success-movetodeleteditems-2.</para></listitem>
+<listitem><para>Added src_user field for GitHub parsers.</para></listitem>
+<listitem><para>Updated regex for email_address field extraction in parser - crowdstrike-falcon-sk4-endpoint-login-userloginfail.</para></listitem>
+<listitem><para>Updated activity type to alert-trigger:success in parsers - crowdstrike-falcon-cef-app-activity-useractivityauditevent and crowdstrike-falcon-cef-app-activity-useractivityauditevent-1</para></listitem>
+</itemizedlist>
+<para>Click the following link for the complete package release notes: <link xlink:href="https://github.com/ExabeamLabs/Content-Library-CIM2/blob/2026.4.1/Release%20Notes/MD_RN_2026.4.1/release_notes_2026.4.1.md">2026.4.1 Content Package Release Notes</link></para>
+</section>
+</article>

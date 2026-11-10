@@ -1,0 +1,7 @@
+# Code Changes for microsoft-evsecurity-sk4-ds-object-modify-success-5136 (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| changed_parsed_fields | N/A | ['action', 'activity_id', 'app', 'attribute', 'attribute_value', 'channel', 'dest_domain', 'dest_login_id', 'dest_user', 'dest_user_sid', 'domain', 'ds_object_dn', 'event_code', 'event_id', 'event_name', 'host', 'login_id', 'login_type', 'object_type', 'operation_type', 'os', 'privileges', 'process_id', 'provider_name', 'result', 'sid_history', 'src_domain', 'src_host', 'src_user', 'task_name', 'thread_id', 'time', 'user', 'user_sid'] | ['action', 'activity_id', 'app', 'attribute', 'attribute_value', 'channel', 'dest_domain', 'dest_login_id', 'dest_user', 'dest_user_sid', 'domain', 'ds_object_dn', 'ds_object_type', 'event_code', 'event_id', 'event_name', 'host', 'login_id', 'login_type', 'operation_type', 'os', 'privileges', 'process_id', 'provider_name', 'result', 'sid_history', 'src_domain', 'src_host', 'src_user', 'task_name', 'thread_id', 'time', 'user', 'user_sid'] |
+| removed_regex_field | object_type | ['"ObjectClass"+:"+({object_type}[^"]+)'] | [] |
+| added_regex_field | ds_object_type | [] | ['"ObjectClass"+:"+({ds_object_type}[^"]+)'] |

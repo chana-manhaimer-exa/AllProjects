@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+<title>Content Package 2026.3.3</title>
+<section><title>Content Package 2026.3.3</title>
+<para>These release notes contain information about content package 2026.3.3, released on 09 Apr 2026.</para>
+<para><emphasis role='bold'>Enhancements</emphasis></para>
+<itemizedlist>
+<listitem><para>Created new parser for Prisma logs pan-ngfw-json-app-authentication-success-auth and pan-ngfw-json-app-activity-success-userid-catchall.</para></listitem>
+</itemizedlist>
+<para><emphasis role='bold'>Addressed Issues</emphasis></para>
+<itemizedlist>
+<listitem><para>Updated the parser conditions and regex for time, bytes, message_id, result, and log_source in the parser - microsoft-o365-json-email-send-receive-subject.</para></listitem>
+</itemizedlist>
+<para>Click the following link for the complete package release notes: <link xlink:href="https://github.com/ExabeamLabs/Content-Library-CIM2/blob/2026.3.3/Release%20Notes/MD_RN_2026.3.3/release_notes_2026.3.3.md">2026.3.3 Content Package Release Notes</link></para>
+</section>
+</article>

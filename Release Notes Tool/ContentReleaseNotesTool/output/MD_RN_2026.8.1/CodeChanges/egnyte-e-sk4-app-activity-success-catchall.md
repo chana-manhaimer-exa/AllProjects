@@ -1,0 +1,5 @@
+# Code Changes for egnyte-e-sk4-app-activity-success-catchall (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| added_parser | N/A | N/A | {"Name": "egnyte-e-sk4-app-activity-success-catchall", "Vendor": "Egnyte", "Product": "Egnyte", "TimeFormat": ["yyyy-MM-dd'T'HH:mm:ss.SSSZ", "yyyy-MM-dd'T'HH:mm:ss.SZ"], "Conditions": ["destinationServiceName=Egnyte", "\"action\":", "\"actor\":"], "Fields": ["\"timestamp\"\s*:\s*\"({time}[^\"]+)\"", "\Wsuser=({email_address}[A-Za-z0-9!#$%&'+\/=?^_`~.-]+@({email_domain}[^\]\s\"\\,;\|]+\.[^\]\s\"\\,;\|]+))", "\"actor\"\s*:\s*\"({email_address}[A-Za-z0-9!#$%&'+\/=?^_`~.-]+@({email_domain}[^\]\s\"\\,;\|]+\.[^\]\s\"\\,;\|]+))", "\"type\"\s*:\s*\"({object_type}[^\"]+)\"", "\"action\"\s*:\s*\"({operation}[^\"]+)\"", "\"data\"\s*:.*?\"target_path\"\s*:\s*\"({file_path}({file_dir}[^']*?[\\\/]+)?({file_name}[^'\\\/]+?(\.({file_ext}\w+))?))\"", "\"object_detail\"\s*:\s*\"({url}[^\"]+)\"", "\"data\"\s*:.*?\"source_path\"\s*:\s*\"({src_file_path}({src_file_dir}[^']*?[\\\/]+)?({src_file_name}[^'\\\/]+?(\.({src_file_ext}\w+))?))\""], "ParserVersion": "v1.0.0"} |

@@ -1,0 +1,6 @@
+# Code Changes for microsoft-o365-sk4-app-file-setunifiedgroup (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| changed_parsed_fields | N/A | ['account_name', 'additional_info', 'app', 'app_id', 'browser', 'correlation_id', 'dest_domain', 'domain', 'email_address', 'email_domain', 'event_name', 'failure_reason', 'host', 'object', 'operation', 'os', 'resource', 'result', 'site_name', 'src_host', 'src_ip', 'src_port', 'target', 'tenant_id', 'time', 'user', 'user_agent', 'user_type', 'user_upn'] | ['account_name', 'additional_info', 'app', 'app_id', 'browser', 'correlation_id', 'dest_domain', 'domain', 'email_address', 'email_domain', 'event_name', 'failure_reason', 'host', 'object', 'operation', 'os', 'resource', 'result', 'session_id', 'site_name', 'src_host', 'src_ip', 'src_port', 'target', 'tenant_id', 'time', 'user', 'user_agent', 'user_type', 'user_upn'] |
+| added_regex_field | session_id | [] | ['"AADSessionId":"({session_id}[^"]+)"', '"SessionId":"({session_id}[^"]+)"'] |

@@ -1,0 +1,5 @@
+# Code Changes for dl-netskope-securitycloud-alert-trigger-success-5 (Event Builder)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| edit_conditions | expression | InList(type,'netskope-sc-str-events-alerts-cloudapp', 'netskope-sc-str-events-alerts-privateapp', 'netskope-sc-str-events-alerts-nonweb', 'netskope-sc-str-events-alerts-nonweb-2', 'netskope-sc-str-events-alerts-web', 'netskope-sc-str-events-alerts-epdlp') && exists(event_category) && InList(toLower(event_category), 'alert') | InList(type,'netskope-sc-str-events-alerts-cloudapp', 'netskope-sc-str-events-alerts-privateapp', 'netskope-sc-str-events-alerts-nonweb', 'netskope-sc-str-events-alerts-nonweb-2', 'netskope-sc-str-events-alerts-web', 'netskope-sc-str-events-alerts-epdlp') && exists(event_category) && InList(toLower(event_category), 'alert') && exists(alert_severity) && !InList(toLower(alert_severity), 'unknown', 'low', '0', 'informational') |

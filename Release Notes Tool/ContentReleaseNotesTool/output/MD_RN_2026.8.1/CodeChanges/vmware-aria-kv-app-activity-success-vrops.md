@@ -1,0 +1,5 @@
+# Code Changes for vmware-aria-kv-app-activity-success-vrops (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| added_parser | N/A | N/A | {"Vendor": "VMware", "Product": "Aria", "TimeFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSSSSZ", "Fields": ["\s({time}\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\d\.\d\d\d\d\d\dZ)", "\svmw_product=\"({product_name}[^\"]+)", "\svmw_vr_ops_appname=\"({app}[^\"]+)", "\svmw_vr_ops_clustername=\"({cluster_name}[^\"]+)", "\svmw_vr_ops_hostname=\"({host}[\w.-]+)", "\svmw_vr_ops_logtype=\"({event_category}[^\"]+)", "\]\s*({additional_info}.+?)(?:\s*\")?$", "\sfilepath=\"({file_path}[^\\"]+)"], "Name": "vmware-aria-kv-app-activity-success-vrops", "ParserVersion": "v1.0.0", "Conditions": ["vmw_vr_ops_appname=", "vmw_product=\"vROps\"", "vmw_vr_ops_logtype=\""]} |

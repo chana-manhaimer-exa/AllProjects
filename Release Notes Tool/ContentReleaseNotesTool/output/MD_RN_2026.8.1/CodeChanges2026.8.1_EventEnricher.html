@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Code Changes 2026.8.1 — Event Enricher</title>
+<style>body{font-family:sans-serif;margin:2em}h1,h2,h3{color:#2e7d32}ul{margin:.5em 0 1em 1.5em}table{border-collapse:collapse;width:100%;margin-top:.5em}th,td{border:1px solid #ddd;padding:6px 10px;text-align:left;vertical-align:top}th{background:#f5f5f5}tr:nth-child(even){background:#fafafa}details{margin-top:1.2em}details>summary{font-size:1.4em;font-weight:bold;color:#2e7d32;cursor:pointer;user-select:none;list-style:none;padding:.2em 0}details>summary::-webkit-details-marker{display:none}details>summary::before{content:"\25B6\00A0";font-size:.75em}details[open]>summary::before{content:"\25BC\00A0";font-size:.75em}.wb{max-width:400px;word-wrap:break-word;overflow-wrap:break-word}.vn{vertical-align:top;font-weight:bold}.dt{width:auto;table-layout:auto}</style>
+</head>
+<body>
+<h1>Code Changes — Event Enricher — Content Package 2026.8.1</h1>
+<details><summary>Added Enricher (1)</summary><table class="dt"><tr><th>Event Enricher<th>After (2026.8.1)</tr><tr><td>Extract URL Subdomain<td class="wb">{"Name": "all-sub_domain", "DisplayName": "Extract URL Subdomain", "Description": "Extract subdomain from url field using extractSubDomain()", "Condition": "exists(url) &amp;&amp; !exists(sub_domain)", "Map": [{"Field": "sub_domain", "Value": "extractSubDomain(url)"}]}</table></details>
+<details><summary>Edit Attribute (7)</summary><table class="dt"><tr><th>Event Enricher<th>After (2026.8.1)</tr><tr><td>EmployeeNumber to User Lookup<td class="wb">exists(user) &amp;&amp; HasContextKey('ID-User',toLower(user))<tr><td>EmployeeNumber to User Lookup<td class="wb">[ConfigTree([('Field', 'employee_id'), ('Value', 'user')]), ConfigTree([('Field', 'user'), ('Value', "toLower(GetContextAttribute('ID-User',toLower(user),'u_user'))")])]<tr><td>Microsoft User UPN to User/Email Enricher<td class="wb">exists(user_upn) &amp;&amp; !exists(user) &amp;&amp; HasContextKey('Email User', toLower(user_upn))<tr><td>Microsoft User UPN to User/Email Enricher<td class="wb">[ConfigTree([('Field', 'email_address'), ('Value', 'toLower(user_upn)')]), ConfigTree([('Field', 'user'), ('Value', "ToLower(GetContextAttribute('Email User', toLower(user_upn), 'u_user'))")])]<tr><td>Top Domain Enricher<td class="wb">exists(web_domain) &amp;&amp; !isIP(web_domain) &amp;&amp; contains(web_domain, '.')<tr><td>UID to User Lookup<td class="wb">exists(user) &amp;&amp; HasContextKey('UID User',toLower(user))<tr><td>UID to User Lookup<td class="wb">[ConfigTree([('Field', 'user_id'), ('Value', 'user')]), ConfigTree([('Field', 'user'), ('Value', "toLower(GetContextAttribute('UID User',toLower(user),'u_user'))")])]</table></details>
+</body>
+</html>

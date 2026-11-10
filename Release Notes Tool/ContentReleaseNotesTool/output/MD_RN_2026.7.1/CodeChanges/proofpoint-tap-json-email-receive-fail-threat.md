@@ -1,0 +1,10 @@
+# Code Changes for proofpoint-tap-json-email-receive-fail-threat (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| changed_parsed_fields | N/A | ['account_name', 'alert_id', 'alert_name', 'alert_source', 'alert_status', 'alert_subject', 'alert_type', 'bytes', 'category', 'dest_email_address', 'dest_email_domain', 'dest_ip', 'dest_port', 'email_address', 'email_attachment', 'email_attachments', 'email_domain', 'email_recipients', 'email_subject', 'file_ext', 'file_name', 'hash_md5', 'hash_sha256', 'log_time', 'malware_score', 'malware_url', 'message_id', 'phishing_score', 'result', 'spam_score', 'src_ip', 'src_port', 'status_msg', 'threat_url', 'time', 'user_agent'] | ['account_name', 'alert_id', 'alert_name', 'alert_source', 'alert_status', 'alert_subject', 'alert_type', 'bytes', 'category', 'dest_email_address', 'dest_email_domain', 'dest_ip', 'dest_port', 'email_address', 'email_attachment', 'email_attachments', 'email_domain', 'email_recipients', 'email_subject', 'file_ext', 'file_name', 'folder_name', 'hash_md5', 'hash_sha256', 'log_time', 'malware_score', 'malware_url', 'message_id', 'phishing_score', 'result', 'risk_score', 'rule', 'spam_score', 'src_ip', 'src_port', 'status_msg', 'threat_url', 'time', 'user_agent'] |
+| added_regex_field | folder_name | [] | ['quarantineFolder":\s*"({folder_name}[^",]+)'] |
+| added_regex_field | risk_score | [] | ['impostorScore":\s*"?({risk_score}\d+)'] |
+| added_regex_field | rule | [] | ['quarantineRule":\s*"({rule}[^",]+)'] |
+| edit_attribute | activity_type | ['email-receive:fail', 'email-receive:success', 'email-send:fail', 'email-send:success'] | ['alert-trigger:success', 'email-receive:fail', 'email-receive:success', 'email-send:fail', 'email-send:success'] |
+| edit_attribute | legacy_activity_type | ['dlp-email-alert-in', 'dlp-email-alert-in-failed', 'dlp-email-alert-out', 'dlp-email-alert-out-failed'] | ['dlp-email-alert-in', 'dlp-email-alert-in-failed', 'dlp-email-alert-out', 'dlp-email-alert-out-failed', 'security-alert'] |

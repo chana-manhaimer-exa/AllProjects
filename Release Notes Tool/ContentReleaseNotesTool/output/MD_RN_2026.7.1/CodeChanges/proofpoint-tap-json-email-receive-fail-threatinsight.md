@@ -1,0 +1,13 @@
+# Code Changes for proofpoint-tap-json-email-receive-fail-threatinsight (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| changed_parsed_fields | N/A | ['account_name', 'alert_id', 'alert_name', 'alert_status', 'alert_type', 'bytes', 'category', 'dest_email_address', 'dest_email_domain', 'email_address', 'email_attachment', 'email_attachments', 'email_domain', 'email_recipients', 'email_subject', 'file_name', 'log_time', 'malware_score', 'malware_url', 'message_id', 'phishing_score', 'result', 'spam_score', 'src_ip', 'src_port', 'threat_id', 'time'] | ['account_name', 'alert_id', 'alert_name', 'alert_status', 'alert_type', 'bytes', 'category', 'dest_email_address', 'dest_email_domain', 'dest_ip', 'dest_port', 'email_address', 'email_attachment', 'email_attachments', 'email_domain', 'email_recipients', 'email_subject', 'file_name', 'folder_name', 'log_time', 'malware_score', 'malware_url', 'message_id', 'phishing_score', 'result', 'risk_score', 'rule', 'spam_score', 'src_ip', 'src_port', 'threat_id', 'time'] |
+| added_regex_field | dest_ip | [] | ['"clickIP":"({dest_ip}((([0-9a-fA-F.]{0,4}):{1,2}){1,7}([0-9a-fA-F]){0,4})|(((25[0-5]|(2[0-4]|1\d|[0-9]|)\d)\.?\b){4}))(:({dest_port}\d+))?', 'exa_regex="clickIP":"({dest_ip}((([0-9a-fA-F.]{0,4}):{1,2}){1,7}([0-9a-fA-F]){0,4})|(((25[0-5]|(2[0-4]|1\d|[0-9]|)\d)\.?\b){4}))(:({dest_port}\d+))?'] |
+| added_regex_field | dest_port | [] | ['"clickIP":"({dest_ip}((([0-9a-fA-F.]{0,4}):{1,2}){1,7}([0-9a-fA-F]){0,4})|(((25[0-5]|(2[0-4]|1\d|[0-9]|)\d)\.?\b){4}))(:({dest_port}\d+))?', 'exa_regex="clickIP":"({dest_ip}((([0-9a-fA-F.]{0,4}):{1,2}){1,7}([0-9a-fA-F]){0,4})|(((25[0-5]|(2[0-4]|1\d|[0-9]|)\d)\.?\b){4}))(:({dest_port}\d+))?'] |
+| added_regex_field | folder_name | [] | ['quarantineFolder":\s*"({folder_name}[^",]+)'] |
+| added_regex_field | risk_score | [] | ['impostorScore":\s*"?({risk_score}\d+)'] |
+| added_regex_field | rule | [] | ['quarantineRule":\s*"({rule}[^",]+)'] |
+| changed | Conditions | ['"senderIP":', 'recipient":', 'sender":', 'threatinsight.proofpoint.com'] | ['"clickIP":', '"clickTime":', '"senderIP":', 'recipient":', 'sender":', 'threatinsight.proofpoint.com'] |
+| edit_attribute | activity_type | ['email-receive:fail', 'email-receive:success', 'email-send:fail', 'email-send:success'] | ['alert-trigger:success'] |
+| edit_attribute | legacy_activity_type | ['dlp-email-alert-in', 'dlp-email-alert-in-failed', 'dlp-email-alert-out', 'dlp-email-alert-out-failed'] | ['security-alert'] |

@@ -1,0 +1,5 @@
+# Code Changes for salesforce-sf-json-app-activity-success-apianomalyeventstore (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| added_parser | N/A | N/A | {"Name": "salesforce-sf-json-app-activity-success-apianomalyeventstore", "Vendor": "Salesforce", "Product": "Salesforce", "TimeFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSZ", "ExtractionType": "json", "Conditions": ["\"type\":\"ApiAnomalyEventStore\"", "\"url\":"], "Fields": ["exa_json_path=$.EventDate,exa_field_name=time", "exa_json_path=$.Username,exa_regex=({email_address}[A-Za-z0-9!#$%&'+\/=?^_`~.-]+@({email_domain}[^\]\s\"\\,\|]+\.[^\]\s\"\\,\|]+))", "exa_json_path=$.RowsProcessed,exa_field_name=additional_info", "exa_json_path=$..type,exa_field_name=event_category", "exa_json_path=$..url,exa_field_name=url", "exa_json_path=$.Id,exa_field_name=event_id"], "ParserVersion": "v1.0.0"} |

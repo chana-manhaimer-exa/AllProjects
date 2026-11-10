@@ -1,0 +1,6 @@
+# Code Changes for microsoft-evsecurity-kv-service-create-success-4697 (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| edit_regex_field | dest_domain | ['Service Account:(\\[nrt]|\s)*(({dest_domain}[^\\"\s]+?)\\+)?(?!(\\*[nrt]\\+[nrt]))({dest_user}[^"\s\\]+)(\\[nrt]|\s)*"', 'Service Account:\s*(({dest_domain}[^\\"\s]+)\\)?((?-i)\\+[rnt])*({dest_user}[^"\s]+)'] | ['Service Account:(\\[nrt]|\s)*(({dest_domain}[^\\"\s]+?)\\+)?(?!(\\*[nrt]\\+[nrt]))(localsystem|NetworkService|NETWORKSERVICE|({dest_user}[^"\s\\]+))(\\[nrt]|\s)*"', 'Service Account:\s*(({dest_domain}[^\\"\s]+)\\)?((?-i)\\+[rnt])*(localsystem|NetworkService|NETWORKSERVICE}|({dest_user}[^"\s]+))'] |
+| edit_regex_field | dest_user | ['Service Account:(\\[nrt]|\s)*(({dest_domain}[^\\"\s]+?)\\+)?(?!(\\*[nrt]\\+[nrt]))({dest_user}[^"\s\\]+)(\\[nrt]|\s)*"', 'Service Account:\s*(({dest_domain}[^\\"\s]+)\\)?((?-i)\\+[rnt])*({dest_user}[^"\s]+)'] | ['Service Account:(\\[nrt]|\s)*(({dest_domain}[^\\"\s]+?)\\+)?(?!(\\*[nrt]\\+[nrt]))(localsystem|NetworkService|NETWORKSERVICE|({dest_user}[^"\s\\]+))(\\[nrt]|\s)*"', 'Service Account:\s*(({dest_domain}[^\\"\s]+)\\)?((?-i)\\+[rnt])*(localsystem|NetworkService|NETWORKSERVICE}|({dest_user}[^"\s]+))'] |

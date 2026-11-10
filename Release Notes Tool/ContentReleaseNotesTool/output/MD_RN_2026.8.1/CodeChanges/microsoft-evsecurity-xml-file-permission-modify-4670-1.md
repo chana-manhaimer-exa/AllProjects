@@ -1,0 +1,7 @@
+# Code Changes for microsoft-evsecurity-xml-file-permission-modify-4670-1 (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| changed_parsed_fields | N/A | ['channel', 'dest_domain', 'dest_login_id', 'dest_user', 'dest_user_sid', 'domain', 'event_code', 'event_name', 'file_ext', 'file_name', 'host', 'login_id', 'login_type', 'new_attribute', 'object', 'object_id', 'object_server', 'object_type', 'old_attribute', 'process_dir', 'process_id', 'process_name', 'process_path', 'result', 'run_level', 'src_domain', 'src_port', 'src_user', 'time', 'user', 'user_sid'] | ['channel', 'dest_domain', 'dest_login_id', 'dest_user', 'dest_user_sid', 'domain', 'ds_object_type', 'event_code', 'event_name', 'file_ext', 'file_name', 'host', 'login_id', 'login_type', 'new_attribute', 'object', 'object_id', 'object_server', 'old_attribute', 'process_dir', 'process_id', 'process_name', 'process_path', 'result', 'run_level', 'src_domain', 'src_port', 'src_user', 'time', 'user', 'user_sid'] |
+| removed_regex_field | object_type | ['<Data Name\\=(\'|")ObjectType(\'|")>(-|({object_type}[^<]+))<'] | [] |
+| added_regex_field | ds_object_type | [] | ['<Data Name\\=(\'|")ObjectType(\'|")>(-|({ds_object_type}[^<]+))<'] |

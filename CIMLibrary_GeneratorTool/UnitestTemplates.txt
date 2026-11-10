@@ -1,0 +1,25 @@
+Rules {
+
+  CA-UniversalPolicy-F { 
+    RuleName = "First time this user has created/attached a 'universal' resource/action policy"
+    RuleDescription = "A '*' policy was created or attached to an object. This type of policy represents universal access to whatever cloud object this policy becomes attached to. This is a dangerous configuration that can allow unwanted access, and should be further scrutinized."
+    ReasonTemplate = "First time for this user:{default|featureValue|histogram} to handle a known dangerous policy config"
+    AggregateReasonTemplate = "First time for this user: {default|featureValue|histogram} to handle a known dangerous policy config"
+    RuleType = "cloud"
+    RuleCategory = "Cloud"
+    ClassifyIf = """TRUE"""
+    RuleEventTypes = [
+          "cloud-admin-activity"
+    ]
+    Model = "CS-Universal-Policy"
+    Score = "20.0"
+    Disabled = "FALSE"
+    FactFeatureName = """policy"""
+    RuleLabels {
+            mitre = ["T1078.004"]
+    }
+    PercentileThreshold = "0.1"
+    RuleExpression = """(trim(policy_resource)='*' || trim(policy_action)='*') && ConfidenceFactorAboveOrEqual() && num_observations=0"""
+    DependencyExpression = "NA"
+  }
+

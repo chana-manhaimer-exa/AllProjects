@@ -1,0 +1,16 @@
+# Code Changes for microsoft-evsecurity-json-endpoint-activity-success-catchall (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| COULD_NOT_COMPARE | TimeFormat | yyyy-MM-dd HH:mm:ss Z | ['yyyy-MM-dd HH:mm:ss Z', "yyyy-MM-dd'T'HH:mm:ss.SSSSSSSSSZ", "yyyy-MM-dd'T'HH:mm:ss.SSSSSSSZ"] |
+| changed_parsed_fields | N/A | ['domain', 'event_name', 'login_id', 'user', 'user_sid'] | ['domain', 'event_name', 'host', 'login_id', 'process_dir', 'process_name', 'process_path', 'src_host', 'user', 'user_sid'] |
+| edit_regex_field | domain | ['exa_json_path=$.UserID,exa_regex=(({user_sid}S-[^"]+?)|(({domain}[^"]+?)[\\\/]+)?({user}[\w\.\-\!\#\^\~]{1,40}\$?))"', 'exa_regex=Account Domain:\s+({domain}[^\s]+)', 'exa_regex=Account Name:\s*(({domain}[^:\\]+?)\\+)?({user}[\w\.\-\!\#\^\~]{1,40}\$?)(\s+\w+){1,2}:\s'] | ['exa_json_path=$..UserID,exa_regex=(({user_sid}S-[^"]+?)|(({domain}[^"]+?)[\\\/]+)?({user}[\w\.\-\!\#\^\~]{1,40}\$?))"', 'exa_regex=Account Domain:\s+({domain}[^\s]+)', 'exa_regex=Account Name:\s*(({domain}[^:\\]+?)\\+)?({user}[\w\.\-\!\#\^\~]{1,40}\$?)(\s+\w+){1,2}:\s'] |
+| edit_regex_field | event_name | ['exa_json_path=$.Message,exa_regex=(S-[^"]+|({event_name}[^\."]+))'] | ['exa_json_path=$..Message,exa_regex=(S-[^"]+|({event_name}[^\."]+))'] |
+| edit_regex_field | user | ['exa_json_path=$.UserID,exa_regex=(({user_sid}S-[^"]+?)|(({domain}[^"]+?)[\\\/]+)?({user}[\w\.\-\!\#\^\~]{1,40}\$?))"', 'exa_regex=Account Name:\s*(({domain}[^:\\]+?)\\+)?({user}[\w\.\-\!\#\^\~]{1,40}\$?)(\s+\w+){1,2}:\s'] | ['exa_json_path=$..UserID,exa_regex=(({user_sid}S-[^"]+?)|(({domain}[^"]+?)[\\\/]+)?({user}[\w\.\-\!\#\^\~]{1,40}\$?))"', 'exa_regex=Account Name:\s*(({domain}[^:\\]+?)\\+)?({user}[\w\.\-\!\#\^\~]{1,40}\$?)(\s+\w+){1,2}:\s'] |
+| edit_regex_field | user_sid | ['exa_json_path=$.UserID,exa_regex=(({user_sid}S-[^"]+?)|(({domain}[^"]+?)[\\\/]+)?({user}[\w\.\-\!\#\^\~]{1,40}\$?))"', 'exa_regex=Subject:\s+Security ID:\s+({user_sid}[^\s]+)'] | ['exa_json_path=$..UserID,exa_regex=(({user_sid}S-[^"]+?)|(({domain}[^"]+?)[\\\/]+)?({user}[\w\.\-\!\#\^\~]{1,40}\$?))"', 'exa_regex=Subject:\s+Security ID:\s+({user_sid}[^\s]+)'] |
+| added_regex_field | host | [] | ['exa_json_path=$..System.Computer,exa_regex=({src_host}({host}[\w\-.]+))', 'exa_json_path=$.Computer,exa_regex=({src_host}({host}[\w\-.]+))'] |
+| added_regex_field | process_dir | [] | ['exa_json_path=$..EventData.Data.Application,exa_regex=({process_path}({process_dir}[^"]+[\\]+)?({process_name}[^"]+))'] |
+| added_regex_field | process_name | [] | ['exa_json_path=$..EventData.Data.Application,exa_regex=({process_path}({process_dir}[^"]+[\\]+)?({process_name}[^"]+))'] |
+| added_regex_field | process_path | [] | ['exa_json_path=$..EventData.Data.Application,exa_regex=({process_path}({process_dir}[^"]+[\\]+)?({process_name}[^"]+))'] |
+| added_regex_field | src_host | [] | ['exa_json_path=$..System.Computer,exa_regex=({src_host}({host}[\w\-.]+))', 'exa_json_path=$.Computer,exa_regex=({src_host}({host}[\w\-.]+))'] |
+| changed | Conditions | ['"Channel":"Security"', '"EventID":', '"ProviderName":"'] | ['"Channel":"Security"', '"EventID":', 'Microsoft-Windows-Security-Auditing'] |

@@ -1,0 +1,5 @@
+# Code Changes for sophos-xgfirewall-kv-app-notification-success-systemhealth (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| added_parser | N/A | N/A | {"Name": "sophos-xgfirewall-kv-app-notification-success-systemhealth", "ParserVersion": "v1.0.0", "Vendor": "Sophos", "Product": "Sophos XG Firewall", "TimeFormat": ["yyyy-MM-dd'T'HH:mm:ssZ", "yyyy-MM-dd' time='HH:mm:ss"], "Conditions": ["device_name=", "log_type=\"System Health\"", "log_subtype=\"Usage\""], "Fields": ["timestamp=\"({time}\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\+|\-)[\d:]+)", "date=({time}\d{4}-\d\d-\d\d\stime=\d\d:\d\d:\d\d)", "device_name=\"(SFW|({host}[\w\-.]+))", "(device_id|device_serial_id)=\"?({device_id}\S*?)\"?\s", "log_id=\"?({event_code}\d+)\"?", "log_type=\"({event_category}[^\"]+)", "log_subtype=\"({subtype}[^\"]+)", "log_component=\"({event_subtype}[^\"]+)", "severity=\"({severity}[^\"]+)", "severity=\"\w+\"\s+({additional_info}[^\n]+)"]} |

@@ -1,0 +1,5 @@
+# Code Changes for zscaler-network-network-traffic-success-1 (Event Builder)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| edit_conditions | expression | InList(type, 'zscaler-ia-cef-network-traffic-oneclickrule', 'zscaler-ia-csv-network-traffic-bypasstraffic', 'zscaler-ia-csv-network-traffic-oneclickrule', 'zscaler-ia-csv-network-traffic-grenetworksecurity', 'zscaler-ia-csv-network-traffic-ipsecnetworksecurity', 'zscaler-ia-csv-network-traffic-greudp') && toLower(action)='allow' | InList(type, 'zscaler-ia-cef-network-traffic-oneclickrule', 'zscaler-ia-csv-network-traffic-bypasstraffic', 'zscaler-ia-csv-network-traffic-oneclickrule', 'zscaler-ia-csv-network-traffic-grenetworksecurity', 'zscaler-ia-csv-network-traffic-ipsecnetworksecurity', 'zscaler-ia-csv-network-traffic-greudp') && containsAny(toLower(action), 'allow') |

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<section xmlns="http://docbook.org/ns/docbook" xmlns:xinfo="http://ns.expertinfo.se/cms/xmlns/1.0" xml:id="" version="5.0" xml:lang="en" xinfo:resource="" xinfo:resource-id="" xinfo:resource-type="component" xinfo:resource-title="" xinfo:resource-titlelabel="" xinfo:version-major="1" xinfo:version-minor="0">
+  <title>permCATEGORY</title>
+  <informaltable width="100%">
+    <thead>
+      <tr>
+        <th>
+          <para>Application</para>
+        </th>
+        <th>
+          <para>Platform</para>
+        </th>
+        <th>
+          <para>Permission</para>
+        </th>
+        <th>
+          <para>Permission Description</para>
+        </th>
+        <th>
+          <para>Role(s)</para>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <para>permAPPLICATION</para>
+        </td>
+        <td>
+          <para>permPLATFORM</para>
+        </td>
+        <td>
+          <para>permACCESS</para>
+        </td>
+        <td>
+          <para>permDESCRIPTION</para>
+        </td>
+        <td>
+          <para>ROLE</para>
+        </td>
+      </tr>
+    </tbody>
+  </informaltable>
+</section>

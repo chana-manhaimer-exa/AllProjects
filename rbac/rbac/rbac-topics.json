@@ -1,0 +1,55 @@
+{
+    "topics": [
+      {
+        "category": "APIs",
+        "id": 295767,
+        "public": true
+      },
+      {
+        "category": "Collectors",
+        "id": 295769,
+        "public": true
+      },
+      {
+        "category": "Compliance",
+        "id": 295789,
+        "public": true
+      },
+      {
+        "category": "Identity and Access Management",
+        "id": 300282,
+        "public": true
+      },
+      {
+        "category": "Internal Tools",
+        "id": 6,
+        "public": false
+      },
+      {
+        "category": "Investigation and Response",
+        "id": 297033,
+        "public": true
+      },
+      {
+        "category": "Multi-Org",
+        "id": 2,
+        "public": false
+      },
+      {
+        "category": "Platform Insights",
+        "id": 297523,
+        "public": true
+      },
+      {
+        "category": "Security Management",
+        "id": 295570,
+        "public": true
+      },
+      {
+        "category": "Threat Detection",
+        "id": 295714,
+        "public": true
+      }
+    ]
+  }
+  

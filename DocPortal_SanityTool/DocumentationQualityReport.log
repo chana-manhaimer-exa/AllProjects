@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-19T14:00:24.611371Z</date>
+  <millis>1724076024611</millis>
+  <nanos>371000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-19T14:00:24.707421Z</date>
+  <millis>1724076024707</millis>
+  <nanos>421000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-19T14:04:28.570889Z</date>
+  <millis>1724076268570</millis>
+  <nanos>889000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-19T14:04:28.637747Z</date>
+  <millis>1724076268637</millis>
+  <nanos>747000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-19T16:00:28.447920Z</date>
+  <millis>1724083228447</millis>
+  <nanos>920000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-19T16:00:28.511501Z</date>
+  <millis>1724083228511</millis>
+  <nanos>501000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-19T16:04:39.838023Z</date>
+  <millis>1724083479838</millis>
+  <nanos>23000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-19T16:04:39.893055Z</date>
+  <millis>1724083479893</millis>
+  <nanos>55000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-19T16:07:08.390653Z</date>
+  <millis>1724083628390</millis>
+  <nanos>653000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-19T16:07:08.448812Z</date>
+  <millis>1724083628448</millis>
+  <nanos>812000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-19T16:08:26.276095Z</date>
+  <millis>1724083706276</millis>
+  <nanos>95000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-19T16:08:26.350091Z</date>
+  <millis>1724083706350</millis>
+  <nanos>91000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-19T16:11:05.422644Z</date>
+  <millis>1724083865422</millis>
+  <nanos>644000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-19T16:11:05.483912Z</date>
+  <millis>1724083865483</millis>
+  <nanos>912000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-19T16:14:39.085162Z</date>
+  <millis>1724084079085</millis>
+  <nanos>162000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-19T16:14:39.140428Z</date>
+  <millis>1724084079140</millis>
+  <nanos>428000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-19T16:17:39.944201Z</date>
+  <millis>1724084259944</millis>
+  <nanos>201000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-19T16:17:39.996839Z</date>
+  <millis>1724084259996</millis>
+  <nanos>839000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-19T17:21:51.093319Z</date>
+  <millis>1724088111093</millis>
+  <nanos>319000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-19T17:21:51.145088Z</date>
+  <millis>1724088111145</millis>
+  <nanos>88000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-19T17:24:18.879307Z</date>
+  <millis>1724088258879</millis>
+  <nanos>307000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-19T17:24:18.939610Z</date>
+  <millis>1724088258939</millis>
+  <nanos>610000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-19T17:28:02.169389Z</date>
+  <millis>1724088482169</millis>
+  <nanos>389000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-19T17:28:02.222411Z</date>
+  <millis>1724088482222</millis>
+  <nanos>411000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2024-08-20T09:04:18.783048Z</date>
+  <millis>1724144658783</millis>
+  <nanos>48000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-20T09:04:22.458133Z</date>
+  <millis>1724144662458</millis>
+  <nanos>133000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-20T09:04:22.517771Z</date>
+  <millis>1724144662517</millis>
+  <nanos>771000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-20T09:09:52.821354Z</date>
+  <millis>1724144992821</millis>
+  <nanos>354000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-20T09:09:52.878134Z</date>
+  <millis>1724144992878</millis>
+  <nanos>134000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2024-08-20T09:24:18.256320Z</date>
+  <millis>1724145858256</millis>
+  <nanos>320000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-20T09:55:21.973351Z</date>
+  <millis>1724147721973</millis>
+  <nanos>351000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-20T09:55:22.029859Z</date>
+  <millis>1724147722029</millis>
+  <nanos>859000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2024-08-20T09:56:44.839098Z</date>
+  <millis>1724147804839</millis>
+  <nanos>98000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-20T11:22:47.025361Z</date>
+  <millis>1724152967025</millis>
+  <nanos>361000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-20T11:22:47.085492Z</date>
+  <millis>1724152967085</millis>
+  <nanos>492000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2024-08-20T12:25:22.963480Z</date>
+  <millis>1724156722963</millis>
+  <nanos>480000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-20T14:30:27.067085Z</date>
+  <millis>1724164227067</millis>
+  <nanos>85000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-20T14:30:27.118815Z</date>
+  <millis>1724164227118</millis>
+  <nanos>815000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-20T14:33:40.674665Z</date>
+  <millis>1724164420674</millis>
+  <nanos>665000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-20T14:33:40.726731Z</date>
+  <millis>1724164420726</millis>
+  <nanos>731000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2024-08-20T14:35:38.838220Z</date>
+  <millis>1724164538838</millis>
+  <nanos>220000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-20T14:41:45.131659Z</date>
+  <millis>1724164905131</millis>
+  <nanos>659000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-20T14:41:45.176970Z</date>
+  <millis>1724164905176</millis>
+  <nanos>970000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2024-08-20T14:43:14.147747Z</date>
+  <millis>1724164994147</millis>
+  <nanos>747000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-20T14:50:05.738922Z</date>
+  <millis>1724165405738</millis>
+  <nanos>922000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-20T14:50:05.787698Z</date>
+  <millis>1724165405787</millis>
+  <nanos>698000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2024-08-20T14:51:32.723808Z</date>
+  <millis>1724165492723</millis>
+  <nanos>808000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-20T14:56:17.812837Z</date>
+  <millis>1724165777812</millis>
+  <nanos>837000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-20T14:56:17.856154Z</date>
+  <millis>1724165777856</millis>
+  <nanos>154000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2024-08-20T14:57:47.813141Z</date>
+  <millis>1724165867813</millis>
+  <nanos>141000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-20T14:59:58.179017Z</date>
+  <millis>1724165998179</millis>
+  <nanos>17000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-20T14:59:58.226294Z</date>
+  <millis>1724165998226</millis>
+  <nanos>294000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2024-08-20T16:07:23.198625Z</date>
+  <millis>1724170043198</millis>
+  <nanos>625000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-20T16:30:51.004713Z</date>
+  <millis>1724171451004</millis>
+  <nanos>713000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-20T16:30:51.052584Z</date>
+  <millis>1724171451052</millis>
+  <nanos>584000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2024-08-20T16:58:20.824075Z</date>
+  <millis>1724173100824</millis>
+  <nanos>75000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-27T13:19:15.032483Z</date>
+  <millis>1724764755032</millis>
+  <nanos>483000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-27T13:19:15.107479Z</date>
+  <millis>1724764755107</millis>
+  <nanos>479000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-27T13:24:28.286781Z</date>
+  <millis>1724765068286</millis>
+  <nanos>781000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-08-27T13:24:28.337007Z</date>
+  <millis>1724765068337</millis>
+  <nanos>7000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2024-08-27T14:55:12.388759Z</date>
+  <millis>1724770512388</millis>
+  <nanos>759000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-09-24T15:22:06.337986Z</date>
+  <millis>1727191326337</millis>
+  <nanos>986000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-09-24T15:22:06.656062Z</date>
+  <millis>1727191326656</millis>
+  <nanos>62000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-09-24T16:03:24.195997Z</date>
+  <millis>1727193804195</millis>
+  <nanos>997000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-09-24T16:03:24.243304Z</date>
+  <millis>1727193804243</millis>
+  <nanos>304000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2024-09-25T09:29:32.735628Z</date>
+  <millis>1727256572735</millis>
+  <nanos>628000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-09-30T13:10:13.945151Z</date>
+  <millis>1727701813945</millis>
+  <nanos>151000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-09-30T13:10:14.090097Z</date>
+  <millis>1727701814090</millis>
+  <nanos>97000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2024-09-30T14:00:38.900644Z</date>
+  <millis>1727704838900</millis>
+  <nanos>644000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-10-01T12:58:13.870196Z</date>
+  <millis>1727787493870</millis>
+  <nanos>196000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-10-01T12:58:13.914729Z</date>
+  <millis>1727787493914</millis>
+  <nanos>729000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2024-10-01T13:31:29.655814Z</date>
+  <millis>1727789489655</millis>
+  <nanos>814000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-10-15T15:38:41.534696Z</date>
+  <millis>1729006721534</millis>
+  <nanos>696000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-10-15T15:38:41.665995Z</date>
+  <millis>1729006721665</millis>
+  <nanos>995000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2024-10-15T16:02:24.704719Z</date>
+  <millis>1729008144704</millis>
+  <nanos>719000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-11-26T16:20:16.996854Z</date>
+  <millis>1732638016996</millis>
+  <nanos>854000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2024-11-26T16:20:17.036639Z</date>
+  <millis>1732638017036</millis>
+  <nanos>639000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2024-11-26T17:04:06.154053Z</date>
+  <millis>1732640646154</millis>
+  <nanos>53000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-02-03T14:13:44.106940Z</date>
+  <millis>1770128024106</millis>
+  <nanos>940000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2026-02-03T14:13:44.128409Z</date>
+  <millis>1770128024128</millis>
+  <nanos>409000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-02-03T14:13:44.129135Z</date>
+  <millis>1770128024129</millis>
+  <nanos>135000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-02-17T15:44:39.064558Z</date>
+  <millis>1771343079064</millis>
+  <nanos>558000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2026-02-17T15:44:39.085794Z</date>
+  <millis>1771343079085</millis>
+  <nanos>794000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-02-17T15:50:15.986384Z</date>
+  <millis>1771343415986</millis>
+  <nanos>384000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2026-02-17T15:50:16.009446Z</date>
+  <millis>1771343416009</millis>
+  <nanos>446000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-02-19T14:05:55.639210Z</date>
+  <millis>1771509955639</millis>
+  <nanos>210000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-02-19T14:46:26.163546Z</date>
+  <millis>1771512386163</millis>
+  <nanos>546000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2026-02-19T14:46:26.182581Z</date>
+  <millis>1771512386182</millis>
+  <nanos>581000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-02-19T15:13:11.397544Z</date>
+  <millis>1771513991397</millis>
+  <nanos>544000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-06-17T18:38:17.355986Z</date>
+  <millis>1781721497355</millis>
+  <nanos>986000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2026-06-17T18:38:17.378590Z</date>
+  <millis>1781721497378</millis>
+  <nanos>590000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-06-17T18:38:49.513568Z</date>
+  <millis>1781721529513</millis>
+  <nanos>568000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2026-06-17T18:38:49.529419Z</date>
+  <millis>1781721529529</millis>
+  <nanos>419000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-06-17T18:39:39.564174Z</date>
+  <millis>1781721579564</millis>
+  <nanos>174000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2026-06-17T18:39:39.605980Z</date>
+  <millis>1781721579605</millis>
+  <nanos>980000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-06-17T18:46:04.046790Z</date>
+  <millis>1781721964046</millis>
+  <nanos>790000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2026-06-17T18:46:04.063955Z</date>
+  <millis>1781721964063</millis>
+  <nanos>955000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-06-17T18:51:23.111803Z</date>
+  <millis>1781722283111</millis>
+  <nanos>803000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2026-06-17T18:51:23.148281Z</date>
+  <millis>1781722283148</millis>
+  <nanos>281000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-06-17T18:52:32.039920Z</date>
+  <millis>1781722352039</millis>
+  <nanos>920000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2026-06-17T18:52:32.075963Z</date>
+  <millis>1781722352075</millis>
+  <nanos>963000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-06-17T19:10:37.912437Z</date>
+  <millis>1781723437912</millis>
+  <nanos>437000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-07-14T15:40:30.171931Z</date>
+  <millis>1784043630171</millis>
+  <nanos>931000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2026-07-14T15:40:30.193205Z</date>
+  <millis>1784043630193</millis>
+  <nanos>205000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-07-14T15:41:15.112846Z</date>
+  <millis>1784043675112</millis>
+  <nanos>846000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-07-14T15:45:10.589177Z</date>
+  <millis>1784043910589</millis>
+  <nanos>177000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2026-07-14T15:45:10.607484Z</date>
+  <millis>1784043910607</millis>
+  <nanos>484000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-07-14T15:45:33.392766Z</date>
+  <millis>1784043933392</millis>
+  <nanos>766000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-07-22T10:14:20.577730Z</date>
+  <millis>1784715260577</millis>
+  <nanos>730000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2026-07-22T10:14:20.601187Z</date>
+  <millis>1784715260601</millis>
+  <nanos>187000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-07-22T10:15:08.426325Z</date>
+  <millis>1784715308426</millis>
+  <nanos>325000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-10-20T13:02:15.618771Z</date>
+  <millis>1792501335618</millis>
+  <nanos>771000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running Doc Portal Sanity Tool</message>
+</record>
+<record>
+  <date>2026-10-20T13:02:15.635610Z</date>
+  <millis>1792501335635</millis>
+  <nanos>610000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-10-20T13:04:11.375061Z</date>
+  <millis>1792501451375</millis>
+  <nanos>61000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.DocPortalSanityTool.DocPortalSanity</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running Doc Portal Sanity Tool - Please check OutputMD folder for created report.</message>
+</record>
+</log>

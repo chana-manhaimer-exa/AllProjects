@@ -1,0 +1,5 @@
+# Code Changes for snowflake-s-json-database-activity-success-querytext-1 (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| added_parser | N/A | N/A | {"Name": "snowflake-s-json-database-activity-success-querytext-1", "Vendor": "Snowflake", "Product": "Snowflake", "ExtractionType": "json", "TimeFormat": ["yyyy-MM-dd HH:mm:ss.SSS", "yyyy-MM-dd HH:mm:ss.SS", "yyyy-MM-dd HH:mm:ss.S"], "Conditions": ["\"EVENT_TS_", "\"QUERY_TEXT\":", "\"MAX_BYTES_SCANNED\":"], "Fields": ["exa_json_path=$.EVENT_TS_UTC,exa_field_name=time", "exa_json_path=$..QUERY_TEXT,exa_field_name=db_query", "exa_json_path=$..USER_NAME,exa_field_name=db_user", "exa_json_path=$..EXECUTION_COUNT,exa_regex=({count}\d+)", "exa_json_path=$..MAX_BYTES_SCANNED,exa_regex=({bytes}\d+)"], "ParserVersion": "v1.0.0"} |

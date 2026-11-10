@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+<title>Content Package 2026.2.1</title>
+<section><title>Content Package 2026.2.1</title>
+<para>These release notes contain information about content package 2026.2.1, released on 13 Feb 2026.</para>
+<para><emphasis role='bold'>Enhancements</emphasis></para>
+<itemizedlist>
+<listitem><para>Added new parsers for NetApp Ontap logs - netapp-netappontap-str-endpoint-login-fail-loginattempterror and netapp-netappontap-str-endpoint-success-logging.</para></listitem>
+<listitem><para>Updated tanium-im-kv-file-write-success-write conditions to parse broader category of Tanium Integrity Monitor logs.</para></listitem>
+<listitem><para>Added new parser sentinelone-singularityp-json-app-authentication-apiactivity to parse SentinelOne - API Activity logs.</para></listitem>
+<listitem><para>Added new parser for Microsoft DHCP xml logs - microsoft-mdhcplog-xml-configuration-modify-success-dhcpserver.</para></listitem>
+<listitem><para>Updated mfa field extraction for aws console login parsers amazon-awscloudtrail-json-app-login-awsconsolesignin &amp; amazon-awscloudtrail-json-aws-login-consolelogin. Additionally updated the activity type to build app-login events for parser amazon-awscloudtrail-json-aws-login-consolelogin</para></listitem>
+<listitem><para>Added new parser corelight-corelightids-json-alert-trigger-success-suricatacorelight to parse Corelight IDS logs.</para></listitem>
+<listitem><para>Added new parser for Corelight IDS DCE/RPC logs: corelight-corelightids-json-app-activity-success-dce_rpc.</para></listitem>
+<listitem><para>Added new parser for UNIX logs: unix-unix-kv-endpoint-login-success-sshuserlogin.</para></listitem>
+<listitem><para>Added new parser jumpcloud-jc-json-directoryinsights-events for JumpCloud json logs</para></listitem>
+<listitem><para>Added new parser for OpenAI ChatGPT Compliance logs: openai-oai-json-ai-agent-request-response-compliance.</para></listitem>
+<listitem><para>Added new parser for SentinelOne Scalyr logs: sentinelone-scalyr-json-endpoint-notification-success-scalyragentlog.</para></listitem>
+<listitem><para>Added new parsers for Azure ATP logs: microsoft-defenderep-json-alert-trigger-success-bruteforcesecurityalert, microsoft-defenderep-json-alert-trigger-success-storageblonapplicationanomoly, microsoft-defenderep-json-alert-trigger-success-suspiciousapitraffic.</para></listitem>
+<listitem><para>Added new parser for SmartSuite logs: smartsuite-ssuite-json-audit-event smartsuite-ssuite-json-app-activity-success</para></listitem>
+<listitem><para>Added new parser for Semperis DSP logs: semperis-dsp-kv-security-alert-trigger.</para></listitem>
+<listitem><para>Added a new parser for Island Enterprise Browser logs: island-islandbrowser-json-http-session-message.</para></listitem>
+<listitem><para>Updated object_name, start_time, end_time field extractions for parser: microsoft-o365-sk4-app-file-workload</para></listitem>
+<listitem><para>Updated Vendor to Mimecast for parsers code42-incydr-json-file-success-oshostname, code42-incydr-sk4-app-activity-success-appclient</para></listitem>
+<listitem><para>Updated beyondtrust-b-json-user-logon-success-ecs and beyondtrust-b-json-process-create-success-ecs conditions to parse broader category of BeyondTrust EPM logs. Updated event builder conditions for parser: beyondtrust-b-json-process-create-success-ecs Added new parsers for BeyondTrust EPM logs beyondtrust-b-json-app-activity-fail-ecs beyondtrust-b-json-service-start-ecs beyondtrust-b-json-service-stop-ecs</para></listitem>
+<listitem><para>Updated parser - microsoft-iis-str-http-request-post443 conditions to parse broader category of IIS logs.</para></listitem>
+<listitem><para>Added new parsers for Menlo Security logs: menlo-ms-json-alert-trigger-success-heat. Updated  menlo-ms-json-http-session-security conditions to parse broader category of Menlo Security logs.</para></listitem>
+<listitem><para>Updated oracle-oci-json-app-activity-auditlogevent conditions to parse broader category of Oracle Cloud Infrastructure logs.</para></listitem>
+<listitem><para>Added new parser for Ermes Browser Security Platform logs: ermes-ebsp-json-alert-trigger-success-datalossprevention</para></listitem>
+<listitem><para>Added new parser for Microsoft Copilot Interaction logs: microsoft-copilot-json-ai-agent-request-success-interaction.</para></listitem>
+<listitem><para>Added new parsers for Check Point Avanan logs : checkpoint-avanan-mix-alert-trigger-success-severity-1, checkpoint-avanan-kv-alert-trigger-success-avanan.</para></listitem>
+<listitem><para>Updated the existing parser jamf-jamfpro-json-security-alerts-jamfprotect conditions to accommodate Jamf logs of type GPProcessEvent and GPUnifiedLogEvent. Additionally, created a new parser jamf-jamfpro-json-endpoint-notification-success-devicetelemetrystream for logs of type Device Telemetry Stream.</para></listitem>
+<listitem><para>Added new parsers for Extrahop Reveal(x) logs: extrahop-revealx-str-app-activity-success-auditlog and extrahop-revealx-leef-app-activity-success-rx360auditlog</para></listitem>
+<listitem><para>Added new parsers for Commvault ThreatWise logs: commvault-threatwise-str-alert-trigger-success-synscan, commvault-threatwise-str-alert-trigger-success-reconnaissance, commvault-threatwise-str-traps-catchall.</para></listitem>
+<listitem><para>Removed unused of SOAR block from parser definition: vmware-carbonblackedr-leef-alert-trigger-success-watchlist.</para></listitem>
+<listitem><para>Added VendorMatchers config for Progress ShareFile, Vectra, Qualys, Zoom, Trend Micro, Trellix, Tenable, Sophos, Snowflake, Slack, ServiceNow, SentinelOne, Salesforce, Recorded Future, Palo Alto, Okta, Proofpoint, Cato, Github, Google, Cloudflare, Cisco, LastPass, AWS, VMware, Netskope to match parsers using their collector information.</para></listitem>
+</itemizedlist>
+<para><emphasis role='bold'>Addressed Issues</emphasis></para>
+<itemizedlist>
+<listitem><para>Updated user field extraction for parser: auth0-a-json-endpoint-login-fail-fp.</para></listitem>
+<listitem><para>Updated event_id &amp; client_id field extractions for parser: snowflake-s-csv-app-login-loginhistory</para></listitem>
+<listitem><para>Updated user field extraction for parser: cisco-asa-str-file-success-client</para></listitem>
+<listitem><para>Updated src_network_zone and src_network_type field extractions for parser: microsoft-windows-sk4-app-login-fail-signin.</para></listitem>
+<listitem><para>Updated time field extraction for parser: questsoftware-casql-cef-database-query-success-sqlaudit, questsoftware-casql-cef-database-activity-success-audit.</para></listitem>
+<listitem><para>Updated time, target, result, src_ip, user, object, host, email_address field extractions for parser: microsoft-o365-sk4-app-activity-success-movetofolder</para></listitem>
+<listitem><para>Updated mapping of access_device locations to city and state, and auth_device locations to location_city and location_state for parser - cisco-duo-json-endpoint-authentication-result-1.</para></listitem>
+<listitem><para>Updated access_type field extraction for parser: microsoft-o365-sk4-app-file-operationworkload.</para></listitem>
+<listitem><para>Updated src_host, email_address, domain, user field extractions for parser: sentinelone-singularityp-json-alert-trigger-success-rulename</para></listitem>
+<listitem><para>Added new activity type - service-stop event builders for parser - crowdstrike-falcon-sk4-app-activity-eventsimplename and crowdstrike-falcon-sk4-app-activity-eventsimplename-1.</para></listitem>
+<listitem><para>Fixed src_host and parsed from targetusername and removed regex src_host from workstation from parser microsoft-evsecurity-xml-endpoint-login-success-4624</para></listitem>
+<listitem><para>Updated regex for src_ip and dest_ip field extractions for parsers: microsoft-o365-sk4-app-file-move, exabeam-aa-kv-rule-trigger-success-anomaly and cisco-netsec-str-network-notification-success-ftd.</para></listitem>
+<listitem><para>Added new parsers for Netskope Webtx logs - netskope-webtx-csv-network-traffic-httptransaction and netskope-webtx-csv-network-traffic-websocket.</para></listitem>
+<listitem><para>Fixed json &amp; regex extractions for parser code42-incydr-json-file-succes-file to correctly parse operation, src_host and other fields.</para></listitem>
+<listitem><para>Added new parser for Check Point NGFW logs: checkpoint-ngfw-cef-email-receive-mtainbound.</para></listitem>
+<listitem><para>Added an eventType mapping when the user does not exist for the parser pingidentity-pi-str-endpoint-login-fail-inprogress</para></listitem>
+<listitem><para>Updated grandparent_image_filename &amp; grandparent_command_line field extractions for Crowdstrike.</para></listitem>
+<listitem><para>Updated conditions for enricher: Fallback User Name</para></listitem>
+<listitem><para>Updated email_address, src_ip/dest_ip fields for auth0-a-json-app-activity-success-catchall, auth0-a-json-app-login-fail-fcpr, auth0-a-json-app-login-fail-fu, azure-azuread-json-app-activity-updateserviceprincipal, microsoft-azuremon-json-app-activity-success-devicecompliance, microsoft-defenderep-json-alert-trigger-success-dlprulematch-1, microsoft-o365-cef-app-file-success-filedeleted, microsoft-o365-json-email-send-receive-subject, microsoft-o365-sk4-app-file-move, microsoft-o365-sk4-app-file-workload, microsoft-o365-sk4-email-receive-success-inbound, proofpoint-tappod-json-email-send-receive-sendmailto, sailpoint-identityiq-json-app-activity-success-appactivity parser.</para></listitem>
+<listitem><para>Updated regexes to correctly parse fields in the following parsers - microsoft-iis-str-http-session-postmapi, microsoft-iis-str-http-request-post443, microsoft-iis-str-http-request-postotherports.</para></listitem>
+<listitem><para>Updated regex for action field extraction in parser - netskope-sc-json-network-traffic-traffictype and netskope-sc-json-alert-trigger-success-malsite-1.</para></listitem>
+<listitem><para>Updated the host field regex in the parser - unix-unix-str-endpoint-activity-anacron and adjusted the parser priority.</para></listitem>
+<listitem><para>Added email_address, app_id, authorization_scope, role_definition_id, principal_id, principal_type, app_version, region, result and more fields for microsoft-azuremon-sk4-app-activity-administrative and microsoft-azuremon-json-app-activity-operationname parser.</para></listitem>
+<listitem><para>Enhanced user, src_user, dest_user field extraction for PaloAlto parsers: pan-ngfw-csv-network-traffic-success-end, pan-ngfw-csv-network-traffic-fail-drop, pan-ngfw-csv-network-traffic-fail-tcp</para></listitem>
+<listitem><para>Moved weak condition Cisco parsers to a lower priority.</para></listitem>
+<listitem><para>Updated rule_severity &amp; rule_count field extractions for parser: amazon-awscloudtrail-json-policy-apply-success-policyexecution. Updated dest_ip field extractions for parser: cisco-netsec-str-network-notification-success-ftd. Updated failure_reason &amp; email_address field extractions for parser: juniper-ps-str-vpn-login-fail-hostfailed. Updated email_address field extractions for parser: juniper-ps-str-vpn-logout-success-timeout. Updated new_ip field extractions for parser: amazon-awscloudtrail-json-endpoint-create-runinstances</para></listitem>
+<listitem><para>Updated host field extraction for parser: unix-unix-kv-process-create-success-execve.</para></listitem>
+<listitem><para>Updated src_mac field extraction for parser: infoblox-bddi-json-dhcp-traffic-success-lease.</para></listitem>
+<listitem><para>Added time parsing for sentTime in addition to receivedTime for the parser exabeam-phishingtool-json-email-receive-success-phish .</para></listitem>
+<listitem><para>Updated src_ip field extractions for Microsoft Azure logs.</para></listitem>
+<listitem><para>Updated the bytes field extraction for the microsoft-o365-json-email-send-fail-publish parser and the attachment_size field extraction for the microsoft-o365-json-email-send-fail-advancedhunting parser.</para></listitem>
+<listitem><para>Updated url and web_domain field extractions for parser: microsoft-o365-mix-file-success-workload.</para></listitem>
+<listitem><para>Updated email_address field extraction for parsers: azure-azuremfa-json-app-activity-additionaldetails and microsoft-evsecurity-xml-endpoint-login-4768. Updated src_ip field extraction for parser: addressmicrosoft-o365-sk4-app-file-move.</para></listitem>
+<listitem><para>Enhanced the enricher precedence enriching the user value: crowdstrike-user</para></listitem>
+<listitem><para>Added more_info &amp; workspace_name field extractions for parser template: defender-atp-security-alert-events &amp; json-microsoft-security-events-1</para></listitem>
+<listitem><para>Updated the parser microsoft-mssql-xml-database-login-qualifiers condition and moved parser - microsoft-evsecurity-xml-endpoint-logout-4634 to higher priority.</para></listitem>
+<listitem><para>Added db_name, db_user and role fields for snowflake-s-json-database-activity-success-querytext parser.</para></listitem>
+<listitem><para>Added new parser for Code42 Incydr logs: code42-incydr-json-file-success-file-1.</para></listitem>
+<listitem><para>Updated auth_method field extraction for parser: secureauth-login-kv-app-notification-24010.</para></listitem>
+<listitem><para>Updated action field extraction for parsers pan-ngfw-cef-network-traffic-success-end, pan-ngfw-leef-network-traffic-success-allow, pan-ngfw-csv-network-traffic-success-end</para></listitem>
+<listitem><para>Updated dest_country field extraction for parser: pan-ngfw-mix-alert-trigger-success-threatvulnerability.</para></listitem>
+<listitem><para>Increased the sequenceExpiryTime to 15 minutes for Gemini Enterprise event builders.</para></listitem>
+</itemizedlist>
+<para>Click the following link for the complete package release notes: <link xlink:href="https://github.com/ExabeamLabs/Content-Library-CIM2/blob/2026.2.1/Release%20Notes/MD_RN_2026.2.1/release_notes_2026.2.1.md">2026.2.1 Content Package Release Notes</link></para>
+</section>
+</article>

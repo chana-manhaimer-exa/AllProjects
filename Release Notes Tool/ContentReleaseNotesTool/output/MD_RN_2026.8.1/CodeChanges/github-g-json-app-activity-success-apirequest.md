@@ -1,0 +1,33 @@
+# Code Changes for github-g-json-app-activity-success-apirequest (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| changed_parsed_fields | N/A | ['domain', 'email_address', 'operation_details', 'resource_type', 'src_ip', 'src_user', 'user', 'user_type'] | ['access_type', 'action', 'auth_type', 'browser', 'city', 'company', 'country', 'country_code', 'device_type', 'doc_id', 'domain', 'email_address', 'email_domain', 'http_response_code', 'key_name', 'method', 'operation', 'operation_details', 'os_type', 'query', 'repository_name', 'requested_app_id', 'resource_type', 'service_name', 'src_ip', 'src_port', 'src_user', 'status_msg', 'uri_path', 'user', 'user_agent', 'user_id', 'user_type'] |
+| edit_regex_field | email_address | ['exa_json_path=$..external_identity_nameid,exa_regex=(({email_address}[A-Za-z0-9!#$%&\'+\/=?^_`~.-]+@[^\]\s"\\,;\|]+\.[^\]\s"\\,;\|]+)|({user}[\w\.\-\!\#\^\~]{1,40}\$?))', 'exa_json_path=$..external_identity_username,exa_regex=(({email_address}[A-Za-z0-9!#$%&\'+\/=?^_`~.-]+@[^\]\s"\\,;\|]+\.[^\]\s"\\,;\|]+)|({user}[\w\.\-\!\#\^\~]{1,40}\$?))'] | ['"external_identity_nameid":\s*"({email_address}[A-Za-z0-9!#$%&\'+\/=?^_`~.-]+@({email_domain}[^\]\s"\\,;\|]+\.[^\]\s"\\,;\|]+))"', '"external_identity_username":\s*"({email_address}[A-Za-z0-9!#$%&\'+\/=?^_`~.-]+@({email_domain}[^\]\s"\\,;\|]+\.[^\]\s"\\,;\|]+))"', 'exa_json_path=$..external_identity_nameid,exa_regex=(({email_address}[A-Za-z0-9!#$%&\'+\/=?^_`~.-]+@[^\]\s"\\,;\|]+\.[^\]\s"\\,;\|]+)|({user}[\w\.\-\!\#\^\~]{1,40}\$?))', 'exa_json_path=$..external_identity_username,exa_regex=(({email_address}[A-Za-z0-9!#$%&\'+\/=?^_`~.-]+@[^\]\s"\\,;\|]+\.[^\]\s"\\,;\|]+)|({user}[\w\.\-\!\#\^\~]{1,40}\$?))'] |
+| edit_regex_field | src_ip | ['exa_json_path=$..actor_ip,exa_regex=({src_ip}((([0-9a-fA-F.]{0,4}):{1,2}){1,7}([0-9a-fA-F]){0,4})|(((25[0-5]|(2[0-4]|1\d|[0-9]|)\d)\.?\b){4}))'] | ['"actor_ip":\s*"({src_ip}((([0-9a-fA-F.]{0,4}):{1,2}){1,7}([0-9a-fA-F]){0,4})|(((25[0-5]|(2[0-4]|1\d|[0-9]|)\d)\.?\b){4}))(:({src_port}\d+))?"', '"ip":\s*"({src_ip}((([0-9a-fA-F.]{0,4}):{1,2}){1,7}([0-9a-fA-F]){0,4})|(((25[0-5]|(2[0-4]|1\d|[0-9]|)\d)\.?\b){4}))(:({src_port}\d+))?"', '"ipAddress":\s*"({src_ip}((([0-9a-fA-F.]{0,4}):{1,2}){1,7}([0-9a-fA-F]){0,4})|(((25[0-5]|(2[0-4]|1\d|[0-9]|)\d)\.?\b){4}))(:({src_port}\d+))?"', 'exa_json_path=$..actor_ip,exa_regex=({src_ip}((([0-9a-fA-F.]{0,4}):{1,2}){1,7}([0-9a-fA-F]){0,4})|(((25[0-5]|(2[0-4]|1\d|[0-9]|)\d)\.?\b){4}))'] |
+| edit_regex_field | user | ['exa_json_path=$..actor,exa_regex=({user}[\w\.\-\!\#\^\~]{1,40}\$?)(\[({user_type}[^\]"]+))?', 'exa_json_path=$..external_identity_nameid,exa_regex=(({email_address}[A-Za-z0-9!#$%&\'+\/=?^_`~.-]+@[^\]\s"\\,;\|]+\.[^\]\s"\\,;\|]+)|({user}[\w\.\-\!\#\^\~]{1,40}\$?))', 'exa_json_path=$..external_identity_username,exa_regex=(({email_address}[A-Za-z0-9!#$%&\'+\/=?^_`~.-]+@[^\]\s"\\,;\|]+\.[^\]\s"\\,;\|]+)|({user}[\w\.\-\!\#\^\~]{1,40}\$?))', 'exa_json_path=$..user,exa_regex=({user}[\w\.\-\!\#\^\~]{1,40}\$?)(\[({user_type}[^\]"]+))?'] | ['"user":\s*"({user}[\w\.\-\!\#\^\~]{1,40}\$?)"', 'exa_json_path=$..actor,exa_regex=({user}[\w\.\-\!\#\^\~]{1,40}\$?)(\[({user_type}[^\]"]+))?', 'exa_json_path=$..external_identity_nameid,exa_regex=(({email_address}[A-Za-z0-9!#$%&\'+\/=?^_`~.-]+@[^\]\s"\\,;\|]+\.[^\]\s"\\,;\|]+)|({user}[\w\.\-\!\#\^\~]{1,40}\$?))', 'exa_json_path=$..external_identity_username,exa_regex=(({email_address}[A-Za-z0-9!#$%&\'+\/=?^_`~.-]+@[^\]\s"\\,;\|]+\.[^\]\s"\\,;\|]+)|({user}[\w\.\-\!\#\^\~]{1,40}\$?))', 'exa_json_path=$..user,exa_regex=({user}[\w\.\-\!\#\^\~]{1,40}\$?)(\[({user_type}[^\]"]+))?'] |
+| added_regex_field | access_type | [] | ['"programmatic_access_type":\s*"({access_type}[^"]+)"'] |
+| added_regex_field | action | [] | ['"action":\s*"({action}[^"]+)"'] |
+| added_regex_field | auth_type | [] | ['"programmatic_access_type":\s*"({auth_type}[^"]+)"'] |
+| added_regex_field | browser | [] | ['(?:"browser":.*?family":\s*")({browser}[^"]+)"'] |
+| added_regex_field | city | [] | ['(?:"city":.*?name":")({city}[^"]+)"'] |
+| added_regex_field | company | [] | ['"business":\s*"({company}[^"]+)"'] |
+| added_regex_field | country | [] | ['(?:"country":.*?name":\s*")({country}[^"]+)"'] |
+| added_regex_field | country_code | [] | ['(?:"country":.*?iso_code":\s*")({country_code}[^"]+)"'] |
+| added_regex_field | device_type | [] | ['(?:"device":.*?category":\s*")({device_type}[^"]+)"'] |
+| added_regex_field | doc_id | [] | ['"_document_id":\s*"({doc_id}[^"]+)"'] |
+| added_regex_field | email_domain | [] | ['"external_identity_nameid":\s*"({email_address}[A-Za-z0-9!#$%&\'+\/=?^_`~.-]+@({email_domain}[^\]\s"\\,;\|]+\.[^\]\s"\\,;\|]+))"', '"external_identity_username":\s*"({email_address}[A-Za-z0-9!#$%&\'+\/=?^_`~.-]+@({email_domain}[^\]\s"\\,;\|]+\.[^\]\s"\\,;\|]+))"'] |
+| added_regex_field | http_response_code | [] | ['"status_code":\s*({http_response_code}\d+)'] |
+| added_regex_field | key_name | [] | ['"key":\s*"({key_name}[^"]+)"'] |
+| added_regex_field | method | [] | ['"request_method":\s*"({method}[^"]+)"'] |
+| added_regex_field | operation | [] | ['"action":\s*"({operation}[^"]+)"', 'exa_regex="action":\s*"({operation}[^"]+)"'] |
+| added_regex_field | os_type | [] | ['(?:"os":.*?family":\s*")({os_type}[^"]+)"'] |
+| added_regex_field | query | [] | ['"query_string":\s*"({query}[^"]+)"'] |
+| added_regex_field | repository_name | [] | ['"repo":\s*"({repository_name}[^"]+)"', '"repository":\s*"({repository_name}[^"]+)"'] |
+| added_regex_field | requested_app_id | [] | ['"request_id":\s*"({requested_app_id}[^"]+)"'] |
+| added_regex_field | service_name | [] | ['"service":\s*"({service_name}[^"]+)"', 'exa_regex="service":\s*"({service_name}[^"]+)"'] |
+| added_regex_field | src_port | [] | ['"actor_ip":\s*"({src_ip}((([0-9a-fA-F.]{0,4}):{1,2}){1,7}([0-9a-fA-F]){0,4})|(((25[0-5]|(2[0-4]|1\d|[0-9]|)\d)\.?\b){4}))(:({src_port}\d+))?"', '"ip":\s*"({src_ip}((([0-9a-fA-F.]{0,4}):{1,2}){1,7}([0-9a-fA-F]){0,4})|(((25[0-5]|(2[0-4]|1\d|[0-9]|)\d)\.?\b){4}))(:({src_port}\d+))?"', '"ipAddress":\s*"({src_ip}((([0-9a-fA-F.]{0,4}):{1,2}){1,7}([0-9a-fA-F]){0,4})|(((25[0-5]|(2[0-4]|1\d|[0-9]|)\d)\.?\b){4}))(:({src_port}\d+))?"'] |
+| added_regex_field | status_msg | [] | ['"status":\s*"({status_msg}[^"]+)"'] |
+| added_regex_field | uri_path | [] | ['"url_path":\s*"({uri_path}[^"]+)"'] |
+| added_regex_field | user_agent | [] | ['"user_agent":\s*"({user_agent}[^"]+)"'] |
+| added_regex_field | user_id | [] | ['"actor_id":\s*({user_id}[^,]+)', '"user_id":\s*({user_id}[^,]+)'] |

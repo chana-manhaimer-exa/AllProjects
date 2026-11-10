@@ -1,0 +1,6 @@
+# Code Changes for microsoft-evsecurity-kv-endpoint-unlock-success-4801-5 (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| edit_regex_field | dest_host | ['(((audit|success)( |_)(success|audit))|information)(<\d+>|\s+)({dest_host}({host}[\w\-.]+))', 'Computer(\w+)?[\"\s]*(:|=)\s*\"?({dest_host}({host}[\w\-.]+?))(\"|\s)', '\d+-\d+-\d+T\d+:\d+:\d+([\+\-]\d+:\d+|Z)\s+({dest_host}({host}[\w\-.]+))\s'] | ['"host_name":"({dest_host}({host}[\w\-.]+))"', '(((audit|success)( |_)(success|audit))|information)(<\d+>|\s+)({dest_host}({host}[\w\-.]+))', 'Computer(\w+)?[\"\s]*(:|=)\s*\"?({dest_host}({host}[\w\-.]+?))(\"|\s)', '\d+-\d+-\d+T\d+:\d+:\d+([\+\-]\d+:\d+|Z)\s+({dest_host}({host}[\w\-.]+))\s'] |
+| edit_regex_field | host | ['(((audit|success)( |_)(success|audit))|information)(<\d+>|\s+)({dest_host}({host}[\w\-.]+))', 'Computer(\w+)?[\"\s]*(:|=)\s*\"?({dest_host}({host}[\w\-.]+?))(\"|\s)', '\d+-\d+-\d+T\d+:\d+:\d+([\+\-]\d+:\d+|Z)\s+({dest_host}({host}[\w\-.]+))\s'] | ['"host_name":"({dest_host}({host}[\w\-.]+))"', '(((audit|success)( |_)(success|audit))|information)(<\d+>|\s+)({dest_host}({host}[\w\-.]+))', 'Computer(\w+)?[\"\s]*(:|=)\s*\"?({dest_host}({host}[\w\-.]+?))(\"|\s)', '\d+-\d+-\d+T\d+:\d+:\d+([\+\-]\d+:\d+|Z)\s+({dest_host}({host}[\w\-.]+))\s'] |

@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-27T14:38:33.089854Z</date>
+  <millis>1769524713089</millis>
+  <nanos>854000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running CIM Library Tool</message>
+</record>
+<record>
+  <date>2026-01-27T14:38:33.106081Z</date>
+  <millis>1769524713106</millis>
+  <nanos>81000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-01-27T14:38:33.298592Z</date>
+  <millis>1769524713298</millis>
+  <nanos>592000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>LoadSubjects</method>
+  <thread>3</thread>
+  <message>app</message>
+</record>
+<record>
+  <date>2026-01-27T14:38:33.442070Z</date>
+  <millis>1769524713442</millis>
+  <nanos>70000</nanos>
+  <sequence>3</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running CIM Library Tool - Please check OutputMD folder for created content docs.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-27T14:51:48.035731Z</date>
+  <millis>1769525508035</millis>
+  <nanos>731000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running CIM Library Tool</message>
+</record>
+<record>
+  <date>2026-01-27T14:51:48.052763Z</date>
+  <millis>1769525508052</millis>
+  <nanos>763000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-01-27T14:51:48.300184Z</date>
+  <millis>1769525508300</millis>
+  <nanos>184000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>LoadSubjects</method>
+  <thread>3</thread>
+  <message>app</message>
+</record>
+<record>
+  <date>2026-01-27T14:51:48.447972Z</date>
+  <millis>1769525508447</millis>
+  <nanos>972000</nanos>
+  <sequence>3</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running CIM Library Tool - Please check OutputMD folder for created content docs.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-27T14:52:27.352923Z</date>
+  <millis>1769525547352</millis>
+  <nanos>923000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running CIM Library Tool</message>
+</record>
+<record>
+  <date>2026-01-27T14:52:27.369072Z</date>
+  <millis>1769525547369</millis>
+  <nanos>72000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-01-27T14:52:27.617347Z</date>
+  <millis>1769525547617</millis>
+  <nanos>347000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>LoadSubjects</method>
+  <thread>3</thread>
+  <message>app</message>
+</record>
+<record>
+  <date>2026-01-27T14:52:27.797389Z</date>
+  <millis>1769525547797</millis>
+  <nanos>389000</nanos>
+  <sequence>3</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running CIM Library Tool - Please check OutputMD folder for created content docs.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-03-23T13:09:49.895095Z</date>
+  <millis>1774271389895</millis>
+  <nanos>95000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running CIM Library Tool</message>
+</record>
+<record>
+  <date>2026-03-23T13:09:49.915656Z</date>
+  <millis>1774271389915</millis>
+  <nanos>656000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-03-23T13:09:50.200449Z</date>
+  <millis>1774271390200</millis>
+  <nanos>449000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>LoadSubjects</method>
+  <thread>3</thread>
+  <message>app</message>
+</record>
+<record>
+  <date>2026-03-23T13:09:50.400804Z</date>
+  <millis>1774271390400</millis>
+  <nanos>804000</nanos>
+  <sequence>3</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running CIM Library Tool - Please check OutputMD folder for created content docs.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-03-25T14:51:23.700606Z</date>
+  <millis>1774450283700</millis>
+  <nanos>606000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running CIM Library Tool</message>
+</record>
+<record>
+  <date>2026-03-25T14:51:23.721277Z</date>
+  <millis>1774450283721</millis>
+  <nanos>277000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-03-25T14:51:24.065012Z</date>
+  <millis>1774450284065</millis>
+  <nanos>12000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>LoadSubjects</method>
+  <thread>3</thread>
+  <message>app</message>
+</record>
+<record>
+  <date>2026-03-25T14:51:24.240993Z</date>
+  <millis>1774450284240</millis>
+  <nanos>993000</nanos>
+  <sequence>3</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running CIM Library Tool - Please check OutputMD folder for created content docs.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-04-20T11:53:34.829544Z</date>
+  <millis>1776686014829</millis>
+  <nanos>544000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running CIM Library Tool</message>
+</record>
+<record>
+  <date>2026-04-20T11:53:34.852244Z</date>
+  <millis>1776686014852</millis>
+  <nanos>244000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-04-20T11:53:35.237233Z</date>
+  <millis>1776686015237</millis>
+  <nanos>233000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>LoadSubjects</method>
+  <thread>3</thread>
+  <message>app</message>
+</record>
+<record>
+  <date>2026-04-20T11:53:35.488079Z</date>
+  <millis>1776686015488</millis>
+  <nanos>79000</nanos>
+  <sequence>3</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running CIM Library Tool - Please check OutputMD folder for created content docs.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-05-04T16:11:15.297150Z</date>
+  <millis>1777911075297</millis>
+  <nanos>150000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running CIM Library Tool</message>
+</record>
+<record>
+  <date>2026-05-04T16:11:15.317808Z</date>
+  <millis>1777911075317</millis>
+  <nanos>808000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-05-04T16:11:16.006892Z</date>
+  <millis>1777911076006</millis>
+  <nanos>892000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>LoadSubjects</method>
+  <thread>3</thread>
+  <message>app</message>
+</record>
+<record>
+  <date>2026-05-04T16:11:16.282315Z</date>
+  <millis>1777911076282</millis>
+  <nanos>315000</nanos>
+  <sequence>3</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running CIM Library Tool - Please check OutputMD folder for created content docs.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-05-13T12:33:44.727261Z</date>
+  <millis>1778675624727</millis>
+  <nanos>261000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running CIM Library Tool</message>
+</record>
+<record>
+  <date>2026-05-13T12:33:44.747238Z</date>
+  <millis>1778675624747</millis>
+  <nanos>238000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-05-13T12:33:45.081577Z</date>
+  <millis>1778675625081</millis>
+  <nanos>577000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>LoadSubjects</method>
+  <thread>3</thread>
+  <message>app</message>
+</record>
+<record>
+  <date>2026-05-13T12:33:45.359383Z</date>
+  <millis>1778675625359</millis>
+  <nanos>383000</nanos>
+  <sequence>3</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running CIM Library Tool - Please check OutputMD folder for created content docs.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-05-13T12:34:32.493694Z</date>
+  <millis>1778675672493</millis>
+  <nanos>694000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running CIM Library Tool</message>
+</record>
+<record>
+  <date>2026-05-13T12:34:32.510688Z</date>
+  <millis>1778675672510</millis>
+  <nanos>688000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-05-13T12:34:32.950558Z</date>
+  <millis>1778675672950</millis>
+  <nanos>558000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>LoadSubjects</method>
+  <thread>3</thread>
+  <message>app</message>
+</record>
+<record>
+  <date>2026-05-13T12:34:33.272739Z</date>
+  <millis>1778675673272</millis>
+  <nanos>739000</nanos>
+  <sequence>3</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running CIM Library Tool - Please check OutputMD folder for created content docs.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-06-15T17:24:38.186905Z</date>
+  <millis>1781544278186</millis>
+  <nanos>905000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running CIM Library Tool</message>
+</record>
+<record>
+  <date>2026-06-15T17:24:38.207868Z</date>
+  <millis>1781544278207</millis>
+  <nanos>868000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-06-15T17:24:38.541643Z</date>
+  <millis>1781544278541</millis>
+  <nanos>643000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>LoadSubjects</method>
+  <thread>3</thread>
+  <message>app</message>
+</record>
+<record>
+  <date>2026-06-15T17:24:38.754149Z</date>
+  <millis>1781544278754</millis>
+  <nanos>149000</nanos>
+  <sequence>3</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running CIM Library Tool - Please check OutputMD folder for created content docs.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-07-06T13:18:21.882335Z</date>
+  <millis>1783343901882</millis>
+  <nanos>335000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running CIM Library Tool</message>
+</record>
+<record>
+  <date>2026-07-06T13:18:21.903707Z</date>
+  <millis>1783343901903</millis>
+  <nanos>707000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-07-06T13:18:22.216219Z</date>
+  <millis>1783343902216</millis>
+  <nanos>219000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>LoadSubjects</method>
+  <thread>3</thread>
+  <message>app</message>
+</record>
+<record>
+  <date>2026-07-06T13:18:22.538021Z</date>
+  <millis>1783343902538</millis>
+  <nanos>21000</nanos>
+  <sequence>3</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running CIM Library Tool - Please check OutputMD folder for created content docs.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-08-18T11:38:24.765664Z</date>
+  <millis>1787053104765</millis>
+  <nanos>664000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running CIM Library Tool</message>
+</record>
+<record>
+  <date>2026-08-18T11:38:24.782014Z</date>
+  <millis>1787053104782</millis>
+  <nanos>14000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-08-18T11:38:25.098726Z</date>
+  <millis>1787053105098</millis>
+  <nanos>726000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>LoadSubjects</method>
+  <thread>3</thread>
+  <message>app</message>
+</record>
+<record>
+  <date>2026-08-18T11:38:25.335252Z</date>
+  <millis>1787053105335</millis>
+  <nanos>252000</nanos>
+  <sequence>3</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running CIM Library Tool - Please check OutputMD folder for created content docs.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-09-16T14:14:45.076612Z</date>
+  <millis>1789568085076</millis>
+  <nanos>612000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running CIM Library Tool</message>
+</record>
+<record>
+  <date>2026-09-16T14:14:45.101484Z</date>
+  <millis>1789568085101</millis>
+  <nanos>484000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-09-16T14:14:45.411317Z</date>
+  <millis>1789568085411</millis>
+  <nanos>317000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>LoadSubjects</method>
+  <thread>3</thread>
+  <message>app</message>
+</record>
+<record>
+  <date>2026-09-16T14:14:45.715707Z</date>
+  <millis>1789568085715</millis>
+  <nanos>707000</nanos>
+  <sequence>3</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running CIM Library Tool - Please check OutputMD folder for created content docs.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-10-20T12:31:21.766354Z</date>
+  <millis>1792499481766</millis>
+  <nanos>354000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running CIM Library Tool</message>
+</record>
+<record>
+  <date>2026-10-20T12:31:21.798895Z</date>
+  <millis>1792499481798</millis>
+  <nanos>895000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-10-20T12:31:22.069944Z</date>
+  <millis>1792499482069</millis>
+  <nanos>944000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>LoadSubjects</method>
+  <thread>3</thread>
+  <message>app</message>
+</record>
+<record>
+  <date>2026-10-20T12:31:22.270448Z</date>
+  <millis>1792499482270</millis>
+  <nanos>448000</nanos>
+  <sequence>3</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running CIM Library Tool - Please check OutputMD folder for created content docs.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-10-20T12:31:36.132179Z</date>
+  <millis>1792499496132</millis>
+  <nanos>179000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running CIM Library Tool</message>
+</record>
+<record>
+  <date>2026-10-20T12:31:36.148872Z</date>
+  <millis>1792499496148</millis>
+  <nanos>872000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-10-20T12:31:36.411756Z</date>
+  <millis>1792499496411</millis>
+  <nanos>756000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>LoadSubjects</method>
+  <thread>3</thread>
+  <message>app</message>
+</record>
+<record>
+  <date>2026-10-20T12:31:36.633129Z</date>
+  <millis>1792499496633</millis>
+  <nanos>129000</nanos>
+  <sequence>3</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running CIM Library Tool - Please check OutputMD folder for created content docs.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-10-20T12:40:46.770842Z</date>
+  <millis>1792500046770</millis>
+  <nanos>842000</nanos>
+  <sequence>0</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Start running CIM Library Tool</message>
+</record>
+<record>
+  <date>2026-10-20T12:40:46.788236Z</date>
+  <millis>1792500046788</millis>
+  <nanos>236000</nanos>
+  <sequence>1</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>init</method>
+  <thread>3</thread>
+  <message>Creating output path:OutputMD/</message>
+</record>
+<record>
+  <date>2026-10-20T12:40:47.149702Z</date>
+  <millis>1792500047149</millis>
+  <nanos>702000</nanos>
+  <sequence>2</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>LoadSubjects</method>
+  <thread>3</thread>
+  <message>app</message>
+</record>
+<record>
+  <date>2026-10-20T12:40:47.385212Z</date>
+  <millis>1792500047385</millis>
+  <nanos>212000</nanos>
+  <sequence>3</sequence>
+  <logger>Exabeam Documentation Site</logger>
+  <level>INFO</level>
+  <class>com.exabeam.cimlibrarygeneratortool.ConfigReader</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Complete running CIM Library Tool - Please check OutputMD folder for created content docs.</message>
+</record>
+</log>

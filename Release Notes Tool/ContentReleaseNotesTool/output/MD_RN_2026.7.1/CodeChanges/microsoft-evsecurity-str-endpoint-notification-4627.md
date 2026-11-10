@@ -1,0 +1,7 @@
+# Code Changes for microsoft-evsecurity-str-endpoint-notification-4627 (Parser)
+
+| Code Change | Field Name | Before | After |
+|-------------|------------|--------|-------|
+| edit_regex_field | event_code | ['({event_code}4627)', '({time}\w+\s+\d+\s+\d+:\d+:\d+\s+\d+)\s+({event_code}\d+)', 'EVENT_ID="({event_code}\d+)"'] | ['({event_code}4627)', '({time}\w+\s+\d+\s+\d+:\d+:\d+\s+\d+)\s+({event_code}\d+)', 'EVENT_?ID(:|=)"?({event_code}\d+)'] |
+| edit_regex_field | host | ['"Computer(Name)?":\s*"({host}[^"]+)"', '({time}\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\d(\+|\-)\d\d:\d\d)\s+({host}[\w.\-]+)', '\w+\s+\d+\s+\d+:\d+:\d+\s+(am|pm|\d{4}|({host}[\w\-.]+))\s'] | ['({time}\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\d(\+|\-)\d\d:\d\d)\s+({host}[\w.\-]+)', 'Computer(Name)?"?(:|=)\s*"?({host}[^"\s]+)', '\w+\s+\d+\s+\d+:\d+:\d+\s+(am|pm|\d{4}|({host}[\w\-.]+))\s'] |
+| edit_regex_field | time | ['({time}\d\d\/\d\d\/\d\d\d\d\s+\d\d:\d\d:\d\d\s+(AM|PM))', '({time}\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\d(\+|\-)\d\d:\d\d)\s+({host}[\w.\-]+)', '({time}\w+\s+\d+\s+\d+:\d+:\d+\s+\d+)\s+({event_code}\d+)'] | ['({time}\d\d\/\d\d\/\d\d\d\d\s+\d\d:\d\d:\d\d\s+(AM|PM))', '({time}\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\d(\+|\-)\d\d:\d\d)\s+({host}[\w.\-]+)', '({time}\w+\s+\d+\s+\d+:\d+:\d+\s+\d+)\s+({event_code}\d+)', 'SystemTime:({time}\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\d\.\d+Z)'] |
